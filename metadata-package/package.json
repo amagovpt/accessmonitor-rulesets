@@ -1,0 +1,40 @@
+{
+  "name": "@arte/rulesets-metadata",
+  "version": "1.0.0",
+  "description": "Set of tests metadata to serve AccessMonitor, AdminMonitorServer, MyMonitor and Portuguese Observatory of Web Accessibility",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js", 
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs --dts --clean --minify",
+    "dev": "tsup src/index.ts --format cjs --watch --dts",
+    "lint": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amagovpt/accessmonitor-rulesets.git"
+  },
+  "keywords": [
+    "accessibility",
+    "ARTE"
+  ],
+  "author": "Filipe Dávila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amagovpt/accessmonitor-rulesets/issues"
+  },
+  "homepage": "https://github.com/amagovpt/accessmonitor-rulesets#readme",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}

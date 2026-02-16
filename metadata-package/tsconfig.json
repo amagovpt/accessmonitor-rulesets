@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022", 
+    "skipLibCheck": false,
+    "strict": true, 
+    "noImplicitAny": true,
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "incremental": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": [ ]
+  },
+  "exclude": ["node_modules", "dist"]
+}
