@@ -1,171 +1,190 @@
-import { Level, SCSDescription, SCSKey, SCSMapping } from "src/types";
+import {  SCSName, SCSKey, SCSRegistry } from "src/types";
 
-export const CSS_MAPPING:SCSMapping = {
+export const successCriteria:SCSRegistry = {
   "1.1.1": {
-    text: "non-text-content",
+    name: "non-text-content",
     level: "A"
   },
   "1.2.1": {
-    text: "audio-only-and-video-only-prerecorded",
+    name: "audio-only-and-video-only-prerecorded",
     level: "A"
   },
   "1.2.2": {
-    text: "captions-prerecorded",
+    name: "captions-prerecorded",
     level: "A"
   },
   "1.2.3": {
-    text: "audio-description-or-media-alternative-prerecorded",
+    name: "audio-description-or-media-alternative-prerecorded",
     level: "A"
   },
   "1.2.8": {
-    text: "media-alternative-prerecorded",
+    name: "media-alternative-prerecorded",
     level: "AAA"
   },
   "1.3.1": {
-    text: "info-and-relationships",
+    name: "info-and-relationships",
     level: "A"
   },
   "1.3.2": {
-    text: "meaningful-sequence",
+    name: "meaningful-sequence",
     level: "A"
   },
   "1.3.4": {
-    text: "orientation",
+    name: "orientation",
     level: "AA"
   },
+  "1.3.5": {
+    name: "identify-input-purpose",
+    level: "AAA"
+  },
+  "1.4.2": {
+    name: "audio-control",
+    level: "A"
+  },
   "1.4.3": {
-    text: "contrast-minimum",
+    name: "contrast-minimum",
     level: "AA"
   },
   "1.4.4": {
-    text: "resize-text",
+    name: "resize-text",
     level: "AA"
   },
   "1.4.5": {
-    text: "images-of-text",
+    name: "images-of-text",
     level: "AA"
   },
   "1.4.6": {
-    text: "contrast-enhanced",
+    name: "contrast-enhanced",
     level: "AAA"
   },
   "1.4.8": {
-    text: "visual-presentation",
+    name: "visual-presentation",
     level: "AAA"
   },
   "1.4.9": {
-    text: "images-of-text-no-exception",
+    name: "images-of-text-no-exception",
     level: "AAA"
   },
+  "1.4.10": {
+    name: "reflow",
+    level: "AA"
+  },
+  "1.4.11": {
+    name: "non-text-contrast",
+    level: "AA"
+  },
   "1.4.12": {
-    text: "text-spacing",
+    name: "text-spacing",
     level: "AA"
   },
   "2.1.1": {
-    text: "keyboard",
+    name: "keyboard",
     level: "A"
   },
   "2.1.3": {
-    text: "keyboard-no-exception",
+    name: "keyboard-no-exception",
     level: "AAA"
   },
   "2.2.1": {
-    text: "timing-adjustable",
+    name: "timing-adjustable",
     level: "A"
   },
   "2.2.2": {
-    text: "pause-stop-hide",
+    name: "pause-stop-hide",
     level: "A"
   },
   "2.2.4": {
-    text: "interruptions",
+    name: "interruptions",
     level: "AAA"
   },
   "2.4.1": {
-    text: "bypass-blocks",
+    name: "bypass-blocks",
     level: "A"
   },
   "2.4.2": {
-    text: "navigation-mechanisms-title",
+    name: "navigation-mechanisms-title",
     level: "A"
   },
   "2.4.4": {
-    text: "link-purpose-in-context",
+    name: "link-purpose-in-context",
     level: "A"
   },
   "2.4.5": {
-    text: "multiple-ways",
+    name: "multiple-ways",
     level: "AA"
   },
   "2.4.6": {
-    text: "headings-and-labels",
+    name: "headings-and-labels",
     level: "AA"
   },
   "2.4.7": {
-    text: "focus-visible",
+    name: "focus-visible",
     level: "AA"
   },
   "2.4.8": {
-    text: "location",
+    name: "location",
     level: "AAA"
   },
   "2.4.9": {
-    text: "link-purpose-link-only",
+    name: "link-purpose-link-only",
     level: "AAA"
   },
   "2.4.10": {
-    text: "section-headings",
+    name: "section-headings",
     level: "AAA"
   },
   "2.5.3": {
-    text: "label-in-name",
+    name: "label-in-name",
     level: "AAA"
   },
   "3.1.1": {
-    text: "language-of-page",
+    name: "language-of-page",
     level: "A"
   },
   "3.1.2": {
-    text: "language-of-parts",
+    name: "language-of-parts",
     level: "A"
   },
   "3.1.3": {
-    text: "unusual-words",
+    name: "unusual-words",
     level: "AAA"
   },
   "3.1.4": {
-    text: "abbreviations",
+    name: "abbreviations",
     level: "AAA"
   },
   "3.2.1": {
-    text: "on-focus",
+    name: "on-focus",
     level: "A"
   },
   "3.2.2": {
-    text: "on-input",
+    name: "on-input",
     level: "A"
   },
   "3.2.5": {
-    text: "change-on-request",
+    name: "change-on-request",
     level: "AAA"
   },
   "3.3.2": {
-    text: "labels-or-instructions",
+    name: "labels-or-instructions",
     level: "A"
   },
   "4.1.1": {
-    text: "parsing",
+    name: "parsing",
     level: "A"
   },
   "4.1.2": {
-    text: "name-role-value",
+    name: "name-role-value",
     level: "A"
   },
 } as const;
 
 
 
-export const SCSKeyMapping: { [key in SCSDescription]: SCSKey } = {
+export const SCSKeyMapping: { [key in SCSName]: SCSKey } = {
+  "reflow": "1.4.10",
+  "non-text-contrast": "1.4.11",
+  "audio-control": "1.4.2",
   "non-text-content": "1.1.1",
   "audio-only-and-video-only-prerecorded": "1.2.1",
   "captions-prerecorded": "1.2.2",
@@ -174,6 +193,7 @@ export const SCSKeyMapping: { [key in SCSDescription]: SCSKey } = {
   "info-and-relationships": "1.3.1",
   "meaningful-sequence": "1.3.2",
   "orientation": "1.3.4",
+  "identify-input-purpose": "1.3.5",
   "contrast-minimum": "1.4.3",
   "resize-text": "1.4.4",
   "images-of-text": "1.4.5",

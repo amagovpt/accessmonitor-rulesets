@@ -1,7 +1,7 @@
 {
   "translation": {
     "ELEMS": {
-      "imgAlt": "Imagens com texto alternativo preenchido",
+      "imgAlt": "Imagens com texto alternativo não vazio",
       "imgAltNo": "Imagens sem equivalente alternativo em texto",
       "imgAltNull": "Imagens com <code>alt</code> vazio",
       "imgAltNot": "Imagens com um texto alternativo incorrecto",
@@ -15,6 +15,7 @@
       "aTitleMatch": "Links com o mesmo texto afixado no conteúdo e no atributo <code>title</code>",
       "aSameText": "Grupos de links com o mesmo texto que apontam destinos diferentes",
       "aAdjacentSame": "Links adjacentes que nos conduzem a um mesmo destino",
+      "aGroupNo": "Links adjacentes que não estão agrupados em um elemento <code>nav</code>",
       "aSkipFirst": "Link para saltar para o conteúdo principal",
       "aSkipFirstNo": "Link que não salta para o conteúdo principal",
       "aSkipNo": "Sem links para contornar blocos de conteúdo",
@@ -170,18 +171,6 @@
       "notDescListElement": "Itens de lista utilizados fora de listas de descrição",
       "descList": "Listas de descrição só com itens de lista ordenados corretamente",
       "notDescList": "Listas de descrição com elementos que não são itens de lista ou não estão ordenados corretamente"
-    },
-    "CSV": {
-      "scorerror": "Erro",
-      "scorewar": "Aviso",
-      "scoreok": "Sucesso",
-      "errorType": "Tipo de erro",
-      "level": "Nivel de Conformidade",
-      "criteria": "Critério",
-      "desc": "Descrição",
-      "count": "Número de ocorrências",
-      "value": "Valor",
-      "date": "Data"
     },
     "TESTS_RESULTS": {
       "img_01a": {
@@ -411,6 +400,10 @@
       "color_02": {
         "s": "Localizei <mark>{{value}}</mark> combinação de cor cuja relação de contraste é inferior ao rácio mínimo de contraste permitido pelas WCAG, ou seja 3 para 1 para texto com letra grande e 4,5 para 1 para texto com letra normal.",
         "p": "Localizei <mark>{{value}}</mark> combinações de cor cuja relação de contraste é inferior ao rácio mínimo de contraste permitido pelas WCAG, ou seja 3 para 1 para texto com letra grande e 4,5 para 1 para texto com letra normal."
+      },
+      "color_02b": {
+        "s": "Localizei <mark>{{value}}</mark> combinação de cores cujo rácio de contraste cumpre o rácio de contraste mínimo permitido pelas WCAG, que é de 3:1 para texto com tipos de letra maiores e de 4,5:1 para texto com tipos de letra normais.",
+        "p": "Localizei <mark>{{value}}</mark> combinações de cores cujos rácios de contraste cumprem o rácio de contraste mínimo permitido pelas WCAG, que é de 3:1 para texto com tipos de letra maiores e de 4,5:1 para texto com tipos de letra normais."
       },
       "color_01": {
         "s": "Identifiquei <mark>{{value}}</mark> regra de CSS em que não se especifica a cor da letra ou a cor do fundo.",
@@ -875,16 +868,25 @@
       "H36": "Utilizar atributos alt em imagens utilizadas como botões Submit",
       "G125": "Fornecer links para navegar para páginas Web relacionadas",
       "F89": "Falha dos Critérios de Sucesso 2.4.4, 2.4.9 e 4.1.2 devido à utilização de alt vazio numa imagem em que a imagem é o único conteúdo de um link",
+      "F16": "Falha do Critério de Sucesso 2.2.2 devido à inclusão de conteúdo com varrimento onde o movimento não é essencial para a atividade sem incluir também um mecanismo para pausar e reiniciar o conteúdo",
+      "F17": "Falha dos Critérios de Sucesso 1.3.1 e 4.1.1 devido a informação insuficiente no DOM para determinar relações um-para-um (por ex., entre etiquetas com o mesmo id) em HTML",
+      "F47": "Falha do Critério de Sucesso 2.2.2 devido à utilização do elemento blink",
+      "F54": "Falha do Critério de Sucesso 2.1.1 devido à utilização apenas de manipuladores de eventos específicos do dispositivo <code>pointer</code> (incluindo gestos) para uma função",
+      "F68": "Falha do Critério de Sucesso 4.1.2 devido a um controlo de interface de utilizador não ter um nome determinado programaticamente",
+      "F77": "Falha do Critério de Sucesso 4.1.1 devido a valores duplicados do tipo ID",
       "H33": "Suplementar o texto do link com o atributo title",
       "F84": "Falha do Critério de Sucesso 2.4.9 devido à utilização de um link não específico, tal como \"clique aqui\" ou \"mais\" sem um mecanismo para alterar o texto do link para texto específico",
       "H2": "Combinar a imagem adjacente e os links de texto para o mesmo recurso",
+      "H27": "Providing text and non-text alternatives for object",
       "G1": "Adicionar um link no topo de cada página para aceder directamente à área do conteúdo principal",
       "G123": "Adicionar um link no início de um bloco de conteúdo repetido para aceder directamente ao fim do bloco",
       "H42": "Utilizar h1-h6 para identificar cabeçalhos",
+      "G140": "Separar informação e estrutura da apresentação para permitir diferentes apresentações",
       "G141": "Organizar uma página utilizando cabeçalhos",
       "G130": "Fornecer cabeçalhos descritivos",
       "H48": "Utilizar ol, ul e dl para listas",
       "H71": "Fornecer uma descrição para grupos de controlos de formulário utilizando elementos fieldset e legend",
+      "H88": "<p>Garantir que todos os elementos e atributos HTML estão em conformidade com as especificações técnicas. Deve respeitar as relações pai-filho obrigatórias, regras de aninhamento e requisitos de análise. Esta conformidade garante uma construção consistente do DOM e integridade semântica, permitindo que as tecnologias assistivas interpretem a interface de forma confiável.</p>",
       "G162": "Colocar etiquetas para aumentar a previsibilidade das relações",
       "H44": "Utilizar elementos label para associar etiquetas de texto a controlos de formulário",
       "H65": "Utilizar o atributo title para identificar controlos de formulário quando o elemento label não puder ser utilizado",
@@ -974,6 +976,7 @@
       "H2": "<p>No caso de links adjacentes que apontam exatamente para o mesmo recurso é sinal que os podemos agregar num só link. Geralmente, nestes casos, temos a sensação visual de estar perante um único link mas no caso de alguns utilizadores de Tecnologias de Apoio surgem duplicados, podendo resultar confuso.</p>",
       "G1": "<p>Disponibilize no topo da página um link que permita saltar diretamente para o conteúdo principal da mesma. Este link facilita a navegação a muitos utilizadores, nomeadamente os que usam software de seleção por varrimento. Estes utilizadores usam a visão para ler a informação pelo que o link tem de estar sempre visível ou ficar visível ao receber o foco.</p>",
       "G123": "<p>Verifique se de facto os links que encontrei proporcionam os saltos de conteúdo mais adequados; se os mesmos estão sempre visíveis ou se ficam visíveis ao receberem o foco via teclado.</p>",
+      "G140": "<p>A estrutura do conteúdo e a codificação lógica devem ser separadas da apresentação visual. Utilize recursos semânticos para cabeçalhos e listas, enquanto utiliza camadas de estilo para o design. Isso permite que tecnologias assistivas interpretem o significado independentemente do layout visual.</p>",      
       "H42": "<p>As páginas Web devem ser marcadas com uma estrutura hierarquizada de títulos e subtítulos. Cada página deve ter, no mínimo, um título de nível 1. O nível 2 deve marcar as secções e o nível 3 as subsecções destas. Esta mesma lógica deve ser aplicada até às subsecções de nível 6.</p>",
       "G141": "<p>As páginas Web devem ser marcadas com uma estrutura hierarquizada de títulos e subtítulos. Cada página deve ter, no mínimo, um título de nível 1. O nível 2 deve marcar as secções e o nível 3 as subsecções destas. Esta mesma lógica deve ser aplicada até às subsecções de nível 6.</p>",
       "G130": "<p>Os cabeçalhos devem ser descritivos mas ao mesmo tempo sucintos. O seu conteúdo nunca, em caso algum, deve ser nulo - é o que está a acontecer neste caso.</p>",
@@ -983,6 +986,7 @@
       "H44": "<p>Os elementos <code>&lt;label&gt;</code> associados aos elementos <code>&lt;input&gt;</code> permitem aos utilizadores de Tecnologias de Apoio identificar a etiqueta que contextualiza um campo de edição. A associação explicita é feita pelo par de atributos id e for, respetivamente, dos elementos <code>&lt;input&gt;</code> e <code>&lt;label&gt;</code>.</p>",
       "H65": "<p>Para preencher os campos de edição, os utilizadores precisam que os mesmos estejam identificados. Pode ser uma identificação explicita (marcada no código) ou implícita (geralmente derivada da posição relativa). Explicitamente pode ser feita pelo elemento <code>&lt;label&gt;</code> ou pelo atributo title do elemento <code>&lt;input&gt;</code>.</p>",
       "F55": "<p>Percorra os campos de edição e verifique se o foco é inibido por técnicas de programação. Ao retirar o foco do conteúdo, este deixa de ser operável por quem usa apenas teclado para navegar.</p>",
+      "H27": "<p>Fornecer alternativas em texto ou não-texto dentro do elemento <code>object</code>. Como os navegadores renderizam o conteúdo aninhado se o objeto principal falhar ao carregar ou não for suportado, isso garante que a informação permaneça acessível a todos os utilizadores e tecnologias assistivas.</p>",
       "H32": "<p>Depois de preenchido, é necessário submeter os dados do formulário ao servidor. Essa é a função do botão submeter ou submit button.</p>",
       "H39": "<p>Desconfio que possa ter encontrado tabelas de dados sem a identificação do título (<code>&lt;caption&gt;</code>).</p>",
       "H73": "<p>Desconfio que possa ter encontrado tabelas de dados em que o conteúdo que se encontra no elemento <code>&lt;caption&gt;</code> é o mesmo que está no atributo summary.</p>",
@@ -1001,8 +1005,14 @@
       "G146": "<p>Amplie 200% o ecrã e verifique que todo o conteúdo é visível sem necessidade de efetuar varrimentos horizontais.</p>",
       "C24": "<p>Amplie 200% o ecrã e verifique que todo o conteúdo é visível sem necessidade de efetuar varrimentos horizontais.</p>",
       "G145": "<p>De acordo com o critério de sucesso 1.4.3, o rácio 3 para 1 corresponde ao contraste mínimo para texto \"em tamanho grande\" (18 pt ou 14 pt negrito, ou maior). Recordo que para tamanho de letra normal o rácio mínimo é de 4,5 para 1.</p>",
+      "F17": "<p>Esta falha ocorre quando as relações visuais entre elementos—como um rótulo de texto posicionado ao lado de um campo de formulário—não estão associadas programaticamente no DOM. Como a conexão é apenas visual e não semântica, as tecnologias de assistência não conseguem determinar o propósito do controlo, mesmo que o texto circundante seja claro para utilizadores com visão.</p>",
       "F24": "<p>Não é necessário que a cor da letra e a cor do fundo estejam definidos na mesma regra de CSS mas é recomendável que assim seja. Esta é a única forma de garantir ao utilizador a obtenção do contraste desejado.</p>",
       "F4": "<p>Alguns grupos de utilizadores, particularmente os que têm perturbações que causam défices de atenção, encontram no conteúdo cintilante elementos de distracção, dificultando-lhes a capacidade de concentração nas restantes partes do conteúdo da página Web.</p>",
+      "F16": "<p>Esta falha ocorre quando o conteúdo em movimento ou a rolagem—onde o movimento não é essencial para a atividade—não possui um mecanismo para pausar e reiniciar. Sem este controlo, utilizadores com baixa visão ou deficiências cognitivas podem não conseguir ler o conteúdo ou podem ficar severamente distraídos pelo movimento contínuo.</p>",
+      "F54": "<p>A funcionalidade falha porque depende exclusivamente de dispositivos apontadores (como um rato ou gestos de toque). Para ser acessível, todas as funções devem ser executáveis via teclado, permitindo que utilizadores com deficiências motoras naveguem e interajam.</p>",
+      "F68": "<p>Isto ocorre quando um componente da interface do utilizador (como um botão ou campo de formulário) não tem um nome definido programaticamente. Sem este nome, os utilizadores de leitores de ecrã ou comandos de voz não conseguem compreender o propósito do elemento ou interagir com ele.</p>",
+      "F77": "<p>A existência de valores de ID duplicados na mesma página quebra a integridade da estrutura do documento. Como os IDs devem ser únicos, duplicados confundem as tecnologias de apoio, levando a interpretações incorretas ou falhas de navegação dentro do documento.</p>",
+      "F47": "<p>O uso do elemento <code>&lt;blink&gt;</code> ou conteúdo que pisca além do limite permitido viola os padrões de segurança. Piscar mais de três vezes por segundo pode desencadear convulsões fotossensíveis (SC 2.3.1) e cria uma distração severa para utilizadores com deficiências cognitivas ou distúrbios de atenção.</p>",
       "G90": "<p>Deve assegurar que os eventos de javascript são ativados não só através do rato mas também do teclado. Verifique os pares de manipuladores: mousedown/keydown, mouseup/keyup, mouseover/focus, mouseout/blur. Nota: O AccessMonitor não verifica o par onclick / onkeypress porque considera que os browsers suportam o onclick também quando se usa apenas o teclado. Este teste só é classificado correto quando não existem erros nos outros testes de manipulares verificados.</p>",
       "SCR20": "<p>Deve assegurar que os eventos de javascript são ativados não só através do rato mas também do teclado. Verifique os pares de manipuladores: mousedown/keydown, mouseup/keyup, mouseover/focus, mouseout/blur. Nota: O AccessMonitor não verifica o par onclick / onkeypress porque considera que os browsers suportam o onclick também quando se usa apenas o teclado.</p>",
       "F59": "<p>Os elementos genéricos como <code>&lt;div&gt;</code> e <code>&lt;span&gt;</code> não têm um papel pré-definido. Quando se faz uso destes elementos genéricos para criar controlos de interface de utilizador em HTML, as tecnologias de apoio não dispõem de informação suficiente para descrever e interagir com os controlos, nomeadamente se não se definir um \"role\" (papel) com técnicas de ARIA.</p>",
@@ -1011,6 +1021,7 @@
       "G115": "<p>Com o aparecimento das CSS todos os elementos de HTML usados para controlo de estilos da página ficaram obsoletos. Elementos como: b, big, blink, center, font, i, s, strike, u ficaram obsoletos - use CSS para os substituir</p>",
       "H57": "<p>O HTML apenas dispõe do atributo lang. O XHTML 1.1 apenas permite o  xml:lang. O XHTML 1.0 (como medida de transição) permite ambos os atributos. O XHTML servido como text/html utiliza os atributos lang e xml:lang do elemento html.</p>",
       "H25": "<p>Tome nota que o elemento <code>&lt;title&gt;</code> apenas deve aparecer uma vez na página.</p>",
+      "H88": "<p>Garantir que todos os elementos e atributos HTML estão em conformidade com as especificações técnicas. Deve respeitar as relações pai-filho obrigatórias, regras de aninhamento e requisitos de análise. Esta conformidade garante uma construção consistente do DOM e integridade semântica, permitindo que as tecnologias assistivas interpretem a interface de forma confiável.</p>",
       "F25": "<p>Define-se como condição de falha sempre que uma página Web tem um título igual a um título de outra página do mesmo sítio Web. Cada página deve possuir um título único que identifique o propósito dos conteúdos.</p>",
       "G88": "<p>O <code>&lt;title&gt;</code> de cada página deve: (1) identificar o assunto da página; (2) fazer sentido quando lido fora do contexto; (3) ser curto.</p>",
       "H59": "<p>Verifique se em cada cada um dos elementos <code>&lt;link&gt;</code> existentes no <code>&lt;head&gt;</code> da página, o href aponta um recurso apropriado.</p>",
@@ -1052,11 +1063,6 @@
       "ARIA11": "<p>Garanta que só há um elemento com a semântica de main na página. Elementos com esta semântica designam a parte principal da página e permitem que utilizadores de leitor de ecrã naveguem rapidamente para essa parte da página. Cada página só deve ter um conteúdo principal, independentemente de ser especificado usando HTML5 ou ARIA.</p>",
       "H40": "<p>Se uma lista de descrições conter elementos que não são itens da lista, ou se a ordem dos elementos não estiver correta, isto é, os elementos <dt> precederem os elementos <dd>, a lista estará mal formatada, e tecnologias de apoio não serão capazes de a apresentar corretamente.</p>",
       "H97": "<p>O elemento <code>&lt;nav&gt;</code> é usado para agrupar links de navegação relacionados. Verifique se os links que identifiquei como relacionados estão agrupados dentro de um elemento <code>&lt;nav&gt;</code>.</p>"
-    },
-    "TECHFAIL": {
-      "relationF": "Esta falha WCAG 2.1 está relacionada com:",
-      "relationT": "Esta técnica WCAG 2.1 está relacionada com:",
-      "relationACT": "Esta regra ACT está relacionada com:"
     }
   }
 }

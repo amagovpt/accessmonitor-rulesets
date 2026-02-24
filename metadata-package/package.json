@@ -1,13 +1,14 @@
 {
-  "name": "@arte/rulesets-metadata",
+  "name": "@ama-pt/a11y-ds",
   "version": "1.0.0",
   "description": "Set of tests metadata to serve AccessMonitor, AdminMonitorServer, MyMonitor and Portuguese Observatory of Web Accessibility",
   "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js", 
+      "import": "./dist/index.mjs",
       "require": "./dist/index.js"
     }
   },
@@ -15,8 +16,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format cjs --dts --clean --minify",
-    "dev": "tsup src/index.ts --format cjs --watch --dts",
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean --minify",
+    "dev": "tsup src/index.ts --format cjs,esm --watch --dts",
     "lint": "tsc"
   },
   "repository": {

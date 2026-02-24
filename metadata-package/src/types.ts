@@ -1,6 +1,7 @@
-type Type = "fals" | "prop" | "decr" | "true";
+type TypeTest = "fals" | "prop" | "decr" | "true";
+
 export interface  TestDefinition {
-    type: Type;
+    type: TypeTest;
     elem: string;
     test: TestName;
     score: Score;
@@ -26,6 +27,12 @@ export type TestColorsRegistry = {
     [key in TestKey]: "G" | "Y" | "R";
 };
 
+export type SCSRegistry = {
+        [key in SCSKey]: {
+            name: SCSName;
+            level: Level;
+        };
+    };
 
 
 export type Score = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10;
@@ -40,26 +47,30 @@ export type TechniqueKey =
     | "F84" | "F88" | "F89" | "G1" | "G102" | "G115"
     | "G123" | "G125" | "G130" | "G134" | "G140" 
     | "G141" | "G145" | "G146" | "G162" | "G88" | "G90"
-    | "H2" | "H24" | "H25" | "H27" | "H32" | "H33" | "H35"
+    | "H2" | "H24" | "H25" | "H27" | "H32" | "H33" 
      | "H36" | "H37" | "H39" | "H42" | "H43" | "H44" 
-     | "H45" | "H46" | "H48" | "H51" | "H57" | "H59" 
+     | "H45" | "H48" | "H51" | "H57" | "H59" 
      | "H63" | "H64" | "H65" | "H71" | "H73" | "H88" 
      | "SCR20";
 
 
 export type SCSKey = 
         | "1.1.1" | "1.2.1" | "1.2.2" | "1.2.3" | "1.2.8" 
-        | "1.3.1" | "1.3.2" | "1.3.4" | "1.4.3" | "1.4.4" 
-        | "1.4.5" | "1.4.6" | "1.4.8" | "1.4.9" | "1.4.12" 
-        | "2.1.1" | "2.1.3" | "2.2.1" | "2.2.2" | "2.2.4" 
+        | "1.3.1" | "1.3.2" | "1.3.4" | "1.3.5"  | "1.4.2" |"1.4.3" 
+        | "1.4.4" | "1.4.5" | "1.4.6" | "1.4.8" | "1.4.9" 
+        |"1.4.10" | "1.4.11"| "1.4.12"| "2.1.1" | "2.1.3"
+        | "2.2.1" | "2.2.2" | "2.2.4" 
         | "2.4.1" | "2.4.2" | "2.4.4" | "2.4.5" | "2.4.6" 
-        | "2.4.7" | "2.4.8" | "2.4.9" | "2.4.10" | "2.5.3" 
+        | "2.4.7" | "2.4.8" | "2.4.9" | "2.4.10"  | "2.5.3" 
         | "3.1.1" | "3.1.2" | "3.1.3" | "3.1.4" | "3.2.1" 
         | "3.2.2" | "3.2.5" | "3.3.2" | "4.1.1" | "4.1.2";
         
 
 
-export type SCSDescription = 
+export type SCSName = 
+            | "non-text-contrast"
+            | "reflow"
+            | "audio-control"
             | "non-text-content"
             | "audio-only-and-video-only-prerecorded"
             | "captions-prerecorded"
@@ -80,6 +91,7 @@ export type SCSDescription =
             | "timing-adjustable"
             | "pause-stop-hide"
             | "interruptions"
+            | "identify-input-purpose"
             | "bypass-blocks"
             | "navigation-mechanisms-title"
             | "link-purpose-in-context"
@@ -102,12 +114,7 @@ export type SCSDescription =
             | "name-role-value";
 
 
-export type SCSMapping = {
-        [key in SCSKey]: {
-            text: SCSDescription;
-            level: Level;
-        };
-    };
+
 
 export type TestKey = 
         | "a_01a" | "a_01b" | "a_02a" | "a_02b" | "a_03" | "a_04" | "a_05" | "a_06"
@@ -115,7 +122,7 @@ export type TestKey =
         | "area_01a" | "area_01b" | "aria_01" | "aria_02" | "aria_03"
         | "aria_04" | "aria_05" | "aria_06" | "aria_07" | "aria_08" | "audio_video_01"
         | "audio_video_02" | "autocomplete_01" | "autocomplete_02" 
-        | "blink_02" | "br_01" | "button_01" | "button_02" | "color_01" | "color_02" | "color_02_b"
+        | "blink_02" | "br_01" | "button_01" | "button_02" | "color_01" | "color_02" | "color_02b"
         | "css_01" | "css_02" | "ehandler_02" | "ehandler_03"
         | "ehandler_04" | "element_01" | "element_02" | "element_03"
         | "element_04" | "element_05" | "element_06" | "element_07" | "element_08"
@@ -142,12 +149,7 @@ export type TestKey =
         | "title_03" | "title_04" | "title_05" | "title_06" | "values_01a"
         | "values_01b" | "values_02a" | "values_02b" | "video_01" | "video_02"
         | "w3c_validator_01a" | "w3c_validator_01b" | "win_01" | "word_01" | "word_02"
-        
 
-        //desativated | "ehandler_01"
-        // missing tests
-    /* | "dtd_01" | "embed_01" | "frame_02" | "lang_05" | "layout_02a" | "layout_02b"
-     | "long_01" | "marquee_01" | "title_07" | "akey_01" | "applet_01" | "blink_01" */
      ;
         
 
@@ -196,3 +198,22 @@ export type TestKey =
             | "noDuplicateContentinfo" | "duplicateContentinfo" | "noDuplicateMain" | "duplicateMain"
             | "liSemantically" | "liNotSemantically" | "listCorrectly" | "listNotCorrectly"
             | "descListElement" | "notDescListElement" | "descList" | "notDescList";
+
+export interface Translations {
+  pt: Translation;
+  en: Translation;
+}
+
+interface PluralizableText {
+    s:string;
+    p:string;
+}
+
+export interface Translation {
+    translation:{
+    ELEMS:{ [K in TestName]: string };
+    TESTS_RESULTS:  { [key in TestKey]: PluralizableText };
+    TECHS: { [key in keyof TechsRegistry]: string };
+    TXT_TECHNIQUES:{ [key in keyof TechsRegistry]: string };
+    }
+}

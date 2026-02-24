@@ -38,14 +38,13 @@ export const TEST_RESULTS: { [key in TestKey]: Result } = {
     audio_video_02: RESULT.FAILED,
     autocomplete_01: RESULT.PASSED,
     autocomplete_02: RESULT.FAILED,
-    //blink_01: RESULT.FAILED,
     blink_02: RESULT.FAILED,
     br_01: RESULT.FAILED,
     button_01: RESULT.PASSED,
     button_02: RESULT.FAILED,
     color_01: RESULT.WARNING,
     color_02: RESULT.FAILED,
-    color_02_b: RESULT.PASSED,
+    color_02b: RESULT.PASSED,
     css_01: RESULT.WARNING,
     css_02: RESULT.WARNING,
     ehandler_02: RESULT.FAILED,
@@ -181,15 +180,4 @@ export const TEST_RESULTS: { [key in TestKey]: Result } = {
     win_01: RESULT.WARNING,
     word_01: RESULT.PASSED,
     word_02: RESULT.FAILED,
-
-     //TODO verificar Não estão a ser usados
-   /* dtd_01: RESULT.FAILED,
-    embed_01: RESULT.FAILED,
-    frame_02: RESULT.FAILED,
-    lang_05: RESULT.FAILED,
-    layout_02a: RESULT.FAILED,
-    layout_02b: RESULT.FAILED,
-    long_01: RESULT.FAILED,
-    marquee_01: RESULT.FAILED,
-    title_07: RESULT.FAILED*/
 } as const;

@@ -15,6 +15,7 @@
       "aTitleMatch": "Links with the same text in content and <code>title</code> attribute",
       "aSameText": "Groups of links with the same text that point to different targets",
       "aAdjacentSame": "Adjacent links leading to the same destination",
+      "aGroupNo": "Adjacent links that are not grouped in a <code>nav</code> element",
       "aSkipFirst": "Link to skip to main content",
       "aSkipFirstNo": "Link that does not skip to main content",
       "aSkipNo": "No links to bypass content blocks",
@@ -170,18 +171,6 @@
       "notDescListElement": "List items used outside description lists",
       "descList": "Description lists with only correctly ordered list items",
       "notDescList": "Description lists with elements that are not list items or that are not correctly ordered"
-    },
-    "CSV": {
-      "scorerror": "Error",
-      "scorewar": "Warning",
-      "scoreok": "Success",
-      "errorType": "Type Error",
-      "level": "Level",
-      "criteria": "Criteria",
-      "desc": "Description",
-      "count": "Number of occurrences",
-      "value": "Value",
-      "date": "Date"
     },
     "TESTS_RESULTS": {
       "img_01a": {
@@ -411,6 +400,10 @@
       "color_02": {
         "s": "I located <mark>{{value}}</mark> color combination for which the contrast ratio is lower than the minimum contrast ratio allowed by the WCAG, which is 3 to 1 for larger font text and 4.5 to 1 for regular font text.",
         "p": "I located <mark>{{value}}</mark> color combinations for which the contrast ratio is lower than the minimum contrast ratio allowed by the WCAG, which is 3 to 1 for larger font text and 4.5 to 1 for regular font text."
+      },
+      "color_02b": {
+        "s": "I located <mark>{{value}}</mark> color combination for which the contrast ratio complies with the minimum contrast ratio allowed by the WCAG, which is 3 to 1 for larger font text and 4.5 to 1 for regular font text.",
+        "p": "I located <mark>{{value}}</mark> color combinations for which the contrast ratio complies with the minimum contrast ratio allowed by the WCAG, which is 3 to 1 for larger font text and 4.5 to 1 for regular font text."
       },
       "color_01": {
         "s": "I identified <mark>{{value}}</mark> CSS rule that does not specify either the font color or the background color.",
@@ -892,11 +885,13 @@
       "H32": "Provide Submit buttons",
       "H39": "Use caption elements to associate titles with data tables",
       "H73": "Use the summary attribute of the table element to provide an overview of the data tables",
+      "H88": "Using HTML according to spec",
       "F46": "Failure of Success Criterion 1.3.1 due to use of th elements, caption elements, or non-empty summary attributes in schema tables",
       "H43": "Use the id and headers attributes to associate data cells with header cells in data tables",
       "H63": "Use the scope attribute to associate header cells with data cells in data tables",
       "H51": "Use table markup to present tabular information",
       "F49": "Failure of Success Criterion 1.3.2 due to the use of an HTML layout table that does not make sense when linearized",
+      "H27": "Providing text and non-text alternatives for object",
       "H64": "Using the title attribute of the frame and the iframe elements",
       "F52": "Failure of Success Criterion 3.2.1 due to the presentation of a new window as soon as a new page is loaded",
       "G102": "Provide the full definition or expansion of an abbreviation",
@@ -906,6 +901,7 @@
       "C12": "Use percentage for font sizes",
       "G146": "Use liquid layout",
       "C24": "Use percentage values in CSS for container sizes",
+      "G140": "Separating information and structure from presentation to enable different presentations",
       "G145": "Ensure a contrast ratio of at least 3 to 1",
       "F24": "Failure of Success Criterion 1.4.3, 1.4.6 and 1.4.8 due to specifying foreground colors without specifying background colors and vice versa",
       "F4": "Failure of Success Criterion 2.2.2 due to the use of text-decoration:blink without a mechanism to stop it in less than five seconds",
@@ -922,6 +918,12 @@
       "H59": "Use the link element and navigation tools",
       "F41": "Failure of Success Criterion 2.2.1, 2.2.4, and 3.2.5 due to the use of a meta refresh with a timeout exceeded",
       "F40": "Failure of Success Criterion 2.2.1 and 2.2.4 due to the use of a redirect goal with a time limit",
+      "F16": "Failure of Success Criterion 2.2.2 due to including scrolling content where movement is not essential to the activity without also including a mechanism to pause and restart the content",
+      "F17": "Failure of Success Criterion 1.3.1 and 4.1.1 due to insufficient information in DOM to determine one-to-one relationships (e.g., between labels with same id) in HTML",
+      "F47": "Failure of Success Criterion 2.2.2 due to using the blink element",
+      "F54": "Failure of Success Criterion 2.1.1 due to using only pointing-device-specific event handlers (including gesture) for a function",
+      "F68": " Failure of Success Criterion 4.1.2 due to a user interface control not having a programmatically determined name",
+      "F77": "Failure of Success Criterion 4.1.1 due to duplicate ID values",
       "ff89c9": "ARIA required context role",
       "bc4a75": "ARIA required owned elements",
       "6a7281": "ARIA states and properties have valid value type",
@@ -975,6 +977,7 @@
       "G1": "<p>Make available, at the top of the webpage, a link that allows skipping directly to the main content of the webpage. This link facilitates the navigation for many users, namely those who use scanning selection software. These users use vision to read information so the links must be always visible ou become visible when receiving the focus.</p>",
       "G123": "<p>Check if the links that I found provide the most suitable way to skip to the content; if  they are  always visible or if become visible when receiving focus by keyboard.</p>",
       "H42": "<p>Web pages must be marked with a hierarchical structure of headings and subheadings. Each page should have, at least, one level 1 heading. The level 2 should mark the sections and the level 3 the subsections. This same logic must be applied until the level 6 subsections.</p>",
+      "G140": "<p>Content structure and logical encoding must be separated from visual presentation. Use semantic features for headings and lists, while using style layers for design. This allows assistive technologies to interpret meaning independently of the visual layout.</p>",      
       "G141": "<p>The web pages must be marked with a hierarchical structure of headings and subheadings. Each page should have, at least, one level 1 heading. The level 2 should mark the sections and the level 3 the subsections of these. This same logic must be applied until the subsections of level 6.</p>",
       "G130": "<p>Headings must be descriptive but at the same time brief. Its content, in any situation, should never be empty - it is what's happening in this case.</p>",
       "H48": "<p>If the content that I identified is, in fact, a list of options then use the correct structural marking (i.e. <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>).</p>",
@@ -991,6 +994,7 @@
       "H63": "<p>The scope attribute identifies if a cell constitutes a heading of a line, of a column, of a group of lines or of a group of columns. The values row, col, rowgroup and colgroup identify respectively the values that the scope may assume.</p>",
       "H51": "<p>Despite WCAG not prohibiting the use of layout tables it is recommended not to use them. If the tables used contain data then mark the heading cells conveniently.</p>",
       "F49": "<p>After the tables have been linearized, check if the content is perceptible.</p>",
+      "F16": "<p>This failure occurs when scrolling or moving content—where the movement is not essential to the activity—lacks a mechanism to pause and restart. Without this control, users with low vision or cognitive disabilities may be unable to read the content or may become severely distracted by the continuous motion.</p>",
       "H64": "<p>Frames are windows where it is possible to see content coming from another server. It is important to conveniently identify those frames. Use the title attribute for that purpose!</p>",
       "F52": "<p>Some Web sites open a new window when a page is loaded, to advertise a product or service. Make sure this does not disorient users.</p>",
       "G102": "<p>Mark the abbreviations and/or acronyms with the respective expansion. In the HTML5 is used the <code>&lt;abbr&gt;</code> element to mark abbreviations or acronyms. For instance: <code>&lt;abbr title=\"Fundação para a Ciência e a Tecnologia\"&gt;</code>FCT<code>&lt;/abbr&gt;</code></p>",
@@ -1001,7 +1005,12 @@
       "G146": "<p>Zoom the screen 200% and check that all the content is visible without the need to scroll horizontally.</p>",
       "C24": "<p>Zoom the screen 200% and check that all the content is visible without the need to scroll horizontally.</p>",
       "G145": "<p>According to success criteria 1.4.3, a 3 to 1 ratio is the minimum ratio for text \"in large size\" (18pt or 14 pt bold, or larger). I warn that for normal font size the minimum ratio is 4,5 to 1.</p>",
+      "F17": "<p>This failure occurs when visual relationships between elements—such as a text label positioned next to a form field—are not programmatically associated in the DOM. Because the connection is only visual and not semantic, assistive technologies cannot determine the purpose of the control, even if the surrounding text is clear to sighted users.</p>",
       "F24": "<p>It is not required that the font colour and the background colour be defined in the same CSS rule but it is recommended. This is the only way to ensure that the user is presented with the desired contrast.</p>",
+      "F54": "<p>The functionality fails because it depends exclusively on pointing devices (such as a mouse or touch gestures). To be accessible, all functions must be executable via keyboard, allowing users with motor impairments to navigate and interact.</p>",
+      "F68": "<p>This occurs when a user interface component (such as a button or form field) does not have a programmatically defined name. Without this name, users of screen readers or voice commands cannot understand the element's purpose or interact with it.</p>",
+      "F77": "<p>The existence of duplicate ID values on the same page breaks the integrity of the document structure. Since IDs must be unique, duplicates confuse assistive technologies, leading to incorrect interpretation or navigation failures within the document.</p>",
+      "F47": "<p>The use of the <code>&lt;blink&gt;</code> element or content that flashes beyond the allowed threshold violates safety standards. Flashing faster than three times per second can trigger photosensitive seizures (SC 2.3.1) and creates a severe distraction for users with cognitive impairments or attention disorders.</p>",
       "F4": "<p>Some user groups, particularly those who have attention deficit disorders, find blinking content to be distractive, making it difficult to concentrate in other parts of the webpage.</p>",
       "G90": "<p>You must ensure that javascript events are activated not only by mouse but also by keyboard. Check the pairs of event handlers: mousedown/keydown, mouseup/keyup, mouseover/focus, mouseout/blur. Note: AccessMonitor does not check the pair onclick / onkeypress because it considers that browsers also support the onclick event when using the keyboard. This test is correctly classified only when there aren't errors in the other tests of handlers.</p>",
       "SCR20": "<p>You must ensure that javascript events are activated not only by mouse but also by keyboard. Check the pairs of event handlers: mousedown/keydown, mouseup/keyup, mouseover/focus, mouseout/blur. Note: AccessMonitor does not check the pair onclick / onkeypress because it considers that browsers also support the onclick event when using the keyboard.</p>",
@@ -1010,6 +1019,8 @@
       "C22": "<p>This practice is obsolete. Instead, you should use CSS to control the visual presentation of text. When this error occurs you are using inside the <code>&lt;body&gt;</code> element of the webpage, one of the elements: b, basefont, font, i, s, strike, u, or the attributes: text, vlink, alink, link.</p>",
       "G115": "<p>With the appearance of CSS, all the HTML elements used to control styles of the webpage became obsolete. Elements such as: b, big, blink, center, font, i, s, strike, u became obsolete - use CSS to replace them.</p>",
       "H57": "<p>HTML only uses the lang attribute. XHTML 1.1 only uses the xml:lang attribute. XHTML 1.0 (as a transitional measure) allows both attributes. XHTML served as text/html uses the lang and xml:lang attributes on the html element.</p>",
+      "H27": "<p>Provide text or non-text alternatives within the <code>object</code> element. Since browsers render the nested content if the primary object fails to load or is unsupported, this ensures that the information remains accessible to all users and assistive technologies.</p>",
+      "H88": "<p>Ensure all HTML elements and attributes conform to technical specifications. You must respect required parent-child relationships, nesting rules, and parsing requirements. This conformance guarantees consistent DOM construction and semantic integrity, allowing assistive technologies to reliably interpret the interface.</p>",
       "H25": "<p>Take note that the <code>&lt;title&gt;</code> element should only appear once in the webpage.</p>",
       "F25": "<p>It is defined as a failure condition a webpage having a title equal to the title of another webpage of the same website. Each page should have a unique title which identifies the purpose of its content.</p>",
       "G88": "<p>The <code>&lt;title&gt;</code> of each webpage should: (1) identify the page's subject; (2) make sense when read out of context; (3) be short.</p>",
@@ -1052,11 +1063,6 @@
       "ARIA11": "<p>Ensure that there is only one main landmark in the page. Main landmarks designate the main content of the page and make it easy for screen reader users to quickly navigate to it. Each page should only have one main content, irrespectively of it being designated using HTML5 or ARIA.</p>",
       "H40": "<p>If description lists contain non list item elements, or if the order of the list item elements is not appropriate, that is, <dt> elements should precede <dd> elements, the list will be incorrectly marked up, and assistive technologies will not be able to render it correctly.</p>",
       "H97": "<p>The <code>&lt;nav&gt;</code> element is used to group a set of navigation links. If there are multiple groups of navigation links on a page, each group should be marked up using a separate <code>&lt;nav&gt;</code> element.</p>"
-    },
-    "TECHFAIL": {
-      "relationF": "This WCAG 2.1 failure is related to:",
-      "relationT": "This WCAG 2.1 technique is related to:",
-      "relationACT": "This Accessibility Conformance Testing rule is related to:"
     }
   }
 }
