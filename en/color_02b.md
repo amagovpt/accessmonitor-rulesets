@@ -4,7 +4,7 @@ id: color_02b
 type: "true"
 elem: "all"
 test: "colorContrastOk"
-score: 1
+score: 10
 level: "AA"
 trust: "1"
 top: 1
