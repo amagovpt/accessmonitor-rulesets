@@ -1,15 +1,15 @@
 ---
 Title: ARIA Hidden Focusable Content Check
 id: element_02
-type: "true",
-elem: "all",
-test: "elementDec",
-score: 10,
-level: "A",
-trust: "1",
-ref: "6cfa84",
-scs: "4.1.2",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "elementDec"
+score: 10
+level: "A"
+trust: "1"
+ref: "6cfa84"
+scs: "4.1.2"
+dis: "43353"
 result: "passed"
 ---
 

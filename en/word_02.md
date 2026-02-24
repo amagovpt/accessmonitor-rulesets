@@ -1,16 +1,16 @@
 ---
 Title: Inappropriate Word Spacing Check
 id: word_02
-type: "fals",
-elem: "all",
-test: "wordSpacingNot",
-score: 4,
-level: "AA",
-trust: "1",
-ref: "9e45ec",
-scs: "1.4.12",
-dis: "43353",
-result: "fail"
+type: "fals"
+elem: "all"
+test: "wordSpacingNot"
+score: 4
+level: "AA"
+trust: "1"
+ref: "9e45ec"
+scs: "1.4.12"
+dis: "43353"
+result: "failed"
 ---
 
 # Inappropriate Word Spacing Check

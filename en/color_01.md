@@ -1,15 +1,15 @@
 ---
 Title: CSS Font And Background Color Check
 id: color_01
-type: "true",
-elem: "all",
-test: "colorFgBgNo",
-score: 3,
-level: "aa",
-trust: "0.9",
-ref: "F24",
-scs: "1.4.3,1.4.6,1.4.8",
-dis: "13113",
+type: "true"
+elem: "all"
+test: "colorFgBgNo"
+score: 3
+level: "AA"
+trust: "0.9"
+ref: "F24"
+scs: "1.4.3,1.4.6,1.4.8"
+dis: "13113"
 result: "warning"
 ---
 

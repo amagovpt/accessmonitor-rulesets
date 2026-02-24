@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Redirect Meta Element Check
 id: meta_02
-type: "true",
-elem: "all",
-test: "metaRedir",
-score: 1,
-level: "A",
-trust: "1",
-ref: "F40",
-scs: "2.2.1,2.2.4",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "metaRedir"
+score: 1
+level: "A"
+trust: "1"
+ref: "F40"
+scs: "2.2.1,2.2.4"
+dis: "43353"
 result: "warning"
 ---
 

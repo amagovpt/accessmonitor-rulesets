@@ -1,15 +1,15 @@
 ---
 Title: ARIA State and Property Value Check
 id: aria_03
-type: "true",
-elem: "all",
-test: "ariaStValid",
-score: 10,
-level: "A",
-trust: "1",
-ref: "6a7281",
-scs: "1.3.1,4.1.2",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "ariaStValid"
+score: 10
+level: "A"
+trust: "1"
+ref: "6a7281"
+scs: "1.3.1,4.1.2"
+dis: "43353"
 result: "passed"
 ---
 

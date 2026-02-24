@@ -1,15 +1,15 @@
 ---
 Title: Missing Page Title Check
 id: title_02
-type: "true",
-elem: "all",
-test: "titleNo",
-score: 1,
-level: "A",
-trust: "1",
-ref: "H25",
-scs: "2.4.2",
-dis: "52112",
+type: "true"
+elem: "all"
+test: "titleNo"
+score: 1
+level: "A"
+trust: "1"
+ref: "H25"
+scs: "2.4.2"
+dis: "52112 "
 result: "failed"
 ---
 

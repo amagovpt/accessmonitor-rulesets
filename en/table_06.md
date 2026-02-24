@@ -1,17 +1,17 @@
 ---
 Title: Missing Data Table Headers Attributes Check
 id: table_06
-type: "decr",
-elem: "tableComplex",
-test: "tableComplexError",
-score: 4,
-level: "a",
-trust: "0.8",
-top: 1,
-steps: 1,
-ref: "H43",
-scs: "1.3.1",
-dis: "53211",
+type: "decr"
+elem: "tableComplex"
+test: "tableComplexError"
+score: 4
+level: "A"
+trust: "0.8"
+top: 1
+steps: 1
+ref: "H43"
+scs: "1.3.1"
+dis: "53211"
 result: "failed"
 ---
 

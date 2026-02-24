@@ -1,16 +1,16 @@
 ---
 Title: Duplicate Contentinfo Landmark Check
 id: landmark_12
-type: "fals",
-elem: "all",
-test: "duplicateContentinfo",
-score: 4,
-level: "AA",
-trust: "1",
-ref: "ARIA11",
-scs: "1.3.1",
-dis: "43353",
-result: "fail"
+type: "fals"
+elem: "all"
+test: "duplicateContentinfo"
+score: 4
+level: "AA"
+trust: "1"
+ref: "ARIA11"
+scs: "1.3.1"
+dis: "43353"
+result: "failed"
 ---
 
 # Duplicate Contentinfo Landmark Check

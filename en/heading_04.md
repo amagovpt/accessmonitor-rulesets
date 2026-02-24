@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate H1 Check
 id: heading_04
-type: "fals",
-elem: "h1",
-test: "notOneh1",
-score: 1,
-level: "A",
-trust: "1",
-ref: "H42",
-scs: "1.3.1",
-dis: "43353",
+type: "fals"
+elem: "h1"
+test: "notOneh1"
+score: 1
+level: "A"
+trust: "1"
+ref: "H42"
+scs: "1.3.1"
+dis: "43353"
 result: "failed"
 ---
 

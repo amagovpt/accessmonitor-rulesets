@@ -1,15 +1,15 @@
 ---
 Title: H1 Check
 id: heading_03
-type: "true",
-elem: "h1",
-test: "onlyOneh1",
-score: 10,
-level: "A",
-trust: "1",
-ref: "H42",
-scs: "1.3.1",
-dis: "43353",
+type: "true"
+elem: "h1"
+test: "onlyOneh1"
+score: 10
+level: "A"
+trust: "1"
+ref: "H42"
+scs: "1.3.1"
+dis: "43353"
 result: "passed"
 ---
 

@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Equal Table Caption And Summary Check
 id: table_03
-type: "prop",
-elem: "table",
-test: "tableCaptionSummary",
-score: 4,
-level: "A",
-trust: "1",
-ref: "H73",
-scs: "1.3.1",
-dis: "33152",
+type: "prop"
+elem: "table"
+test: "tableCaptionSummary"
+score: 4
+level: "A"
+trust: "1"
+ref: "H73"
+scs: "1.3.1"
+dis: "33152"
 result: "failed"
 ---
 

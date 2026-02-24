@@ -1,15 +1,15 @@
 ---
 Title: Inappropriately Unhidden Decorative Elements Check
 id: element_05
-type: "fals",
-elem: "all",
-test: "elementNotHiddenFocus",
-score: 1,
-level: "A",
-trust: "1",
-ref: "46ca7f",
-scs: "4.1.2",
-dis: "43353",
+type: "fals"
+elem: "all"
+test: "elementNotHiddenFocus"
+score: 1
+level: "A"
+trust: "1"
+ref: "46ca7f"
+scs: "4.1.2"
+dis: "43353"
 result: "failed"
 ---
 

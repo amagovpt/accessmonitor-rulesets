@@ -1,15 +1,15 @@
 ---
 Title: Alternative Text Check
 id: img_01a
-type: "fals",
-elem: "img",
-test: "imgAlt",
-score: 10,
-level: "a",
-trust: "0.9",
-ref: "H37",
-scs: "1.1.1",
-dis: "53322",
+type: "fals"
+elem: "img"
+test: "imgAlt"
+score: 10
+level: "A"
+trust: "0.9"
+ref: "H37"
+scs: "1.1.1"
+dis: "53322"
 result: "passed"
 ---
 

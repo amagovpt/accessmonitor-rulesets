@@ -1,15 +1,15 @@
 ---
 Title: Letter Spacing Check
 id: letter_01
-type: "true",
-elem: "all",
-test: "letterSpacing",
-score: 10,
-level: "AA",
-trust: "1",
-ref: "24afc2",
-scs: "1.4.12",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "letterSpacing"
+score: 10
+level: "AA"
+trust: "1"
+ref: "24afc2"
+scs: "1.4.12"
+dis: "43353"
 result: "passed"
 ---
 

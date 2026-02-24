@@ -1,15 +1,15 @@
 ---
 Title: Iframe Elements With Equal Accessible Name Check
 id: iframe_02
-type: "true",
-elem: "iframeSame",
-test: "iframeSameAName",
-score: 10,
-level: "A",
-trust: "1",
-ref: "4b1c6c",
-scs: "4.1.2",
-dis: "43353",
+type: "true"
+elem: "iframeSame"
+test: "iframeSameAName"
+score: 10
+level: "A"
+trust: "1"
+ref: "4b1c6c"
+scs: "4.1.2"
+dis: "43353"
 result: "passed"
 ---
 

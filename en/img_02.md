@@ -1,15 +1,15 @@
 ---
 Title: Decorative Image Check
 id: img_02
-type: "prop",
-elem: "img",
-test: "imgAltNull",
-score: 8,
-level: "a",
-trust: "1",
-ref: "C9",
-scs: "1.1.1",
-dis: "41111",
+type: "prop"
+elem: "img"
+test: "imgAltNull"
+score: 8
+level: "A"
+trust: "1"
+ref: "C9"
+scs: "1.1.1"
+dis: "41111"
 result: "warning"
 ---
 

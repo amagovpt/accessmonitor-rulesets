@@ -1,16 +1,16 @@
 ---
 Title: Inappropriate Scrollable Element Check
 id: scrollable_02
-type: "prop",
-elem: "scrollable",
-test: "scrollableAccessNot",
-score: 3,
-level: "A",
-trust: "1",
-ref: "G202",
-scs: "2.1.1",
-dis: "43353",
-result: "fail"
+type: "prop"
+elem: "scrollable"
+test: "scrollableAccessNot"
+score: 3
+level: "A"
+trust: "1"
+ref: "G202"
+scs: "2.1.1"
+dis: "43353"
+result: "failed"
 ---
 
 # Inappropriate Scrollable Element Check

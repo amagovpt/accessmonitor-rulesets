@@ -1,15 +1,15 @@
 ---
 Title: Inappropriately ARIA Hidden Focusable Content Check
 id: element_03
-type: "fals",
-elem: "all",
-test: "elementNotDec",
-score: 1,
-level: "A",
-trust: "1",
-ref: "6cfa84",
-scs: "4.1.2",
-dis: "43353",
+type: "fals"
+elem: "all"
+test: "elementNotDec"
+score: 1
+level: "A"
+trust: "1"
+ref: "6cfa84"
+scs: "4.1.2"
+dis: "43353"
 result: "failed"
 ---
 

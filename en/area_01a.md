@@ -4,12 +4,12 @@ id: area_01a
 type: "fals"
 elem: "area"
 test: "areaAltYes"
-score: 10,
-level: "a",
-trust: "0.5",
-ref: "H24",
-scs: "1.1.1,2.4.4,2.4.9",
-dis: "54222",
+score: 10
+level: "A"
+trust: "0.5"
+ref: "H24"
+scs: "1.1.1,2.4.4,2.4.9"
+dis: "54222"
 result: "passed"
 ---
 

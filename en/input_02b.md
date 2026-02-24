@@ -1,15 +1,15 @@
 ---
 Title: Form Control Accessible Name Check
 id: input_02b
-type: "fals",
-elem: "inputLabel",
-test: "inputLabelNo",
-score: 10,
-level: "a",
-trust: "0.7",
-ref: "H44",
-scs: "1.1.1,1.3.1,3.3.2,4.1.2",
-dis: "54532",
+type: "fals"
+elem: "inputLabel"
+test: "inputLabel"
+score: 10
+level: "A"
+trust: "0.7"
+ref: "H44"
+scs: "1.1.1,1.3.1,3.3.2,4.1.2"
+dis: "54532"
 result: "passed"
 ---
 

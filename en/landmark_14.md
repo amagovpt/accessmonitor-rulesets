@@ -1,16 +1,16 @@
 ---
 Title: Duplicate Main Landmark Check
 id: landmark_14
-type: "fals",
-elem: "all",
-test: "duplicateMain",
-score: 4,
-level: "AA",
-trust: "1",
-ref: "ARIA11",
-scs: "",
-dis: "43353",
-result: "fail"
+type: "fals"
+elem: "all"
+test: "duplicateMain"
+score: 4
+level: "AA"
+trust: "1"
+ref: "ARIA11"
+scs: ""
+dis: "43353"
+result: "failed"
 ---
 
 # Duplicate Main Landmark Check

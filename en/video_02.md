@@ -1,15 +1,15 @@
 ---
 Title: Visual Content Accessible Alternative Check
 id: video_02
-type: "true",
-elem: "all",
-test: "videoVisual",
-score: 10,
-level: "A",
-trust: "1",
-ref: "G8",
-scs: "1.2.3",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "videoVisual"
+score: 10
+level: "A"
+trust: "1"
+ref: "G8"
+scs: "1.2.3"
+dis: "43353"
 result: "warning"
 ---
 

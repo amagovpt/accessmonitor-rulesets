@@ -1,15 +1,15 @@
 ---
 Title: Missing Form Submit Button Check
 id: form_01b
-type: "prop",
-elem: "form",
-test: "formSubmitNo",
-score: 3,
-level: "A",
-trust: "0.9",
-ref: "H32",
-scs: "3.2.2",
-dis: "21211",
+type: "prop"
+elem: "form"
+test: "formSubmitNo"
+score: 3
+level: "A"
+trust: "0.9"
+ref: "H32"
+scs: "3.2.2"
+dis: "21211"
 result: "failed"
 ---
 

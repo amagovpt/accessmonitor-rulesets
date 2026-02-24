@@ -1,16 +1,16 @@
 ---
 Title: Inappropriate Description List Elements Check
 id: list_05
-type: "prop",
-elem: "dd,dt",
-test: "notDescListElement",
-score: 4,
-level: "AAA",
-trust: "1",
-ref: "H40",
-scs: "3.1.3",
-dis: "43353",
-result: "fail"
+type: "prop"
+elem: "dd,dt"
+test: "notDescListElement"
+score: 4
+level: "AAA"
+trust: "1"
+ref: "H40"
+scs: "3.1.3"
+dis: "43353"
+result: "failed"
 ---
 
 # Inappropriate Description List Elements Check

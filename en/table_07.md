@@ -1,15 +1,15 @@
 ---
 Title: Table Header Cells Check
 id: table_07
-type: "true",
-elem: "all",
-test: "tableHdr",
-score: 10,
-level: "A",
-trust: "1",
-ref: "d0f69e",
-scs: "1.3.1",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "tableHdr"
+score: 10
+level: "A"
+trust: "1"
+ref: "d0f69e"
+scs: "1.3.1"
+dis: "43353"
 result: "passed"
 
 ---

@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Text Color Contrast Check
 id: textC_02
-type: "fals",
-elem: "all",
-test: "textContrastHNot",
-score: 10,
-level: "AAA",
-trust: "1",
-ref: "G17",
-scs: "1.4.6",
-dis: "43353",
+type: "fals"
+elem: "all"
+test: "textContrastHNot"
+score: 10
+level: "AAA"
+trust: "1"
+ref: "G17"
+scs: "1.4.6"
+dis: "43353"
 result: "warning"
 ---
 

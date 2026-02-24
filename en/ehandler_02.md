@@ -1,15 +1,15 @@
 ---
 Title: Missing Redundant Event Handlers Check
 id: ehandler_02
-type: "prop",
-elem: "ehandler",
-test: "ehandBothNo",
-score: 1,
-level: "A",
-trust: "1",
-ref: "SCR20",
-scs: "2.1.1,2.1.3",
-dis: "53511",
+type: "prop"
+elem: "ehandler"
+test: "ehandBothNo"
+score: 1
+level: "A"
+trust: "1"
+ref: "SCR20"
+scs: "2.1.1,2.1.3"
+dis: "53511"
 result: "failed"
 ---
 

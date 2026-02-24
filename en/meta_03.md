@@ -1,15 +1,15 @@
 ---
 Title: Refresh Meta Element Check
 id: meta_03
-type: "true",
-elem: "all",
-test: "metaRefresh",
-score: 10,
-level: "AAA",
-trust: "1",
-ref: "G110",
-scs: "2.2.4",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "metaRefresh"
+score: 10
+level: "AAA"
+trust: "1"
+ref: "G110"
+scs: "2.2.4"
+dis: "43353"
 result: "passed"
 ---
 

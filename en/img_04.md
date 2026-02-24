@@ -1,15 +1,15 @@
 ---
 Title: Alt Text Length Check
 id: img_04
-type: "prop",
-elem: "img",
-test: "imgAltLong",
-score: 5,
-level: "a",
-trust: "0.9",
-ref: "H45",
-scs: "1.1.1",
-dis: "54153",
+type: "prop"
+elem: "img"
+test: "imgAltLong"
+score: 5
+level: "A"
+trust: "0.9"
+ref: "H45"
+scs: "1.1.1"
+dis: "54153"
 result: "warning"
 ---
 

@@ -1,15 +1,15 @@
 ---
 Title: Graphic Button Alt Text Check
 id: inp_img_01a
-type: "fals",
-elem: "inpImg",
-test: "inpImgAltYes",
-score: 10,
-level: "a",
-trust: "0.9",
-ref: "H36",
-scs: "1.1.1,4.1.2",
-dis: "54211",
+type: "fals"
+elem: "inpImg"
+test: "inpImgAltYes"
+score: 10
+level: "A"
+trust: "0.9"
+ref: "H36"
+scs: "1.1.1,4.1.2"
+dis: "54211"
 result: "passed"
 ---
 

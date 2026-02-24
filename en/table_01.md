@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Table Caption Check
 id: table_01
-type: "prop",
-elem: "tableLayout",
-test: "tableLayoutCaption",
-score: 3,
-level: "A",
-trust: "1",
-ref: "F46",
-scs: "1.3.1",
-dis: "51421",
+type: "prop"
+elem: "tableLayout"
+test: "tableLayoutCaption"
+score: 3
+level: "A"
+trust: "1"
+ref: "F46"
+scs: "1.3.1"
+dis: "51421"
 result: "warning"
 ---
 

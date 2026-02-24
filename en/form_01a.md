@@ -1,15 +1,15 @@
 ---
 Title: Form Submit Button Check
 id: form_01a
-type: "fals",
-elem: "form",
-test: "formSubmitNo",
-score: 10,
-level: "a",
-trust: "1",
-ref: "H32",
-scs: "3.2.2",
-dis: "21211",
+type: "fals"
+elem: "form"
+test: "formSubmit"
+score: 10
+level: "A"
+trust: "1"
+ref: "H32"
+scs: "3.2.2"
+dis: "21211"
 result: "passed"
 ---
 

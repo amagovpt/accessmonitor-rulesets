@@ -1,17 +1,17 @@
 ---
 Title: Missing Table Headers Check
 id: table_05a
-type: "decr",
-elem: "all",
-test: "tableLayout",
-score: 4,
-level: "a",
-trust: "1",
-top: 1,
-steps: 1,
-ref: "H51",
-scs: "1.3.1",
-dis: "53352",
+type: "decr"
+elem: "all"
+test: "tableLayout"
+score: 4
+level: "A"
+trust: "1"
+top: 1
+steps: 1
+ref: "H51"
+scs: "1.3.1"
+dis: "53352"
 result: "failed"
 ---
 

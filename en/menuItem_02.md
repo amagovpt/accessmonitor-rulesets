@@ -1,16 +1,16 @@
 ---
 Title: Missing Menu Item Accessible Name Check
 id: menuItem_02
-type: "prop",
-elem: "menuItem",
-test: "menuItemANameNot",
-score: 3,
-level: "A",
-trust: "1",
-ref: "m6b1q3",
-scs: "4.1.2",
-dis: "43353",
-result: "fail"
+type: "prop"
+elem: "menuItem"
+test: "menuItemANameNot"
+score: 3
+level: "A"
+trust: "1"
+ref: "m6b1q3"
+scs: "4.1.2"
+dis: "43353"
+result: "failed"
 ---
 
 # Missing Menu Item Accessible Name Check

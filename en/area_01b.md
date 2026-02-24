@@ -1,15 +1,15 @@
 ---
 Title: Inadequate Alternative Text In Image Maps' Area Elements Check
 id: area_01b
-type: "prop",
-elem: "area",
-test: "areaAltNo",
-score: 1,
-level: "A",
-trust: "1",
-ref: "F65",
-scs: "1.1.1",
-dis: "53322",
+type: "prop"
+elem: "area"
+test: "areaAltNo"
+score: 1
+level: "A"
+trust: "1"
+ref: "F65"
+scs: "1.1.1"
+dis: "53322"
 result: "failed"
 ---
 

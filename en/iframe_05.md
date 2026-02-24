@@ -1,18 +1,18 @@
 ---
 Title: Inappropriate Iframe Negative Tabindex Attribute Check
 id: iframe_05
-type: "fals",
-elem: "all",
-test: "iframeNegTabIndexNot",
-score: 4,
-level: "A",
-trust: "1",
-top: 1,
-steps: 1,
-ref: "G202",
-scs: "2.1.1",
-dis: "43353",
-result: "fail"
+type: "fals"
+elem: "all"
+test: "iframeNegTabIndexNot"
+score: 4
+level: "A"
+trust: "1"
+top: 1
+steps: 1
+ref: "G202"
+scs: "2.1.1"
+dis: "43353"
+result: "failed"
 ---
 
 # Inappropriate Iframe Negative Tabindex Attribute Check

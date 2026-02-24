@@ -1,17 +1,17 @@
 ---
 Title: W3C Inappropriate HTML Check
 id: w3c_validator_01b
-type: "decr",
-elem: "w3cValidator",
-test: "w3cValidatorErrors",
-score: 1,
-level: "A",
-trust: "1",
-top: 10,
-steps: 10,
-ref: "G134",
-scs: "4.1.1",
-dis: "22232",
+type: "decr"
+elem: "w3cValidator"
+test: "w3cValidatorErrors"
+score: 1
+level: "A"
+trust: "1"
+top: 10
+steps: 10
+ref: "G134"
+scs: "4.1.1"
+dis: "22232"
 result: "warning"
 ---
 

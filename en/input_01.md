@@ -1,15 +1,15 @@
 ---
 Title: Missing Form Control Label and Title Check
 id: input_01
-type: "prop",
-elem: "inputLabel",
-test: "inputIdTitleNo",
-score: 3,
-level: "A",
-trust: "1",
-ref: "H65",
-scs: "1.1.1,1.3.1,3.3.2,4.1.2",
-dis: "53122",
+type: "prop"
+elem: "inputLabel"
+test: "inputIdTitleNo"
+score: 3
+level: "A"
+trust: "1"
+ref: "H65"
+scs: "1.1.1,1.3.1,3.3.2,4.1.2"
+dis: "53122"
 result: "failed"
 ---
 

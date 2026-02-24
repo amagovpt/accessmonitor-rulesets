@@ -1,15 +1,15 @@
 ---
 Title: Description List Elements Order Check
 id: list_06
-type: "true",
-elem: "dl",
-test: "descList",
-score: 10,
-level: "AAA",
-trust: "1",
-ref: "H40",
-scs: "3.1.3",
-dis: "43353",
+type: "true"
+elem: "dl"
+test: "descList"
+score: 10
+level: "AAA"
+trust: "1"
+ref: "H40"
+scs: "3.1.3"
+dis: "43353"
 result: "passed"
 ---
 

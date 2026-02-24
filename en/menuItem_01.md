@@ -1,15 +1,15 @@
 ---
 Title: Menu Item Accessible Name Check
 id: menuItem_01
-type: "true",
-elem: "menuItem",
-test: "menuItemAName",
-score: 10,
-level: "A",
-trust: "1",
-ref: "m6b1q3",
-scs: "4.1.2",
-dis: "43353",
+type: "true"
+elem: "menuItem"
+test: "menuItemAName"
+score: 10
+level: "A"
+trust: "1"
+ref: "m6b1q3"
+scs: "4.1.2"
+dis: "43353"
 result: "passed"
 ---
 

@@ -1,15 +1,15 @@
 ---
 Title: Singular Banner Landmark Check
 id: landmark_09
-type: "true",
-elem: "all",
-test: "noDuplicateBanner",
-score: 10,
-level: "AA",
-trust: "1",
-ref: "ARIA11",
-scs: "1.3.1,2.4.1",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "noDuplicateBanner"
+score: 10
+level: "AA"
+trust: "1"
+ref: "ARIA11"
+scs: "1.3.1,2.4.1"
+dis: "43353"
 result: "passed"
 ---
 
