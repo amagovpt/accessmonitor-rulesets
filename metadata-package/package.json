@@ -1,5 +1,5 @@
 {
-  "name": "@ama-pt/a11y-ds",
+  "name": "@arte-pt/accessmonitor-rulesets",
   "version": "1.0.0",
   "description": "Set of tests metadata to serve AccessMonitor, AdminMonitorServer, MyMonitor and Portuguese Observatory of Web Accessibility",
   "main": "./dist/index.js",

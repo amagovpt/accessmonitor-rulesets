@@ -173,689 +173,861 @@
       "notDescList": "Listas de descrição com elementos que não são itens de lista ou não estão ordenados corretamente"
     },
     "TESTS_RESULTS": {
-      "img_01a": {
-        "s": "Constatei que <mark>todas</mark> as imagens da página têm o necessário equivalente alternativo em texto.",
-        "p": "Constatei que <mark>todas</mark> as imagens da página têm o necessário equivalente alternativo em texto."
+      "a_01a": {
+      "title": "Encontrei páginas em que o primeiro link permite saltar para o conteúdo principal",
+      "s": "Constatei que o primeiro link da página nos <mark>permite saltar</mark> para o conteúdo principal.",
+      "p": "Constatei que o primeiro link da página nos <mark>permite saltar</mark> para o conteúdo principal."
       },
-      "img_01b": {
-        "s": "Encontrei <mark>{{value}}</mark> imagem na página que não tem o necessário equivalente alternativo em texto.",
-        "p": "Encontrei <mark>{{value}}</mark> imagens na página que não têm o necessário equivalente alternativo em texto."
+      "a_01b": {
+      "title": "Encontrei páginas em que o primeiro link não permite saltar para o conteúdo principal da página",
+      "s": "Constatei que a primeira hiperligação da página <mark>não permite saltar</mark> diretamente para a área do conteúdo principal.",
+      "p": "Constatei que a primeira hiperligação da página <mark>não permite saltar</mark> diretamente para a área do conteúdo principal."
       },
-      "img_02": {
-        "s": "Encontrei <mark>{{value}}</mark> imagem na página com <code>alt=\"\"</code> (alt vazio).",
-        "p": "Encontrei <mark>{{value}}</mark> imagens na página com <code>alt=\"\"</code> (alt vazio)."
+      "a_02a": {
+      "title": "Encontrei páginas em que não existem links para saltar blocos de texto",
+      "s": "<mark>Não encontrei</mark> links para saltar blocos de texto.",
+      "p": "<mark>Não encontrei</mark> links para saltar blocos de texto."
       },
-      "img_03": {
-        "s": "Encontrei <mark>{{value}}</mark> imagem na página com <code>alt</code> que não serve de equivalente alternativo.",
-        "p": "Encontrei <mark>{{value}}</mark> imagens na página com <code>alt</code> que não serve de equivalente alternativo."
-      },
-      "img_04": {
-        "s": "Encontrei <mark>{{value}}</mark> imagem na página em que o <code>alt</code> tem mais de 100 carateres.",
-        "p": "Encontrei <mark>{{value}}</mark> imagens na página em que o <code>alt</code> tem mais de 100 carateres ."
-      },
-      "area_01a": {
-        "s": "Constatei que <mark>todas</mark> as <code>&lt;area&gt;</code> ativas dos mapas de imagem da página fazem uso do atributo <code>alt</code>.",
-        "p": "Constatei que <mark>todas</mark> as <code>&lt;area&gt;</code> ativas dos mapas de imagem da página fazem uso do atributo <code>alt</code>."
-      },
-      "area_01b": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;area&gt;</code> sem atributo <code>alt</code> ou com <code>alt=\"\"</code>.",
-        "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;area&gt;</code> sem atributo <code>alt</code> ou com <code>alt=\"\"</code>."
-      },
-      "inp_img_01a": {
-        "s": "Constatei que <mark>todos</mark> os botões gráficos da página fazem uso do atributo <code>alt</code>.",
-        "p": "Constatei que <mark>todos</mark> os botões gráficos da página fazem uso do atributo <code>alt</code>."
-      },
-      "inp_img_01b": {
-        "s": "Localizei <mark>{{value}}</mark> botão gráfico na página que não tem o atributo <code>alt</code>.",
-        "p": "Localizei <mark>{{value}}</mark> botões gráficos na página que não têm o atributo <code>alt</code>."
-      },
-      "a_04": {
-        "s": "Constatei que esta página <mark>não tem</mark> links.",
-        "p": "Constatei que esta página <mark>não tem</mark> links."
+      "a_02b": {
+      "title": "Encontrei páginas em que existem links para saltar blocos de texto",
+      "s": "Encontrei <mark>{{value}}</mark> link para contornar blocos de conteúdo.",
+      "p": "Encontrei <mark>{{value}}</mark> links para contornar blocos de conteúdo."
       },
       "a_03": {
-        "s": "Encontrei <mark>{{value}}</mark> link cujo conteúdo está vazio. Ou melhor, é composto apenas por uma imagem e a imagem tem um equivalente textual alternativo vazio (i.e. <code>alt=\"\"</code>).",
-        "p": "Encontrei <mark>{{value}}</mark> links cujo conteúdo está vazio. Ou melhor, são compostos apenas por uma imagem e a imagem tem um equivalente textual alternativo vazio (i.e. <code>alt=\"\"</code>)."
+      "title": "Encontrei <mark>{{value}}</mark> link cujo conteúdo está vazio. Ou melhor, é composto apenas por uma imagem e a imagem tem por equivalente textual alternativo um caráter vazio (i.e. <code>alt=\\\"\\\"</code>).",
+      "s": "Encontrei <mark>{{value}}</mark> link cujo conteúdo está vazio. Ou melhor, é composto apenas por uma imagem e a imagem tem um equivalente textual alternativo vazio (i.e. <code>alt=\"\"</code>).",
+      "p": "Encontrei <mark>{{value}}</mark> links cujo conteúdo está vazio. Ou melhor, são compostos apenas por uma imagem e a imagem tem um equivalente textual alternativo vazio (i.e. <code>alt=\"\"</code>)."
+      },
+      "a_04": {
+      "title": "Não encontrei links",
+      "s": "Constatei que esta página <mark>não tem</mark> links.",
+      "p": "Constatei que esta página <mark>não tem</mark> links."
       },
       "a_05": {
-        "s": "Identifiquei <mark>{{value}}</mark> caso em que o atributo <code>title</code> do elemento link se limita a repetir o texto existente no link.",
-        "p": "Identifiquei <mark>{{value}}</mark> casos em que o atributo <code>title</code> do elemento link se limita a repetir o texto existente no link."
-      },
-      "a_09": {
-        "s": "Encontrei <mark>{{value}}</mark> grupo de links com o mesmo texto mas cujo destino é diferente.",
-        "p": "Encontrei <mark>{{value}}</mark> grupos de links com o mesmo texto mas cujo destino é diferente."
+      "title": "Encontrei páginas em que o atributo title do link se limita a repetir o texto do link",
+      "s": "Identifiquei <mark>{{value}}</mark> caso em que o atributo <code>title</code> do elemento link se limita a repetir o texto existente no link.",
+      "p": "Identifiquei <mark>{{value}}</mark> casos em que o atributo <code>title</code> do elemento link se limita a repetir o texto existente no link."
       },
       "a_06": {
-        "s": "Encontrei <mark>{{value}}</mark> caso de links adjacentes a apontar para o mesmo destino.",
-        "p": "Encontrei <mark>{{value}}</mark> casos de links adjacentes a apontar para o mesmo destino."
+      "title": "Encontrei páginas com links adjacentes que apontam para o mesmo destino",
+      "s": "Encontrei <mark>{{value}}</mark> caso de links adjacentes a apontar para o mesmo destino.",
+      "p": "Encontrei <mark>{{value}}</mark> casos de links adjacentes a apontar para o mesmo destino."
       },
       "a_07": {
+        "title": "Encontrei links adjacentes que não estão dentro de um elemento <code>nav</code>",
         "s": "Encontrei <mark>{{value}}</mark> caso de links adjacentes que não estão dentro de um elemento <code>nav</code>.",
         "p": "Encontrei <mark>{{value}}</mark> casos de links adjacentes que não estão dentro de um elemento <code>nav</code>."
       },
-      "a_01a": {
-        "s": "Constatei que o primeiro link da página nos <mark>permite saltar</mark> para o conteúdo principal.",
-        "p": "Constatei que o primeiro link da página nos <mark>permite saltar</mark> para o conteúdo principal."
+      "a_09": {
+      "title": "Encontrei páginas com links com o mesmo texto mas que apontam para destinos diferentes",
+      "s": "Encontrei <mark>{{value}}</mark> grupo de links com o mesmo texto mas cujo destino é diferente.",
+      "p": "Encontrei <mark>{{value}}</mark> grupos de links com o mesmo texto mas cujo destino é diferente."
       },
-      "a_01b": {
-        "s": "Constatei que a primeira hiperligação da página <mark>não permite saltar</mark> diretamente para a área do conteúdo principal.",
-        "p": "Constatei que a primeira hiperligação da página <mark>não permite saltar</mark> diretamente para a área do conteúdo principal."
+      "a_10": {
+      "title": "Encontrei páginas com links com nome acessível não vazio",
+      "s": "Verifiquei que <mark>todas</mark> as ligações têm nome acessível.",
+      "p": "Verifiquei que <mark>todas</mark> as ligações têm nome acessível."
       },
-      "a_02a": {
-        "s": "<mark>Não encontrei</mark> links para saltar blocos de texto.",
-        "p": "<mark>Não encontrei</mark> links para saltar blocos de texto."
+      "a_11": {
+      "title": "Encontrei páginas com links sem nome acessível",
+      "s": "Encontrei <mark>{{value}}</mark> ligação sem nome acessível.",
+      "p": "Encontrei <mark>{{value}}</mark> ligações sem nome acessível."
       },
-      "a_02b": {
-        "s": "Encontrei <mark>{{value}}</mark> link para contornar blocos de conteúdo.",
-        "p": "Encontrei <mark>{{value}}</mark> links para contornar blocos de conteúdo."
+      "a_12": {
+      "title": "Encontrei páginas com Links com o mesmo nome acessível e contexto com o mesmo destino",
+      "s": "Verifiquei que <mark>todos os grupos</mark> de links com o mesmo nome acessível e contexto têm o mesmo destino.",
+      "p": "Verifiquei que <mark>todos os grupos</mark> de links com o mesmo nome acessível e contexto têm o mesmo destino."
       },
-      "hx_01a": {
-        "s": "Constatei que esta página <mark>não tem</mark> cabeçalhos",
-        "p": "Constatei que esta página <mark>não tem</mark> cabeçalhos"
-      },
-      "hx_01b": {
-        "s": "Encontrei <mark>{{value}}</mark> cabeçalho na página.",
-        "p": "Encontrei <mark>{{value}}</mark> cabeçalhos na página."
-      },
-      "hx_01c": {
-        "s": "<mark>Não encontrei</mark> nesta página um cabeçalho principal <code>&lt;H1&gt;</code> marcado.",
-        "p": "<mark>Não encontrei</mark> nesta página um cabeçalho principal <code>&lt;H1&gt;</code> marcado."
-      },
-      "hx_03": {
-        "s": "Encontrei <mark>{{value}}</mark> caso em que se viola a sequência hierárquica dos níveis de cabeçalho.",
-        "p": "Encontrei <mark>{{value}}</mark> casos em que se viola a sequência hierárquica dos níveis de cabeçalho."
-      },
-      "hx_02": {
-        "s": "Encontrei <mark>{{value}}</mark> cabeçalho cujo conteúdo é apenas composto por uma imagem sem atributo <code>alt</code>, ou seja sem qualquer equivalente textual alternativo.",
-        "p": "Encontrei <mark>{{value}}</mark> cabeçalhos cujo conteúdo é apenas composto por uma imagem sem atributo <code>alt</code>, ou seja sem qualquer equivalente textual alternativo."
-      },
-      "list_01": {
-        "s": "Localizei <mark>{{value}}</mark> ocorrência de lista vazia ou com <code>&lt;li&gt;</code> fora da lista.",
-        "p": "Localizei <mark>{{value}}</mark> ocorrências de listas vazias ou com <code>&lt;li&gt;</code> fora das listas."
-      },
-      "br_01": {
-        "s": "Encontrei <mark>{{value}}</mark> sequência composta por 3 ou mais elementos <code>&lt;br&gt;</code> - desconfio que está a usá-los para representar os itens de uma lista.",
-        "p": "Encontrei <mark>{{value}}</mark> sequências compostas por 3 ou mais elementos <code>&lt;br&gt;</code> - desconfio que está a usá-los para representar os itens de uma lista."
-      },
-      "field_02": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;fieldset&gt;</code> fora do formulário.",
-        "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;fieldset&gt;</code> fora do formulário."
-      },
-      "field_01": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;fieldset&gt;</code> sem descrição.",
-        "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;fieldset&gt;</code> sem descrição."
-      },
-      "label_02": {
-        "s": "Localizei <mark>{{value}}</mark> elemento <code>&lt;label&gt;</code> que não está visível ou está incorretamente posicionado.",
-        "p": "Localizei <mark>{{value}}</mark> elementos <code>&lt;label&gt;</code> que não estão visíveis ou estão incorretamente posicionados."
-      },
-      "input_02b": {
-        "s": "Constatei que <mark>todos</mark> os controlos de formulário têm um nome acessivel.",
-        "p": "Constatei que <mark>todos</mark> os controlos de formulário têm um nome acessivel."
-      },
-      "input_02": {
-        "s": "Encontrei <mark>{{value}}</mark> controlo de formulário sem nome acessível.",
-        "p": "Encontrei <mark>{{value}}</mark> controlos de formulário sem nome acessivel."
-      },
-      "input_01": {
-        "s": "Identifiquei <mark>{{value}}</mark> controlo de formulário sem o elemento <code>&lt;label&gt;</code> associado e sem o atributo <code>title</code>.",
-        "p": "Identifiquei <mark>{{value}}</mark> controlos de formulário sem o elemento <code>&lt;label&gt;</code> associado e sem o atributo <code>title</code>."
-      },
-      "focus_01": {
-        "s": "Encontrei <mark>{{value}}</mark> caso em que se usa javascript para remover o foco do campo, sempre que o campo recebe o foco.",
-        "p": "Encontrei <mark>{{value}}</mark> casos em que se usa javascript para remover o foco do campo, sempre que o campo recebe o foco."
-      },
-      "input_03": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;input&gt;</code> com o atributo <code>alt</code> que não é botão gráfico.",
-        "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;input&gt;</code> com o atributo <code>alt</code> que não são botões gráficos."
-      },
-      "form_01a": {
-        "s": "Constatei que <mark>todos</mark> os formulários têm um botão para submeter os dados ao servidor.",
-        "p": "Constatei que <mark>todos</mark> os formulários têm um botão para submeter os dados ao servidor."
-      },
-      "form_01b": {
-        "s": "Identifiquei <mark>{{value}}</mark> formulário sem o botão para submeter os dados ao servidor.",
-        "p": "Identifiquei <mark>{{value}}</mark> formulários sem o botão para submeter os dados ao servidor."
-      },
-      "table_02": {
-        "s": "Localizei <mark>{{value}}</mark> tabela de dados sem o elemento <code>&lt;caption&gt;</code>.",
-        "p": "Localizei <mark>{{value}}</mark> tabelas de dados sem o elemento <code>&lt;caption&gt;</code>."
-      },
-      "table_03": {
-        "s": "Localizei <mark>{{value}}</mark> tabela em que o texto afixado em <code>&lt;caption&gt;</code> e <code>summary</code> é o mesmo.",
-        "p": "Localizei <mark>{{value}}</mark> tabelas em que o texto afixado em <code>&lt;caption&gt;</code> e <code>summary</code> é o mesmo."
-      },
-      "table_01": {
-        "s": "Encontrei <mark>{{value}}</mark> tabela sem cabeçalhos identificados mas que usa o elemento <code>&lt;caption&gt;</code>.",
-        "p": "Encontrei <mark>{{value}}</mark> tabelas sem cabeçalhos identificados mas que usam o elemento <code>&lt;caption&gt;</code>."
-      },
-      "table_06": {
-        "s": "Encontrei <mark>{{value}}</mark> tabela de dados complexos - em que múltiplas linhas configuram as células cabeçalho -, nas quais se constatou existirem células de dados sem o atributo <code>&lt;headers&gt;</code>.",
-        "p": "Encontrei <mark>{{value}}</mark> tabelas de dados complexos - em que múltiplas linhas configuram as células cabeçalho -, nas quais se constatou existirem células de dados sem o atributo <code>&lt;headers&gt;</code>."
-      },
-      "scope_01": {
-        "s": "Verifiquei que há <mark>{{value}}</mark> caso em que o atributo <code>scope</code> da tabela de dados é inválido.",
-        "p": "Verifiquei que há <mark>{{value}}</mark> casos em que o atributo <code>scope</code> da tabela de dados é inválido."
-      },
-      "table_05a": {
-        "s": "Encontrei <mark>{{value}}</mark> tabela sem cabeçalhos marcados.",
-        "p": "Encontrei <mark>{{value}}</mark> tabelas sem cabeçalhos marcados."
-      },
-      "table_04": {
-        "s": "Verifiquei que há <mark>{{value}}</mark> tabela que está dentro de outra.",
-        "p": "Verifiquei que há <mark>{{value}}</mark> tabelas que estão umas dentro de outras."
-      },
-      "iframe_01": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;iframe&gt;</code> sem <code>title</code>.",
-        "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;iframe&gt;</code> sem <code>title</code>."
-      },
-      "frame_01": {
-        "s": "Identifiquei <mark>{{value}}</mark> elemento frame sem o atributo <code>title</code> ou em que o mesmo é nulo.",
-        "p": "Identifiquei <mark>{{value}}</mark> elementos frame sem o atributo <code>title</code> ou em que o mesmo é nulo."
-      },
-      "win_01": {
-        "s": "Constatei que esta página tem janelas pop-up.",
-        "p": "Constatei que esta página tem janelas pop-up."
+      "a_13": {
+      "title": "Encontrei páginas com Links com o mesmo nome acessível e contexto mas destinos diferentes",
+      "s": "Encontrei <mark>{{value}}</mark> grupo de links com o mesmo nome acessível e contexto mas cujo destino é diferente.",
+      "p": "Encontrei <mark>{{value}}</mark> grupos de links com o mesmo nome acessível e contexto mas cujos destinos são diferentes."
       },
       "abbr_01": {
-        "s": "Encontrei <mark>{{value}}</mark> abreviatura em que se esqueceu de colocar o valor por extenso.",
-        "p": "Encontrei <mark>{{value}}</mark> abreviaturas em que se esqueceu de colocar o valor por extenso."
+      "title": "Encontrei páginas onde há abreviaturas que não têm a correspondente extensão",
+      "s": "Encontrei <mark>{{value}}</mark> abreviatura em que se esqueceu de colocar o valor por extenso.",
+      "p": "Encontrei <mark>{{value}}</mark> abreviaturas em que se esqueceu de colocar o valor por extenso."
       },
-      "css_01": {
-        "s": "Identifiquei <mark>{{value}}</mark> caso em que nas CSS se especifica um espaçamento entre linhas inferior a 1.5.",
-        "p": "Identifiquei <mark>{{value}}</mark> casos em que nas CSS se especifica um espaçamento entre linhas inferior a 1.5."
+      "area_01a": {
+      "title": "Encontrei páginas em que todos os elementos <area> ativos encontrados usam o atributo alt",
+      "s": "Constatei que <mark>todas</mark> as <code>&lt;area&gt;</code> ativas dos mapas de imagem da página fazem uso do atributo <code>alt</code>.",
+      "p": "Constatei que <mark>todas</mark> as <code>&lt;area&gt;</code> ativas dos mapas de imagem da página fazem uso do atributo <code>alt</code>."
       },
-      "justif_txt_01": {
-        "s": "Encontrei <mark>{{value}}</mark> caso em que se usa texto justificado via HTML.",
-        "p": "Encontrei <mark>{{value}}</mark> casos em que se usa texto justificado via HTML."
+      "area_01b": {
+      "title": "Encontrei páginas em que os elementos <area> não têm o atributo alt ou então o atributo alt está vazio",
+      "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;area&gt;</code> sem atributo <code>alt</code> ou com <code>alt=\"\"</code>.",
+      "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;area&gt;</code> sem atributo <code>alt</code> ou com <code>alt=\"\"</code>."
       },
-      "justif_txt_02": {
-        "s": "Identifiquei <mark>{{value}}</mark> caso em que se usa texto justificado via CSS.",
-        "p": "Identifiquei <mark>{{value}}</mark> casos em que se usa texto justificado via CSS."
+      "aria_01": {
+      "title": "Encontrei elementos dentro do seu contexto obrigatório",
+      "s": "Verifiquei que <mark>todos os elementos</mark> com papel semântico definido explicitamente estão dentro dos contextos obrigatórios.",
+      "p": "Verifiquei que <mark>todos os elementos</mark> com papel semântico definido explicitamente estão dentro dos contextos obrigatórios."
       },
-      "font_02": {
-        "s": "Identifiquei <mark>{{value}}</mark> caso em que o tamanho de letra está expresso em unidades de medida absolutas.",
-        "p": "Identifiquei <mark>{{value}}</mark> casos em que o tamanho de letra está expresso em unidades de medida absolutas."
+      "aria_02": {
+      "title": "Encontrei elementos com filhos obrigatórios",
+      "s": "Constatei que <mark>todos os elementos</mark> com papel semântico definido explicitamente têm pelo menos um dos elementos filho obrigatórios.",
+      "p": "Constatei que <mark>todos os elementos</mark> com papel semântico definido explicitamente têm pelo menos um dos elementos filho obrigatórios."
       },
-      "layout_03": {
-        "s": "Identifiquei <mark>{{value}}</mark> caso na CSS em que se utiliza unidade de medida <code>px</code> para definir a largura das caixas de texto.",
-        "p": "Identifiquei <mark>{{value}}</mark> casos na CSS em que se utilizam unidades de medida <code>px</code> para definir a largura das caixas de texto."
+      "aria_03": {
+      "title": "Encontrei estados e propriedades ARIA de tipo válido",
+      "s": "Verifiquei que <mark>todos</mark> os estados e todas as propriedades ARIA têm um tipo de valor válido.",
+      "p": "Verifiquei que <mark>todos</mark> os estados e todas as propriedades ARIA têm um tipo de valor válido."
       },
-      "values_02a": {
-        "s": "Identifiquei <mark>{{value}}</mark> caso na CSS em que se utiliza unidade de medida absoluta para definir a largura das caixas de conteúdo.",
-        "p": "Identifiquei <mark>{{value}}</mark> casos na CSS em que se utilizam unidades de medida absolutas para definir a largura das caixas de conteúdo."
+      "aria_04": {
+      "title": "Encontrei estados e propriedades ARIA de tipo inválido",
+      "s": "Encontrei <mark>{{value}}</mark> estado ou propriedade ARIA com um valor de tipo incorreto.",
+      "p": "Encontrei <mark>{{value}}</mark> estados ou propriedades ARIA com tipos de valor incorretos."
       },
-      "values_02b": {
-        "s": "Identifiquei <mark>{{value}}</mark> caso na CSS em que se utiliza unidade de medida relativa para definir a largura das caixas de conteúdo.",
-        "p": "Identifiquei <mark>{{value}}</mark> casos na CSS em que se utilizam unidades de medida relativas para definir a largura das caixas de conteúdo."
+      "aria_05": {
+      "title": "Encontrei estados e propriedades ARIA com valores permitidos",
+      "s": "Verifiquei que <mark>todos</mark> os estados e todas as propriedades ARIA são permitidos.",
+      "p": "Verifiquei que <mark>todos</mark> os estados e todas as propriedades ARIA são permitidos."
       },
-      "values_01a": {
-        "s": "Verifiquei que há <mark>{{value}}</mark> caso em que as unidades de medida que definem a largura dos elementos de conteúdo existentes no HTML estão expressas em valores absolutos.",
-        "p": "Verifiquei que há <mark>{{value}}</mark> casos em que as unidades de medida que definem a largura dos elementos de conteúdo existentes no HTML estão expressas em valores absolutos."
+      "aria_06": {
+      "title": "Encontrei estados e propriedades ARIA com valores não permitidos",
+      "s": "Encontrei <mark>{{value}}</mark> estado ou propriedade ARIA que não é permitido.",
+      "p": "Encontrei <mark>{{value}}</mark> estados ou propriedades ARIA que não são permitido."
       },
-      "values_01b": {
-        "s": "Verifiquei que há <mark>{{value}}</mark> caso em que as unidades de medida que definem a largura dos elementos de conteúdo existentes no HTML estão expressas em valores relativos.",
-        "p": "Verifiquei que há <mark>{{value}}</mark> casos em que as unidades de medida que definem a largura dos elementos de conteúdo existentes no HTML estão expressas em valores relativos."
+      "aria_07": {
+      "title": "Encontrei atributos ARIA bem definidos",
+      "s": "Verifiquei que <mark>todos</mark> os atributos aria-* estão de acordo com a especificação ARIA.",
+      "p": "Verifiquei que <mark>todos</mark> os atributos aria-* estão de acordo com a especificação ARIA."
       },
-      "color_02": {
-        "s": "Localizei <mark>{{value}}</mark> combinação de cor cuja relação de contraste é inferior ao rácio mínimo de contraste permitido pelas WCAG, ou seja 3 para 1 para texto com letra grande e 4,5 para 1 para texto com letra normal.",
-        "p": "Localizei <mark>{{value}}</mark> combinações de cor cuja relação de contraste é inferior ao rácio mínimo de contraste permitido pelas WCAG, ou seja 3 para 1 para texto com letra grande e 4,5 para 1 para texto com letra normal."
+      "aria_08": {
+      "title": "Encontrei atributos ARIA mal definidos",
+      "s": "Encontrei <mark>{{value}}</mark> atributo aria-* que não está na especificação ARIA.",
+      "p": "Encontrei <mark>{{value}}</mark> atributos aria-* que não estão na especificação ARIA."
       },
-      "color_02b": {
-        "s": "Localizei <mark>{{value}}</mark> combinação de cores cujo rácio de contraste cumpre o rácio de contraste mínimo permitido pelas WCAG, que é de 3:1 para texto com tipos de letra maiores e de 4,5:1 para texto com tipos de letra normais.",
-        "p": "Localizei <mark>{{value}}</mark> combinações de cores cujos rácios de contraste cumprem o rácio de contraste mínimo permitido pelas WCAG, que é de 3:1 para texto com tipos de letra maiores e de 4,5:1 para texto com tipos de letra normais."
+      "audio_video_01": {
+      "title": "Elementos <code>audio</code> e <code>video</code> não tocam automaticamente",
+      "s": "Não encontrei <mark>nenhum</mark> elemento <code>&lt;audio&gt;</code> ou <code>&lt;video&gt;</code> que iniciasse automaticamente.",
+      "p": "Não encontrei <mark>nenhum</mark> elemento <code>&lt;audio&gt;</code> ou <code>&lt;video&gt;</code> que iniciasse automaticamente."
       },
-      "color_01": {
-        "s": "Identifiquei <mark>{{value}}</mark> regra de CSS em que não se especifica a cor da letra ou a cor do fundo.",
-        "p": "Identifiquei <mark>{{value}}</mark> regras de CSS em que não se especifica a cor da letra ou a cor do fundo."
+      "audio_video_02": {
+      "title": "Elementos <code>audio</code> e <code>video</code> que tocam automaticamente",
+      "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;audio&gt;</code> ou <code>&lt;video&gt;</code> que inicia automaticamente.",
+      "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;audio&gt;</code> ou <code>&lt;video&gt;</code> que iniciam automaticamente."
+      },
+      "autocomplete_01": {
+      "title": "Atributos autocomplete válidos",
+      "s": "Constatei que <mark>todos</mark> os atributos autocomplete têm um valor válido.",
+      "p": "Constatei que <mark>todos</mark> os atributos autocomplete têm um valor válido."
+      },
+      "autocomplete_02": {
+      "title": "Atributos autocomplete inválidos",
+      "s": "Identifiquei <mark>{{value}}</mark> atributo autocomplete com um valor inválido.",
+      "p": "Identifiquei <mark>{{value}}</mark> atributos autocomplete com valores inválidos."
       },
       "blink_02": {
+          "title": "Valores <code>&lt;blink&gt;</code> em CSS provocam cintilação de partes do conteúdo",
         "s": "Encontrei <mark>{{value}}</mark> valor <code>&lt;blink&gt;</code> nas CSS que provoca o cintilar de partes do conteúdo.",
         "p": "Localizei <mark>{{value}}</mark> valores <code>&lt;blink&gt;</code> nas CSS que provocam o cintilar de partes do conteúdo."
       },
-      "ehandler_03": {
-        "s": "Identifiquei <mark>{{value}}</mark> caso em que se faz uso de manipuladores de eventos redundantes.",
-        "p": "Identifiquei <mark>{{value}}</mark> casos em que se faz uso de manipuladores de eventos redundantes."
+      "button_01": {
+      "title": "<code>button</code> com nome acessível não vazio",
+      "s": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;button&gt;</code> têm nome acessível.",
+      "p": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;button&gt;</code> têm nome acessível."
+      },
+      "button_02": {
+      "title": "<code>button</code> com nome acessível vazio",
+      "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;button&gt;</code> sem nome acessível.",
+      "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;button&gt;</code> sem nome acessível."
+      },   
+      "br_01": {
+        "title": "Sequências de 3 ou mais elementos <code>&lt;br&gt;</code>",
+        "s": "Encontrei <mark>{{value}}</mark> sequência composta por 3 ou mais elementos <code>&lt;br&gt;</code> - desconfio que está a usá-los para representar os itens de uma lista.",
+        "p": "Encontrei <mark>{{value}}</mark> sequências compostas por 3 ou mais elementos <code>&lt;br&gt;</code> - desconfio que está a usá-los para representar os itens de uma lista."
+      },
+      
+      "color_01": {
+      "title": "Encontrei páginas em que as regras de CSS que não especificam a cor da letra ou a cor do fundo",
+      "s": "Identifiquei <mark>{{value}}</mark> regra de CSS em que não se especifica a cor da letra ou a cor do fundo.",
+      "p": "Identifiquei <mark>{{value}}</mark> regras de CSS em que não se especifica a cor da letra ou a cor do fundo."
+      },
+      "color_02": {
+      "title": "Encontrei páginas em que as combinações de cor cujas relações de contraste são menores que 4.5:1 para texto normal ou 3:1 para texto grande",
+      "s": "Localizei <mark>{{value}}</mark> combinação de cor cuja relação de contraste é inferior ao rácio mínimo de contraste permitido pelas WCAG, ou seja 3 para 1 para texto com letra grande e 4,5 para 1 para texto com letra normal.",
+      "p": "Localizei <mark>{{value}}</mark> combinações de cor cuja relação de contraste é inferior ao rácio mínimo de contraste permitido pelas WCAG, ou seja 3 para 1 para texto com letra grande e 4,5 para 1 para texto com letra normal."
+      },
+      "color_02b": {
+        "title": "Encontrei combinações de cores cujo rácio de contraste cumpre o rácio de contraste mínimo permitido pelas WCAG",
+        "s": "Localizei <mark>{{value}}</mark> combinação de cores cujo rácio de contraste cumpre o rácio de contraste mínimo permitido pelas WCAG, que é de 3:1 para texto com tipos de letra maiores e de 4,5:1 para texto com tipos de letra normais.",
+        "p": "Localizei <mark>{{value}}</mark> combinações de cores cujos rácios de contraste cumprem o rácio de contraste mínimo permitido pelas WCAG, que é de 3:1 para texto com tipos de letra maiores e de 4,5:1 para texto com tipos de letra normais."
+      },
+      "css_01": {
+      "title": "Encontrei páginas em que as CSS especificam um espaçamento entre linhas inferior a 1.5",
+      "s": "Identifiquei <mark>{{value}}</mark> caso em que nas CSS se especifica um espaçamento entre linhas inferior a 1.5.",
+      "p": "Identifiquei <mark>{{value}}</mark> casos em que nas CSS se especifica um espaçamento entre linhas inferior a 1.5."
+      },
+      "css_02": {
+      "title": "Encontrei a propriedade de CSS overflow",
+      "s": "Verifiquei que existe <mark>{{value}}</mark> nó de texto com propriedade CSS <code>overflow</code> que pode impedir um utilizador de ver o texto quando faz zoom",
+      "p": "Verifiquei que existem <mark>{{value}}</mark> nós de texto com propriedade CSS <code>overflow</code> que podem impedir um utilizador de ver o texto quando faz zoom"
       },
       "ehandler_02": {
-        "s": "Identifiquei <mark>{{value}}</mark> caso em que não se faz uso de manipuladores de eventos redundantes.",
-        "p": "Identifiquei <mark>{{value}}</mark> casos em que não se faz uso de manipuladores de eventos redundantes."
+      "title": "Encontrei páginas em que não se usam manipuladores de eventos redundantes",
+      "s": "Identifiquei <mark>{{value}}</mark> caso em que não se faz uso de manipuladores de eventos redundantes.",
+      "p": "Identifiquei <mark>{{value}}</mark> casos em que não se faz uso de manipuladores de eventos redundantes."
+      },
+      "ehandler_03": {
+      "title": "Encontrei páginas com manipuladores de eventos redundantes",
+      "s": "Identifiquei <mark>{{value}}</mark> caso em que se faz uso de manipuladores de eventos redundantes.",
+      "p": "Identifiquei <mark>{{value}}</mark> casos em que se faz uso de manipuladores de eventos redundantes."
       },
       "ehandler_04": {
-        "s": "Identifiquei <mark>{{value}}</mark> caso em que se associam manipuladores de eventos a elementos não interativos.",
-        "p": "Identifiquei <mark>{{value}}</mark> casos em que se associam manipuladores de eventos a elementos não interativos."
+      "title": "Encontrei páginas com manipuladores de eventos associados a elementos não interativos",
+      "s": "Identifiquei <mark>{{value}}</mark> caso em que se associam manipuladores de eventos a elementos não interativos.",
+      "p": "Identifiquei <mark>{{value}}</mark> casos em que se associam manipuladores de eventos a elementos não interativos."
       },
-      "w3c_validator_01a": {
-        "s": "Perguntei ao validador de HTML do W3C e constatei que <mark>não existem erros</mark> de HTML.",
-        "p": "Perguntei ao validador de HTML do W3C e constatei que <mark>não existem erros</mark> de HTML."
+      "element_01": {
+      "title": "Elementos na ordem de foco sequencial",
+      "s": "Encontrei <mark>{{value}}</mark> elemento na ordem de foco sequencial.",
+      "p": "Encontrei <mark>{{value}}</mark> elementos na ordem de foco sequencial."
       },
-      "w3c_validator_01b": {
-        "s": "Perguntei ao validador de HTML do W3C e constatei que há <mark>{{value}} erro</mark> de HTML.",
-        "p": "Perguntei ao validador de HTML do W3C e constatei que há <mark>{{value}} erros</mark> de HTML."
+      "element_02": {
+      "title": "Elementos com o atributo aria-hidden sem conteúdo tocável",
+      "s": "Não encontrei <mark>nenhum elemento</mark> com o atributo aria-hidden que tenha conteúdo focável",
+      "p": "Não encontrei <mark>nenhum elemento</mark> marcado com aria-hidden que tenha conteúdo focável"
+      },
+      "element_03": {
+      "title": "Elementos com o atributo aria-hidden com conteúdo focável",
+      "s": "Encontrei <mark>{{value}}</mark> elemento com o atributo aria-hidden que tem conteúdo focável",
+      "p": "Encontrei <mark>{{value}}</mark> elementos com o atributo aria-hidden que têm conteúdo focável"
+      },
+      "element_04": {
+      "title": "Elementos marcados como decorativos",
+      "s": "Não encontrei elementos marcados como decorativos que tenham sido expostos a Tecnologias de Apoio",
+      "p": "Não encontrei elementos marcados como decorativos que tenham sido expostos a Tecnologias de Apoio"
+      },
+      "element_05": {
+      "title": "Elementos marcados como decorativos e expostos a tecnologias de apoio",
+      "s": "Identifiquei <mark>{{value}}</mark> elemento marcado como decorativo que está exposto a Tecnologias de Apoio",
+      "p": "Identifiquei <mark>{{value}}</mark> elementos marcados como decorativos que estão expostos a Tecnologias de Apoio"
+      },
+      "element_06": {
+      "title": "Elementos com atributo lang válido",
+      "s": "Verifiquei que <mark>todos</mark> os elementos com atributo lang têm uma etiqueta de linguagem válida",
+      "p": "Verifiquei que <mark>todos</mark> os elementos com atributo lang têm uma etiqueta de linguagem válida"
+      },
+      "element_07": {
+      "title": "Elementos com atributo lang inválido",
+      "s": "Encontrei <mark>{{value}}</mark> elemento com atributo lang que tem uma etiqueta de linguagem inválida",
+      "p": "Encontrei <mark>{{value}}</mark> elementos com atributo lang que têm etiquetas de linguagem inválidas"
+      },
+      "element_08": {
+      "title": "Elementos com descendentes decorativos",
+      "s": "Constatei que todos os elementos com um papel semântico que confere aos seus descendentes um papel decorativo, não têm descendentes focáveis",
+      "p": "Constatei que todos os elementos com um papel semântico que confere aos seus descendentes um papel decorativo, não têm descendentes focáveis"
+      },
+      "element_09": {
+      "title": "Elementos com descendentes decorativos focáveis",
+      "s": "Identifiquei <mark>{{value}}</mark> elemento com um papel semântico que confere aos seus descendentes um papel decorativo, que tem descendentes focáveis",
+      "p": "Identifiquei <mark>{{value}}</mark> elementos com papel semântico que confere aos seus descendentes um papel decorativo, que têm descendentes focáveis"
+      },
+      "element_10": {
+      "title": "Elementos com papel semântico explícito",
+      "s": "Constatei que <mark>todos</mark> os elementos com papel semântico explícito têm os necessários estados e propriedades.",
+      "p": "Constatei que <mark>todos</mark> os elementos com papel semântico explícito têm os necessários estados e propriedades."
+      },
+      "field_01": {
+      "title": "Encontrei páginas com elementos <fieldset> sem descrição",
+      "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;fieldset&gt;</code> sem descrição.",
+      "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;fieldset&gt;</code> sem descrição."
+      },
+      "field_02": {
+      "title": "Encontrei páginas com elementos <fieldset> fora do elemento <form>",
+      "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;fieldset&gt;</code> fora do formulário.",
+      "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;fieldset&gt;</code> fora do formulário."
+      },
+      "focus_01": {
+      "title": "Encontrei páginas em que o Javascript é usado para remover o foco do campo",
+      "s": "Encontrei <mark>{{value}}</mark> caso em que se usa javascript para remover o foco do campo, sempre que o campo recebe o foco.",
+      "p": "Encontrei <mark>{{value}}</mark> casos em que se usa javascript para remover o foco do campo, sempre que o campo recebe o foco."
       },
       "font_01": {
-        "s": "Localizei <mark>{{value}}</mark> elemento ou atributo de HTML que está a ser usado para controlo da apresentação visual do texto.",
-        "p": "Localizei <mark>{{value}}</mark> elementos ou atributos de HTML que estão a ser usados para controlo da apresentação visual do texto."
+      "title": "Encontrei páginas com elementos ou atributos HTML que controlam a apresentação visual do texto",
+      "s": "Localizei <mark>{{value}}</mark> elemento ou atributo de HTML que está a ser usado para controlo da apresentação visual do texto.",
+      "p": "Localizei <mark>{{value}}</mark> elementos ou atributos de HTML que estão a ser usados para controlo da apresentação visual do texto."
       },
-      "layout_01a": {
-        "s": "Constatei que <mark>não há</mark> elementos obsoletos usados para controlo visual da apresentação.",
-        "p": "Constatei que <mark>não há</mark> elementos obsoletos usados para controlo visual da apresentação."
+      "font_02": {
+      "title": "Encontrei páginas em que o tamanhos de letra está incorretamente definido com unidades de medida absolutas",
+      "s": "Identifiquei <mark>{{value}}</mark> caso em que o tamanho de letra está expresso em unidades de medida absolutas.",
+      "p": "Identifiquei <mark>{{value}}</mark> casos em que o tamanho de letra está expresso em unidades de medida absolutas."
       },
-      "layout_01b": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento obsoleto usado para controlar a apresentação visual.",
-        "p": "Encontrei <mark>{{value}}</mark> elementos obsoletos usados para controlar a apresentação visual."
+      "form_01a": {
+      "title": "Encontrei páginas em que todos os formulários têm um botão para submeter os dados",
+      "s": "Constatei que <mark>todos</mark> os formulários têm um botão para submeter os dados ao servidor.",
+      "p": "Constatei que <mark>todos</mark> os formulários têm um botão para submeter os dados ao servidor."
       },
-      "lang_01": {
-        "s": "Verifiquei que o idioma principal da página <mark>está marcado</mark> como <mark>\"{{value}}\"</mark>.",
-        "p": "Verifiquei que o idioma principal da página <mark>está marcado</mark> como <mark>\"{{value}}\"</mark>."
+      "form_01b": {
+      "title": "Encontrei páginas em os formulários não têm um botão para submeter os dados",
+      "s": "Identifiquei <mark>{{value}}</mark> formulário sem o botão para submeter os dados ao servidor.",
+      "p": "Identifiquei <mark>{{value}}</mark> formulários sem o botão para submeter os dados ao servidor."
       },
-      "lang_03": {
-        "s": "Constatei que o atributo <mark>{{value}} se encontra em falta</mark>.",
-        "p": "Constatei que o atributo <mark>{{value}} se encontra em falta</mark>."
+      "frame_01": {
+      "title": "Encontrei páginas com elementos frame sem atributo title ou cujo atributo title está vazio",
+      "s": "Identifiquei <mark>{{value}}</mark> elemento frame sem o atributo <code>title</code> ou em que o mesmo é nulo.",
+      "p": "Identifiquei <mark>{{value}}</mark> elementos frame sem o atributo <code>title</code> ou em que o mesmo é nulo."
       },
-      "lang_02": {
-        "s": "Verifiquei que o idioma principal da página está <mark>incorretamente marcado</mark>. <mark>\"{{value}}\" existe?",
-        "p": "Verifiquei que o idioma principal da página está <mark>incorretamente marcado</mark>. <mark>\"{{value}}\" existe?"
+      "headers_01": {
+      "title": "Atributos <code>headers</code> identificam células na mesma tabela",
+      "s": "Verifiquei que <mark>todos</mark> os atributos <code>headers</code> apontam para células da mesma tabela.",
+      "p": "Verifiquei que <mark>todos</mark> os atributos <code>headers</code> apontam para células da mesma tabela."
       },
-      "lang_04": {
-        "s": "Constatei que os atributos <code>lang</code> e/ou <code>xml:lang</code> estão a ser utilizados <mark>de forma incorreta</mark>.",
-        "p": "Constatei que os atributos <code>lang</code> e/ou <code>xml:lang</code> estão a ser utilizados <mark>de forma incorreta</mark>."
-      },
-      "title_02": {
-        "s": "Verifiquei que esta página <mark>não tem</mark> título - falta-lhe o elemento <code>&lt;title&gt;</code>.",
-        "p": "Verifiquei que esta página <mark>não tem</mark> título - falta-lhe o elemento <code>&lt;title&gt;</code>."
-      },
-      "title_03": {
-        "s": "Verifiquei que esta página não tem título - o elemento <code>&lt;title&gt;</code> <mark>está vazio</mark>.",
-        "p": "Verifiquei que esta página não tem título - o elemento <code>&lt;title&gt;</code> <mark>está vazio</mark>."
-      },
-      "title_06": {
-        "s": "Encontrei <mark>um título</mark> na página e ele parece-me correto.",
-        "p": "Encontrei <mark>um título</mark> na página e ele parece-me correto."
-      },
-      "title_04": {
-        "s": "Parece-me que o título da página é demasiado grande - ele contém <mark>{{value}}</mark> carateres.",
-        "p": "Parece-me que o título da página é demasiado grande - ele contém <mark>{{value}}</mark> carateres."
-      },
-      "title_05": {
-        "s": "Verifiquei que o título da página tem <mark>{{value}}</mark> carateres seguidos que me parecem ser Arte-ASCII.",
-        "p": "Verifiquei que o título da página tem <mark>{{value}}</mark> carateres seguidos que me parecem ser Arte-ASCII."
-      },
-      "title_01": {
-        "s": "Verifiquei que esta página não tem apenas um elemento <code>&lt;title&gt;</code>, como era suposto, mas <mark>{{value}}</mark>.",
-        "p": "Verifiquei que esta página não tem apenas um elemento <code>&lt;title&gt;</code>, como era suposto, mas <mark>{{value}}</mark>."
-      },
-      "link_01": {
-        "s": "Localizei nos metadados da página <mark>{{value}}</mark> elemento <code>&lt;link&gt;</code> que poderá servir para construir um sistema de navegação.",
-        "p": "Localizei nos metadados da página <mark>{{value}}</mark> elementos <code>&lt;link&gt;</code> que poderão servir para construir um sistema de navegação.."
-      },
-      "meta_01": {
-        "s": "Constatei que a página <mark>reinicia-se automaticamente</mark> através do elemento <code>&lt;meta http-equiv=\"refresh\"&gt;</code>.",
-        "p": "Constatei que a página <mark>reinicia-se automaticamente</mark> através do elemento <code>&lt;meta http-equiv=\"refresh\"&gt;</code>."
-      },
-      "meta_02": {
-        "s": "Constatei que a página é <mark>redireccionada automaticamente</mark> através do elemento <code>&lt;meta http-equiv=\"redirect\"&gt;</code>.",
-        "p": "Constatei que a página é <mark>redireccionada automaticamente</mark> através do elemento <code>&lt;meta http-equiv=\"redirect\"&gt;</code>."
+      "headers_02": {
+      "title": "Atributos <code>headers</code> identificam células noutra tabela",
+      "s": "Localizei <mark>{{value}}</mark> atributo <code>headers</code> que aponta para células fora da tabela.",
+      "p": "Localizei <mark>{{value}}</mark> atributos <code>headers</code> que apontam para células fora das suas tabelas."
       },
       "heading_01": {
-        "s": "Constatei que todos os cabeçalhos desta página <mark>têm</mark> nome acessível",
-        "p": "Constatei que todos os cabeçalhos desta página <mark>têm</mark> nome acessível"
+      "title": "Encontrei paginas em que os cabeçalhos têm nome acessivél",
+      "s": "Constatei que todos os cabeçalhos desta página <mark>têm</mark> nome acessível",
+      "p": "Constatei que todos os cabeçalhos desta página <mark>têm</mark> nome acessível"
       },
       "heading_02": {
-        "s": "Identifiquei <mark>{{value}}</mark> cabeçalho sem nome acessível.",
-        "p": "Identifiquei <mark>{{value}}</mark> cabeçalhos sem nome acessível."
+      "title": "Encontrei paginas em que os cabeçalhos não têm nome acessivél",
+      "s": "Identifiquei <mark>{{value}}</mark> cabeçalho sem nome acessível.",
+      "p": "Identifiquei <mark>{{value}}</mark> cabeçalhos sem nome acessível."
       },
       "heading_03": {
+        "title": "Apenas um elemento <code>h1</code>",
         "s": "Identifiquei exatamente um cabeçalho de nível 1.",
         "p": "Identifiquei exatamente um cabeçalho de nível 1."
       },
       "heading_04": {
+        "title":"Zero ou mais de um elemento <code>h1</code>",
         "s": "Identifiquei <mark>{{value}}</mark> cabeçalhos de nível 1. Devia haver um.",
         "p": "Identifiquei <mark>{{value}}</mark> cabeçalhos de nível 1. Devia haver um."
       },
-      "aria_01": {
-        "s": "Verifiquei que <mark>todos os elementos</mark> com papel semântico definido explicitamente estão dentro dos contextos obrigatórios.",
-        "p": "Verifiquei que <mark>todos os elementos</mark> com papel semântico definido explicitamente estão dentro dos contextos obrigatórios."
+      "hx_01a": {
+      "title": "Encontrei páginas sem cabeçalhos",
+      "s": "Constatei que esta página <mark>não tem</mark> cabeçalhos",
+      "p": "Constatei que esta página <mark>não tem</mark> cabeçalhos"
       },
-      "aria_02": {
-        "s": "Constatei que <mark>todos os elementos</mark> com papel semântico definido explicitamente têm pelo menos um dos elementos filho obrigatórios.",
-        "p": "Constatei que <mark>todos os elementos</mark> com papel semântico definido explicitamente têm pelo menos um dos elementos filho obrigatórios."
+      "hx_01b": {
+      "title": "Encontrei páginas em que se usam cabeçalhos",
+      "s": "Encontrei <mark>{{value}}</mark> cabeçalho na página.",
+      "p": "Encontrei <mark>{{value}}</mark> cabeçalhos na página."
       },
-      "aria_03": {
-        "s": "Verifiquei que <mark>todos</mark> os estados e todas as propriedades ARIA têm um tipo de valor válido.",
-        "p": "Verifiquei que <mark>todos</mark> os estados e todas as propriedades ARIA têm um tipo de valor válido."
+      "hx_01c": {
+      "title": "Encontrei páginas em que não há um cabeçalho principal marcado (H1)",
+      "s": "<mark>Não encontrei</mark> nesta página um cabeçalho principal <code>&lt;H1&gt;</code> marcado.",
+      "p": "<mark>Não encontrei</mark> nesta página um cabeçalho principal <code>&lt;H1&gt;</code> marcado."
       },
-      "aria_04": {
-        "s": "Encontrei <mark>{{value}}</mark> estado ou propriedade ARIA com um valor de tipo incorreto.",
-        "p": "Encontrei <mark>{{value}}</mark> estados ou propriedades ARIA com tipos de valor incorretos."
+      "hx_02": {
+      "title": "Encontrei páginas em que há cabeçalhos cujo conteúdo é apenas uma imagem sem o equivalente alternativo em texto",
+      "s": "Encontrei <mark>{{value}}</mark> cabeçalho cujo conteúdo é apenas composto por uma imagem sem atributo <code>alt</code>, ou seja sem qualquer equivalente textual alternativo.",
+      "p": "Encontrei <mark>{{value}}</mark> cabeçalhos cujo conteúdo é apenas composto por uma imagem sem atributo <code>alt</code>, ou seja sem qualquer equivalente textual alternativo."
       },
-      "aria_05": {
-        "s": "Verifiquei que <mark>todos</mark> os estados e todas as propriedades ARIA são permitidos.",
-        "p": "Verifiquei que <mark>todos</mark> os estados e todas as propriedades ARIA são permitidos."
-      },
-      "aria_06": {
-        "s": "Encontrei <mark>{{value}}</mark> estado ou propriedade ARIA que não é permitido.",
-        "p": "Encontrei <mark>{{value}}</mark> estados ou propriedades ARIA que não são permitido."
-      },
-      "aria_07": {
-        "s": "Verifiquei que <mark>todos</mark> os atributos aria-* estão de acordo com a especificação ARIA.",
-        "p": "Verifiquei que <mark>todos</mark> os atributos aria-* estão de acordo com a especificação ARIA."
-      },
-      "aria_08": {
-        "s": "Encontrei <mark>{{value}}</mark> atributo aria-* que não está na especificação ARIA.",
-        "p": "Encontrei <mark>{{value}}</mark> atributos aria-* que não estão na especificação ARIA."
-      },
-      "audio_video_01": {
-        "s": "Não encontrei <mark>nenhum</mark> elemento <code>&lt;audio&gt;</code> ou <code>&lt;video&gt;</code> que iniciasse automaticamente.",
-        "p": "Não encontrei <mark>nenhum</mark> elemento <code>&lt;audio&gt;</code> ou <code>&lt;video&gt;</code> que iniciasse automaticamente."
-      },
-      "audio_video_02": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;audio&gt;</code> ou <code>&lt;video&gt;</code> que inicia automaticamente.",
-        "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;audio&gt;</code> ou <code>&lt;video&gt;</code> que iniciam automaticamente."
-      },
-      "autocomplete_01": {
-        "s": "Constatei que <mark>todos</mark> os atributos autocomplete têm um valor válido.",
-        "p": "Constatei que <mark>todos</mark> os atributos autocomplete têm um valor válido."
-      },
-      "autocomplete_02": {
-        "s": "Identifiquei <mark>{{value}}</mark> atributo autocomplete com um valor inválido.",
-        "p": "Identifiquei <mark>{{value}}</mark> atributos autocomplete com valores inválidos."
-      },
-      "button_01": {
-        "s": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;button&gt;</code> têm nome acessível.",
-        "p": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;button&gt;</code> têm nome acessível."
-      },
-      "button_02": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;button&gt;</code> sem nome acessível.",
-        "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;button&gt;</code> sem nome acessível."
-      },
-      "element_01": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento na ordem de foco sequencial.",
-        "p": "Encontrei <mark>{{value}}</mark> elementos na ordem de foco sequencial."
-      },
-      "element_02": {
-        "s": "Não encontrei <mark>nenhum elemento</mark> com o atributo aria-hidden que tenha conteúdo focável",
-        "p": "Não encontrei <mark>nenhum elemento</mark> marcado com aria-hidden que tenha conteúdo focável"
-      },
-      "element_03": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento com o atributo aria-hidden que tem conteúdo focável",
-        "p": "Encontrei <mark>{{value}}</mark> elementos com o atributo aria-hidden que têm conteúdo focável"
-      },
-      "element_04": {
-        "s": "Não encontrei elementos marcados como decorativos que tenham sido expostos a Tecnologias de Apoio",
-        "p": "Não encontrei elementos marcados como decorativos que tenham sido expostos a Tecnologias de Apoio"
-      },
-      "element_05": {
-        "s": "Identifiquei <mark>{{value}}</mark> elemento marcado como decorativo que está exposto a Tecnologias de Apoio",
-        "p": "Identifiquei <mark>{{value}}</mark> elementos marcados como decorativos que estão expostos a Tecnologias de Apoio"
-      },
-      "element_06": {
-        "s": "Verifiquei que <mark>todos</mark> os elementos com atributo lang têm uma etiqueta de linguagem válida",
-        "p": "Verifiquei que <mark>todos</mark> os elementos com atributo lang têm uma etiqueta de linguagem válida"
-      },
-      "element_07": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento com atributo lang que tem uma etiqueta de linguagem inválida",
-        "p": "Encontrei <mark>{{value}}</mark> elementos com atributo lang que têm etiquetas de linguagem inválidas"
-      },
-      "element_08": {
-        "s": "Constatei que todos os elementos com um papel semântico que confere aos seus descendentes um papel decorativo, não têm descendentes focáveis",
-        "p": "Constatei que todos os elementos com um papel semântico que confere aos seus descendentes um papel decorativo, não têm descendentes focáveis"
-      },
-      "element_09": {
-        "s": "Identifiquei <mark>{{value}}</mark> elemento com um papel semântico que confere aos seus descendentes um papel decorativo, que tem descendentes focáveis",
-        "p": "Identifiquei <mark>{{value}}</mark> elementos com papel semântico que confere aos seus descendentes um papel decorativo, que têm descendentes focáveis"
-      },
-      "element_10": {
-        "s": "Constatei que <mark>todos</mark> os elementos com papel semântico explícito têm os necessários estados e propriedades.",
-        "p": "Constatei que <mark>todos</mark> os elementos com papel semântico explícito têm os necessários estados e propriedades."
-      },
-      "headers_01": {
-        "s": "Verifiquei que <mark>todos</mark> os atributos <code>headers</code> apontam para células da mesma tabela.",
-        "p": "Verifiquei que <mark>todos</mark> os atributos <code>headers</code> apontam para células da mesma tabela."
-      },
-      "headers_02": {
-        "s": "Localizei <mark>{{value}}</mark> atributo <code>headers</code> que aponta para células fora da tabela.",
-        "p": "Localizei <mark>{{value}}</mark> atributos <code>headers</code> que apontam para células fora das suas tabelas."
+      "hx_03": {
+      "title": "Encontrei páginas em que a sequência hierárquica dos níveis de cabeçalho é violada",
+      "s": "Encontrei <mark>{{value}}</mark> caso em que se viola a sequência hierárquica dos níveis de cabeçalho.",
+      "p": "Encontrei <mark>{{value}}</mark> casos em que se viola a sequência hierárquica dos níveis de cabeçalho."
       },
       "id_01": {
-        "s": "Constatei que nesta página <mark>não há</marks> atributos <code>id</code> repetidos.",
-        "p": "Constatei que nesta página <mark>não há</marks> atributos <code>id</code> repetidos."
+      "title": "Encontrei páginas sem atributos id repetidos",
+      "s": "Constatei que nesta página <mark>não há</marks> atributos <code>id</code> repetidos.",
+      "p": "Constatei que nesta página <mark>não há</marks> atributos <code>id</code> repetidos."
       },
       "id_02": {
-        "s": "Encontrei nesta página <mark>{{value}}</mark> atributo <code>id</code> repetido.",
-        "p": "Encontrei nesta página <mark>{{value}}</mark> atributos <code>ids</code> repetidos."
+      "title": "Encontrei páginas com atributos id repetidos",
+      "s": "Encontrei nesta página <mark>{{value}}</mark> atributo <code>id</code> repetido.",
+      "p": "Encontrei nesta página <mark>{{value}}</mark> atributos <code>ids</code> repetidos."
+      },
+      "iframe_01": {
+      "title": "Encontrei páginas com elementos <iframe> sem o atributo title",
+      "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;iframe&gt;</code> sem <code>title</code>.",
+      "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;iframe&gt;</code> sem <code>title</code>."
       },
       "iframe_02": {
-        "s": "Encontrei <mark>{{value}}</mark> par de elementos <code>&lt;iframe&gt;</code> com o mesmo nome acessível que apontam para o mesmo conteúdo",
-        "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;iframe&gt;</code> com o mesmo nome acessível que apontam para o mesmo conteúdo"
+      "title": "Encontrei páginas com elementos <iframe> com o mesmo nome acessível que apresentam o mesmo recurso",
+      "s": "Encontrei <mark>{{value}}</mark> par de elementos <code>&lt;iframe&gt;</code> com o mesmo nome acessível que apontam para o mesmo conteúdo",
+      "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;iframe&gt;</code> com o mesmo nome acessível que apontam para o mesmo conteúdo"
       },
       "iframe_03": {
-        "s": "Encontrei <mark>{{value}}</mark> par de elementos <code>&lt;iframe&gt;</code> com o mesmo nome acessível",
-        "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;iframe&gt;</code> com o mesmo nome acessível"
+      "title": "Encontrei páginas com elementos <iframe> com o mesmo nome acessível",
+      "s": "Encontrei <mark>{{value}}</mark> par de elementos <code>&lt;iframe&gt;</code> com o mesmo nome acessível",
+      "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;iframe&gt;</code> com o mesmo nome acessível"
       },
       "iframe_04": {
-        "s": "Verifiquei que não existem elementos interativos dentro de elementos <code>&lt;iframe&gt;</code> com um atributo <code>tabindex</code> negativo",
-        "p": "Verifiquei que não existem elementos interativos dentro de elementos <code>&lt;iframe&gt;</code> com um atributo <code>tabindex</code> negativo"
+      "title": "Encontrei páginas com elementos <iframe> com tabindex negativo e sem elementos interativos",
+      "s": "Verifiquei que não existem elementos interativos dentro de elementos <code>&lt;iframe&gt;</code> com um atributo <code>tabindex</code> negativo",
+      "p": "Verifiquei que não existem elementos interativos dentro de elementos <code>&lt;iframe&gt;</code> com um atributo <code>tabindex</code> negativo"
       },
       "iframe_05": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;iframe&gt;</code> com um atributo <code>tabindex</code> com valor negativo que contém elementos interativos",
-        "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;iframe&gt;</code> com um atributo <code>tabindex</code> com valor negativo que contêm elementos interativos"
+      "title": "Encontrei páginas com elementos <iframe> com tabindex negativo e com elementos interativos",
+      "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;iframe&gt;</code> com um atributo <code>tabindex</code> com valor negativo que contém elementos interativos",
+      "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;iframe&gt;</code> com um atributo <code>tabindex</code> com valor negativo que contêm elementos interativos"
       },
-      "letter_01": {
-        "s": "Constatei que não se usam estilos para impedir aumentar o espaçamento entre letras",
-        "p": "Constatei que não se usam estilos para impedir aumentar o espaçamento entre letras"
+      "img_01a": {
+      "title": "Encontrei páginas em que todas as imagens têm um atributo com um equivalente alternativo em texto",
+      "s": "Constatei que <mark>todas</mark> as imagens da página têm o necessário equivalente alternativo em texto.",
+      "p": "Constatei que <mark>todas</mark> as imagens da página têm o necessário equivalente alternativo em texto."
       },
-      "letter_02": {
-        "s": "Identifiquei <mark>{{value}}</mark> elemento cujos estilos impedem o aumento do espaçamento entre letras para um valor que seja pelo menos 0,12 vezes o tamanho da fonte",
-        "p": "Identifiquei <mark>{{value}}</mark> elementos cujos estilos impedem o aumento do espaçamento entre letras para um valor que seja pelo menos 0,12 vezes o tamanho da fonte"
+      "img_01b": {
+      "title": "Encontrei páginas com imagens sem um atributo com um equivalente alternativo em texto",
+      "s": "Encontrei <mark>{{value}}</mark> imagem na página que não tem o necessário equivalente alternativo em texto.",
+      "p": "Encontrei <mark>{{value}}</mark> imagens na página que não têm o necessário equivalente alternativo em texto."
       },
-      "a_10": {
-        "s": "Verifiquei que <mark>todas</mark> as ligações têm nome acessível.",
-        "p": "Verifiquei que <mark>todas</mark> as ligações têm nome acessível."
+      "img_02": {
+      "title": "Encontrei páginas com imagens com alt=\"\" (alt vazio; imagem marcada como decorativa)",
+      "s": "Encontrei <mark>{{value}}</mark> imagem na página com <code>alt=\"\"</code> (alt vazio).",
+      "p": "Encontrei <mark>{{value}}</mark> imagens na página com <code>alt=\"\"</code> (alt vazio)."
       },
-      "a_11": {
-        "s": "Encontrei <mark>{{value}}</mark> ligação sem nome acessível.",
-        "p": "Encontrei <mark>{{value}}</mark> ligações sem nome acessível."
+      "img_03": {
+      "title": "Encontrei páginas com imagens com um atributo que não serve de equivalente alternativo em texto",
+      "s": "Encontrei <mark>{{value}}</mark> imagem na página com <code>alt</code> que não serve de equivalente alternativo.",
+      "p": "Encontrei <mark>{{value}}</mark> imagens na página com <code>alt</code> que não serve de equivalente alternativo."
       },
-      "a_12": {
-        "s": "Verifiquei que <mark>todos os grupos</mark> de links com o mesmo nome acessível e contexto têm o mesmo destino.",
-        "p": "Verifiquei que <mark>todos os grupos</mark> de links com o mesmo nome acessível e contexto têm o mesmo destino."
+      "img_04": {
+      "title": "Encontrei páginas com imagens com mais de 100 caracteres no atributo que serve de equivalente alternativo em texto",
+      "s": "Encontrei <mark>{{value}}</mark> imagem na página em que o <code>alt</code> tem mais de 100 carateres.",
+      "p": "Encontrei <mark>{{value}}</mark> imagens na página em que o <code>alt</code> tem mais de 100 carateres ."
       },
-      "a_13": {
-        "s": "Encontrei <mark>{{value}}</mark> grupo de links com o mesmo nome acessível e contexto mas cujo destino é diferente.",
-        "p": "Encontrei <mark>{{value}}</mark> grupos de links com o mesmo nome acessível e contexto mas cujos destinos são diferentes."
+      "inp_img_01a": {
+      "title": "Encontrei páginas em que todos os botões gráficos usam o atributo alt",
+      "s": "Constatei que <mark>todos</mark> os botões gráficos da página fazem uso do atributo <code>alt</code>.",
+      "p": "Constatei que <mark>todos</mark> os botões gráficos da página fazem uso do atributo <code>alt</code>."
       },
-      "menuItem_01": {
-        "s": "Verifiquei que <mark>todos</mark> os elementos com papel semântico <code>menuitem</code> têm nome acessível.",
-        "p": "Verifiquei que <mark>todos</mark> os elementos com papel semântico <code>menuitem</code> têm nome acessível."
+      "inp_img_01b": {
+      "title": "Encontrei páginas sem atributo alt nos botões gráficos",
+      "s": "Localizei <mark>{{value}}</mark> botão gráfico na página que não tem o atributo <code>alt</code>.",
+      "p": "Localizei <mark>{{value}}</mark> botões gráficos na página que não têm o atributo <code>alt</code>."
       },
-      "menuItem_02": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento com papel semântico <code>menuitem</code> sem nome acessível.",
-        "p": "Encontrei <mark>{{value}}</mark> elementos com papel semântico <code>menuitem</code> sem nome acessível."
+      "input_01": {
+      "title": "Encontrei páginas em que os controlos de formulário não têm o elemento <label> associado e não têm o atributo title associado",
+      "s": "Identifiquei <mark>{{value}}</mark> controlo de formulário sem o elemento <code>&lt;label&gt;</code> associado e sem o atributo <code>title</code>.",
+      "p": "Identifiquei <mark>{{value}}</mark> controlos de formulário sem o elemento <code>&lt;label&gt;</code> associado e sem o atributo <code>title</code>."
       },
-      "meta_03": {
-        "s": "Constatei que <mark>nenhum</mark> elemento <code>meta</code> refresh causa um refrescamento não imediato da página",
-        "p": "Constatei que <mark>nenhum</mark> elemento <code>meta</code> refresh causa um refrescamento não imediato da página"
+      "input_02": {
+      "title": "Encontrei páginas em que os controlos de formulário não têm um nome acessível",
+      "s": "Encontrei <mark>{{value}}</mark> controlo de formulário sem nome acessível.",
+      "p": "Encontrei <mark>{{value}}</mark> controlos de formulário sem nome acessivel."
       },
-      "meta_04": {
-        "s": "Localizei <mark>{{value}}</mark> elemento <code>meta</code> refresh que causa um refrescamento não imediato da página",
-        "p": "Localizei <mark>{{value}}</mark> elementos <code>meta</code> refresh que causam refrescamento não imediato da página"
+      "input_02b": {
+      "title": "Encontrei páginas em que todos os controlos de formulário têm um nome acessível",
+      "s": "Constatei que <mark>todos</mark> os controlos de formulário têm um nome acessivel.",
+      "p": "Constatei que <mark>todos</mark> os controlos de formulário têm um nome acessivel."
       },
-      "meta_05": {
-        "s": "Constatei que o elemento <code>meta</code> <mark>não impede</mark> o utilizador de fazer zoom.",
-        "p": "Constatei que o elemento <code>meta</code> <mark>não impede</mark> o utilizador de fazer zoom."
+      "input_03": {
+      "title": "Encontrei páginas cujos elementos <input> têm o atributo alt mas não são botões gráficos",
+      "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;input&gt;</code> com o atributo <code>alt</code> que não é botão gráfico.",
+      "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;input&gt;</code> com o atributo <code>alt</code> que não são botões gráficos."
       },
-      "object_01": {
-        "s": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;object&gt;</code> têm equivalente textual alternativo.",
-        "p": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;object&gt;</code> têm equivalente textual alternativo."
+      "justif_txt_01": {
+      "title": "Encontrei páginas com o texto justificado via HTML",
+      "s": "Encontrei <mark>{{value}}</mark> caso em que se usa texto justificado via HTML.",
+      "p": "Encontrei <mark>{{value}}</mark> casos em que se usa texto justificado via HTML."
       },
-      "object_02": {
-        "s": "Localizei <mark>{{value}}</mark> elemento <code>&lt;object&gt;</code> sem equivalente textual alternativo.",
-        "p": "Localizei <mark>{{value}}</mark> elementos <code>&lt;object&gt;</code> sem equivalente textual alternativo."
-      },
-      "orientation_01": {
-        "s": "Constatei a orientação dos elementos desta página <mark>não</mark> é restringida através de propriedades CSS",
-        "p": "Constatei a orientação dos elementos desta página <mark>não</mark> é restringida através de propriedades CSS"
-      },
-      "orientation_02": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento cuja orientação é restringida através de propriedades CSS",
-        "p": "Encontrei <mark>{{value}}</mark> elementos cuja orientações são restringidas através de propriedades CSS"
-      },
-      "role_01": {
-        "s": "Verifiquei que <mark>todos</mark> os atributos <code>role</code> têm um valor válido",
-        "p": "Verifiquei que <mark>todos</mark> os atributos <code>role</code> têm um valor válido"
-      },
-      "role_02": {
-        "s": "Identifiquei <mark>{{value}}</mark> atributo <code>role</code> com valor inválido",
-        "p": "Identifiquei <mark>{{value}}</mark> atributos <code>role</code> com valores inválidos"
-      },
-      "scrollable_01": {
-        "s": "Constatei que <mark>todos</mark> os elementos com varrimento podem ser usados com o teclado",
-        "p": "Constatei que <mark>todos</mark> os elementos com varrimento podem ser usados com o teclado"
-      },
-      "scrollable_02": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento com varrimento que não pode ser usado com o teclado",
-        "p": "Encontrei <mark>{{value}}</mark> elementos com varrimento que não podem ser usados com o teclado"
-      },
-      "svg_01": {
-        "s": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;svg&gt;</code> com papel semântico explícito têm um nome acessível",
-        "p": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;svg&gt;</code> com papel semântico explícito têm um nome acessível"
-      },
-      "svg_02": {
-        "s": "Localizei <mark>{{value}}</mark> elemento <code>&lt;svg&gt;</code> com papel semântico explícito sem nome acessível",
-        "p": "Localizei <mark>{{value}}</mark> elementos <code>&lt;svg&gt;</code> com papel semântico explícito sem nome acessível"
-      },
-      "table_07": {
-        "s": "Observei que <mark>todas</mark> os cabeçalhos das tabelas têm células de dados correspondentes",
-        "p": "Observei que <mark>todas</mark> os cabeçalhos das tabelas têm células de dados correspondentes"
-      },
-      "table_08": {
-        "s": "Identifiquei <mark>{{value}}</mark> célula cabeçalho de tabela que não tem nenhuma célula de dados associada",
-        "p": "Identifiquei <mark>{{value}}</mark> células cabeçalho de tabela que não têm nenhuma célula de dados associada"
-      },
-      "textC_01": {
-        "s": "Verifiquei que <mark>todas</mark> as combinações de cor têm uma relação de contraste superior ao rácio de contraste otimizado sugerido pelas WCAG, ou seja 4,5 para 1 para texto com letra grande e 7 para 1 para texto com letra normal.",
-        "p": "Verifiquei que <mark>todas</mark> as combinações de cor têm uma relação de contraste superior ao rácio de contraste otimizado sugerido pelas WCAG, ou seja 4,5 para 1 para texto com letra grande e 7 para 1 para texto com letra normal."
-      },
-      "textC_02": {
-        "s": "Localizei <mark>{{value}}</mark> combinação de cor cuja relação de contraste é inferior ao rácio de contraste otimizado sugerido pelas WCAG, ou seja 4,5 para 1 para texto com letra grande e 7 para 1 para texto com letra normal.",
-        "p": "Localizei <mark>{{value}}</mark> combinações de cor cujas relações de contraste são inferiores ao rácio de contraste otimizado sugerido pelas WCAG, ou seja 4,5 para 1 para texto com letra grande e 7 para 1 para texto com letra normal."
-      },
-      "video_01": {
-        "s": "Observei que existe {{value}} elemento <code>&lt;video&gt;</code> com conteúdo áudio que deve ter uma alternativa acessível",
-        "p": "Observei que existem {{value}} elementos <code>&lt;video&gt;</code> com conteúdo áudio que devem ter alternativas acessíveis"
-      },
-      "video_02": {
-        "s": "Observei que existe {{value}} elemento <code>&lt;video&gt;</code> com conteúdo visual que deve ter uma alternativa acessível",
-        "p": "Observei que existem {{value}} elementos <code>&lt;video&gt;</code> com conteúdo visual que devem ter alternativas acessíveis"
+      "justif_txt_02": {
+      "title": "Encontrei páginas com o texto justificado via CSS",
+      "s": "Identifiquei <mark>{{value}}</mark> caso em que se usa texto justificado via CSS.",
+      "p": "Identifiquei <mark>{{value}}</mark> casos em que se usa texto justificado via CSS."
       },
       "label_01": {
-        "s": "Constatei que <mark>todos</mark> os elementos interativos têm no seu nome acessível o texto visível das etiquetas",
-        "p": "Constatei que <mark>todos</mark> os elementos interativos têm no seu nome acessível o texto visível das etiquetas"
+      "title": "Encontrei páginas com elementos interativos com conteúdo textual que está presente no seu nome acessível",
+      "s": "Constatei que <mark>todos</mark> os elementos interativos têm no seu nome acessível o texto visível das etiquetas",
+      "p": "Constatei que <mark>todos</mark> os elementos interativos têm no seu nome acessível o texto visível das etiquetas"
+      },
+      "label_02": {
+      "title": "Encontrei páginas com elementos <label> que não estão visíveis ou estão incorretamente posicionados",
+      "s": "Localizei <mark>{{value}}</mark> elemento <code>&lt;label&gt;</code> que não está visível ou está incorretamente posicionado.",
+      "p": "Localizei <mark>{{value}}</mark> elementos <code>&lt;label&gt;</code> que não estão visíveis ou estão incorretamente posicionados."
       },
       "label_03": {
-        "s": "Encontrei <mark>{{value}}</mark> elemento interativo cujo texto visível não faz parte do nome acessível computado para o elemento",
-        "p": "Encontrei <mark>{{value}}</mark> elementos interativos cujos texto visíveis não fazem parte dos nomes acessíveis computados para os elementos"
-      },
-      "word_01": {
-        "s": "Constatei que não se usam estilos para impedir aumentar o espaçamento entre palavras",
-        "p": "Constatei que não se usam estilos para impedir aumentar o espaçamento entre palavras"
-      },
-      "word_02": {
-        "s": "Identifiquei <mark>{{value}}</mark> elemento cujos estilos impedem o aumento do espaçamento entre palavras para um valor que seja pelo menos 0,16 vezes o tamanho da fonte",
-        "p": "Identifiquei <mark>{{value}}</mark> elementos cujos estilos impedem o aumento do espaçamento entre palavras para um valor que seja pelo menos 0,16 vezes o tamanho da fonte"
-      },
-      "css_02": {
-        "s": "Verifiquei que existe <mark>{{value}}</mark> nó de texto com propriedade CSS <code>overflow</code> que pode impedir um utilizador de ver o texto quando faz zoom",
-        "p": "Verifiquei que existem <mark>{{value}}</mark> nós de texto com propriedade CSS <code>overflow</code> que podem impedir um utilizador de ver o texto quando faz zoom"
+      "title": "Encontrei páginas com elementos interativos com conteúdo textual que não está presente no seu nome acessível",
+      "s": "Encontrei <mark>{{value}}</mark> elemento interativo cujo texto visível não faz parte do nome acessível computado para o elemento",
+      "p": "Encontrei <mark>{{value}}</mark> elementos interativos cujos texto visíveis não fazem parte dos nomes acessíveis computados para os elementos"
       },
       "landmark_01": {
-        "s": "Constatei que o elemento com a semântica de <code>banner</code> <mark>não está</mark> contido dentro de nenhum elemento com outra semântica",
-        "p": "Constatei que os elementos com a semântica de <code>banner</code> <mark>não estão</mark> contidos dentro de nenhum elemento com outra semântica"
+      "title": "Elemento com semântica <code>banner</code> usado corretamente",
+      "s": "Constatei que o elemento com a semântica de <code>banner</code> <mark>não está</mark> contido dentro de nenhum elemento com outra semântica",
+      "p": "Constatei que os elementos com a semântica de <code>banner</code> <mark>não estão</mark> contidos dentro de nenhum elemento com outra semântica"
       },
       "landmark_02": {
-        "s": "Constatei que o elemento com a semântica de <code>banner</code> <mark>está</mark> contido dentro de um elemento com outra semântica",
-        "p": "Constatei que os elementos com a semântica de <code>banner</code> <mark>estão</mark> contidos dentro de elementos com outra semântica"
+      "title": "Elemento com semântica <code>banner</code> dentro de elementos com outra semântica",
+      "s": "Constatei que o elemento com a semântica de <code>banner</code> <mark>está</mark> contido dentro de um elemento com outra semântica",
+      "p": "Constatei que os elementos com a semântica de <code>banner</code> <mark>estão</mark> contidos dentro de elementos com outra semântica"
       },
       "landmark_03": {
-        "s": "Constatei que o elemento com a semântica de <code>complementary</code> <mark>não está</mark> contido dentro de nenhum elemento com outra semântica",
-        "p": "Constatei que os elementos com a semântica de <code>complementary</code> <mark>não estão</mark> contidos dentro de nenhum elemento com outra semântica"
+      "title": "Elemento com semântica <code>complementary</code> usado corretamente",
+      "s": "Constatei que o elemento com a semântica de <code>complementary</code> <mark>não está</mark> contido dentro de nenhum elemento com outra semântica",
+      "p": "Constatei que os elementos com a semântica de <code>complementary</code> <mark>não estão</mark> contidos dentro de nenhum elemento com outra semântica"
       },
       "landmark_04": {
-        "s": "Constatei que o elemento com a semântica de <code>complementary</code> <mark>está</mark> contido dentro de um elemento com outra semântica",
-        "p": "Constatei que os elementos com a semântica de <code>complementary</code> <mark>estão</mark> contidos dentro de elementos com outra semântica"
+      "title": "Elemento com semântica <code>complementary</code> dentro de elementos com outra semântica",
+      "s": "Constatei que o elemento com a semântica de <code>complementary</code> <mark>está</mark> contido dentro de um elemento com outra semântica",
+      "p": "Constatei que os elementos com a semântica de <code>complementary</code> <mark>estão</mark> contidos dentro de elementos com outra semântica"
       },
       "landmark_05": {
-        "s": "Constatei que o elemento com a semântica de <code>contentinfo</code> <mark>não está</mark> contido dentro de nenhum elemento com outra semântica",
-        "p": "Constatei que os elementos com a semântica de <code>contentinfo</code> <mark>não estão</mark> contidos dentro de nenhum elemento com outra semântica"
+      "title": "Elemento com semântica <code>contentinfo</code> usado corretamente",
+      "s": "Constatei que o elemento com a semântica de <code>contentinfo</code> <mark>não está</mark> contido dentro de nenhum elemento com outra semântica",
+      "p": "Constatei que os elementos com a semântica de <code>contentinfo</code> <mark>não estão</mark> contidos dentro de nenhum elemento com outra semântica"
       },
       "landmark_06": {
-        "s": "Constatei que o elemento com a semântica de <code>contentinfo</code> <mark>está</mark> contido dentro de um elemento com outra semântica",
-        "p": "Constatei que os elementos com a semântica de <code>contentinfo</code> <mark>estão</mark> contidos dentro de elementos com outra semântica"
+      "title": "Elemento com semântica <code>contentinfo</code> dentro de elementos com outra semântica",
+      "s": "Constatei que o elemento com a semântica de <code>contentinfo</code> <mark>está</mark> contido dentro de um elemento com outra semântica",
+      "p": "Constatei que os elementos com a semântica de <code>contentinfo</code> <mark>estão</mark> contidos dentro de elementos com outra semântica"
       },
       "landmark_07": {
-        "s": "Constatei que o elemento com a semântica de <code>main</code> <mark>não está</mark> contido dentro de nenhum elemento com outra semântica",
-        "p": "Constatei que os elementos com a semântica de <code>main</code> <mark>não estão</mark> contidos dentro de nenhum elemento com outra semântica"
+      "title": "Elemento com semântica <code>main</code> usado corretamente",
+      "s": "Constatei que o elemento com a semântica de <code>main</code> <mark>não está</mark> contido dentro de nenhum elemento com outra semântica",
+      "p": "Constatei que os elementos com a semântica de <code>main</code> <mark>não estão</mark> contidos dentro de nenhum elemento com outra semântica"
       },
       "landmark_08": {
-        "s": "Constatei que o elemento com a semântica de <code>main</code> <mark>está</mark> contido dentro de um elemento com outra semântica",
-        "p": "Constatei que os elementos com a semântica de <code>main</code> <mark>estão</mark> contidos dentro de elementos com outra semântica"
+      "title": "Elemento com semântica <code>main</code> dentro de elementos com outra semântica",
+      "s": "Constatei que o elemento com a semântica de <code>main</code> <mark>está</mark> contido dentro de um elemento com outra semântica",
+      "p": "Constatei que os elementos com a semântica de <code>main</code> <mark>estão</mark> contidos dentro de elementos com outra semântica"
       },
       "landmark_09": {
-        "s": "Encontrei <mark>um</mark> elemento com a semântica de <code>banner</code>.",
-        "p": "Encontrei <mark>um</mark> elemento com a semântica de <code>banner</code>."
+      "title": "Encontrei apenas um elemento com semântica <code>banner</code>",
+      "s": "Encontrei <mark>um</mark> elemento com a semântica de <code>banner</code>.",
+      "p": "Encontrei <mark>um</mark> elemento com a semântica de <code>banner</code>."
       },
       "landmark_10": {
-        "s": "Encontrei <mark>{{value}}</mark> elementos com a semântica de <code>banner</code>.",
-        "p": "Encontrei <mark>{{value}}</mark> elementos com a semântica de <code>banner</code>."
+      "title": "Encontrei mais do que um elemento com semântica <code>banner</code>",
+      "s": "Encontrei <mark>{{value}}</mark> elementos com a semântica de <code>banner</code>.",
+      "p": "Encontrei <mark>{{value}}</mark> elementos com a semântica de <code>banner</code>."
       },
       "landmark_11": {
-        "s": "Encontrei <mark>um</mark> elemento com a semântica de <code>contentinfo</code>.",
-        "p": "Encontrei <mark>um</mark> elemento com a semântica de <code>contentinfo</code>."
+      "title": "Encontrei apenas um elemento com semântica <code>contentinfo</code>",
+      "s": "Encontrei <mark>um</mark> elemento com a semântica de <code>contentinfo</code>.",
+      "p": "Encontrei <mark>um</mark> elemento com a semântica de <code>contentinfo</code>."
       },
       "landmark_12": {
-        "s": "Encontrei <mark>{{value}}</mark> elementos com a semântica de <code>contentinfo</code>.",
-        "p": "Encontrei <mark>{{value}}</mark> elementos com a semântica de <code>contentinfo</code>."
+      "title": "Encontrei mais do que um elemento com semântica <code>contentinfo</code>",
+      "s": "Encontrei <mark>{{value}}</mark> elementos com a semântica de <code>contentinfo</code>.",
+      "p": "Encontrei <mark>{{value}}</mark> elementos com a semântica de <code>contentinfo</code>."
       },
       "landmark_13": {
-        "s": "Encontrei <mark>um</mark> elemento com a semântica de <code>main</code>.",
-        "p": "Encontrei <mark>um</mark> elemento com a semântica de <code>main</code>."
+      "title": "Encontrei apenas um elemento com semântica <code>main</code>",
+      "s": "Encontrei <mark>um</mark> elemento com a semântica de <code>main</code>.",
+      "p": "Encontrei <mark>um</mark> elemento com a semântica de <code>main</code>."
       },
       "landmark_14": {
-        "s": "Encontrei <mark>{{value}}</mark> elementos com a semântica de <code>main</code>.",
-        "p": "Encontrei <mark>{{value}}</mark> elementos com a semântica de <code>main</code>."
+      "title": "Encontrei mais do que um elemento com semântica <code>mais</code>",
+      "s": "Encontrei <mark>{{value}}</mark> elementos com a semântica de <code>main</code>.",
+      "p": "Encontrei <mark>{{value}}</mark> elementos com a semântica de <code>main</code>."
       },
-      "listitem_01": {
-        "s": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;li&gt;</code> estão contidos dentro de uma lista.",
-        "p": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;li&gt;</code> estão contidos dentro de uma lista."
+      "lang_01": {
+      "title": "Encontrei páginas em que o idioma principal da página está corretamente marcado",
+      "s": "Verifiquei que o idioma principal da página <mark>está marcado</mark> como <mark>\"{{value}}\"</mark>.",
+      "p": "Verifiquei que o idioma principal da página <mark>está marcado</mark> como <mark>\"{{value}}\"</mark>."
       },
-      "listitem_02": {
-        "s": "Localizei <mark>{{value}}</mark> elemento <code>&lt;li&gt;</code> que não está contido dentro de uma lista.",
-        "p": "Localizei <mark>{{value}}</mark> elementos <code>&lt;li&gt;</code> que não estão contidos dentro de listas."
+      "lang_02": {
+      "title": "Encontrei páginas em que o idioma principal da página está incorretamente marcado",
+      "s": "Verifiquei que o idioma principal da página está <mark>incorretamente marcado</mark>. <mark>\"{{value}}\" existe?",
+      "p": "Verifiquei que o idioma principal da página está <mark>incorretamente marcado</mark>. <mark>\"{{value}}\" existe?"
+      },
+      "lang_03": {
+      "title": "Encontrei páginas com o atributo lang ou xml:lang em falta",
+      "s": "Constatei que o atributo <mark>{{value}} se encontra em falta</mark>.",
+      "p": "Constatei que o atributo <mark>{{value}} se encontra em falta</mark>."
+      },
+      "lang_04": {
+      "title": "Encontrei páginas em que os atributos lang e/ou xml:lang estão a ser utilizados de forma incorreta",
+      "s": "Constatei que os atributos <code>lang</code> e/ou <code>xml:lang</code> estão a ser utilizados <mark>de forma incorreta</mark>.",
+      "p": "Constatei que os atributos <code>lang</code> e/ou <code>xml:lang</code> estão a ser utilizados <mark>de forma incorreta</mark>."
+      },
+      "layout_01a": {
+      "title": "Encontrei páginas em que não há elementos obsoletos a controlar a apresentação visual",
+      "s": "Constatei que <mark>não há</mark> elementos obsoletos usados para controlo visual da apresentação.",
+      "p": "Constatei que <mark>não há</mark> elementos obsoletos usados para controlo visual da apresentação."
+      },
+      "layout_01b": {
+      "title": "Encontrei páginas em que se usam Elementos obsoletos para controlar a apresentação visual",
+      "s": "Encontrei <mark>{{value}}</mark> elemento obsoleto usado para controlar a apresentação visual.",
+      "p": "Encontrei <mark>{{value}}</mark> elementos obsoletos usados para controlar a apresentação visual."
+      },
+      "layout_03": {
+      "title": "Encontrei páginas em que se usam unidades de medida abosulata na CSS para dimensionar a largura dos elementos",
+      "s": "Identifiquei <mark>{{value}}</mark> caso na CSS em que se utiliza unidade de medida <code>px</code> para definir a largura das caixas de texto.",
+      "p": "Identifiquei <mark>{{value}}</mark> casos na CSS em que se utilizam unidades de medida <code>px</code> para definir a largura das caixas de texto."
+      },
+      "letter_01": {
+      "title": "Propriedade de CSS letter-spacing correta",
+      "s": "Constatei que não se usam estilos para impedir aumentar o espaçamento entre letras",
+      "p": "Constatei que não se usam estilos para impedir aumentar o espaçamento entre letras"
+      },
+      "letter_02": {
+      "title": "Propriedade de CSS letter-spacing com espaçamento incorreto",
+      "s": "Identifiquei <mark>{{value}}</mark> elemento cujos estilos impedem o aumento do espaçamento entre letras para um valor que seja pelo menos 0,12 vezes o tamanho da fonte",
+      "p": "Identifiquei <mark>{{value}}</mark> elementos cujos estilos impedem o aumento do espaçamento entre letras para um valor que seja pelo menos 0,12 vezes o tamanho da fonte"
+      },
+      "link_01": {
+      "title": "Encontrei páginas em que os metadados <link> poderão servir para construir um sistema de navegação",
+      "s": "Localizei nos metadados da página <mark>{{value}}</mark> elemento <code>&lt;link&gt;</code> que poderá servir para construir um sistema de navegação.",
+      "p": "Localizei nos metadados da página <mark>{{value}}</mark> elementos <code>&lt;link&gt;</code> que poderão servir para construir um sistema de navegação.."
+      },
+      "list_01": {
+      "title": "Encontrei páginas em que o item de lista <li> está marcado fora da lista",
+      "s": "Localizei <mark>{{value}}</mark> ocorrência de lista vazia ou com <code>&lt;li&gt;</code> fora da lista.",
+      "p": "Localizei <mark>{{value}}</mark> ocorrências de listas vazias ou com <code>&lt;li&gt;</code> fora das listas."
       },
       "list_02": {
-        "s": "Verifiquei que <mark>todas</mark> as listas só contêm itens de lista.",
-        "p": "Verifiquei que <mark>todas</mark> as listas só contêm itens de lista."
+      "title": "Encontrei páginas em que as listas só contêm itens de lista",
+      "s": "Verifiquei que <mark>todas</mark> as listas só contêm itens de lista.",
+      "p": "Verifiquei que <mark>todas</mark> as listas só contêm itens de lista."
       },
       "list_03": {
-        "s": "Localizei <mark>{{value}}</mark> lista que contém elementos que não são itens de lista.",
-        "p": "Localizei <mark>{{value}}</mark> listas que contêm elementos que não são itens de lista."
+      "title": "Encontrei páginas com listas com elementos que não são itens de lista",
+      "s": "Localizei <mark>{{value}}</mark> lista que contém elementos que não são itens de lista.",
+      "p": "Localizei <mark>{{value}}</mark> listas que contêm elementos que não são itens de lista."
       },
       "list_04": {
-        "s": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;dd&gt;</code> e <code>&lt;dt&gt;</code> estão contidos dentro de uma lista.",
-        "p": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;dd&gt;</code> e <code>&lt;dt&gt;</code> estão contidos dentro de uma lista."
+      "title": "Encontrei páginas em que os itens de lista são apenas utilizados dentro de listas de descrição",
+      "s": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;dd&gt;</code> e <code>&lt;dt&gt;</code> estão contidos dentro de uma lista.",
+      "p": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;dd&gt;</code> e <code>&lt;dt&gt;</code> estão contidos dentro de uma lista."
       },
       "list_05": {
-        "s": "Localizei <mark>{{value}}</mark> elemento <code>&lt;dd&gt;</code> ou <code>&lt;dt&gt;</code> que não está contido dentro de uma lista.",
-        "p": "Localizei <mark>{{value}}</mark> elementos <code>&lt;dd&gt;</code> ou <code>&lt;dt&gt;</code> que não estão contidos dentro de lista."
+      "title": "Encontrei páginas em que itens de lista são utilizados fora de listas de descrição",
+      "s": "Localizei <mark>{{value}}</mark> elemento <code>&lt;dd&gt;</code> ou <code>&lt;dt&gt;</code> que não está contido dentro de uma lista.",
+      "p": "Localizei <mark>{{value}}</mark> elementos <code>&lt;dd&gt;</code> ou <code>&lt;dt&gt;</code> que não estão contidos dentro de lista."
       },
       "list_06": {
-        "s": "Verifiquei que <mark>todas</mark> as listas de descrição só contêm itens de lista corretamente ordenados.",
-        "p": "Verifiquei que <mark>todas</mark> as listas de descrição só contêm itens de lista corretamente ordenados."
+      "title": "Encontrei páginas em que as listas de descrição têm os itens de lista ordenados corretamente",
+      "s": "Verifiquei que <mark>todas</mark> as listas de descrição só contêm itens de lista corretamente ordenados.",
+      "p": "Verifiquei que <mark>todas</mark> as listas de descrição só contêm itens de lista corretamente ordenados."
       },
       "list_07": {
-        "s": "Localizei <mark>{{value}}</mark> lista de descrição que contém elementos que não são itens de lista ou que não estão corretamente ordenados.",
-        "p": "Localizei <mark>{{value}}</mark> listas de descrição que contêm elementos que não são itens de lista ou que não estão corretamente ordenados."
+      "title": "Encontrei páginas em que há listas de descrição com elementos que não são itens de lista ou não estão ordenados corretamente",
+      "s": "Localizei <mark>{{value}}</mark> lista de descrição que contém elementos que não são itens de lista ou que não estão corretamente ordenados.",
+      "p": "Localizei <mark>{{value}}</mark> listas de descrição que contêm elementos que não são itens de lista ou que não estão corretamente ordenados."
+      },
+      "listitem_01": {
+      "title": "Encontrei itens de lista utilizados dentro de listas",
+      "s": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;li&gt;</code> estão contidos dentro de uma lista.",
+      "p": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;li&gt;</code> estão contidos dentro de uma lista."
+      },
+      "listitem_02": {
+      "title": "Encontrei itens de lista utilizados fora de listas",
+      "s": "Localizei <mark>{{value}}</mark> elemento <code>&lt;li&gt;</code> que não está contido dentro de uma lista.",
+      "p": "Localizei <mark>{{value}}</mark> elementos <code>&lt;li&gt;</code> que não estão contidos dentro de listas."
+      },
+      "menuItem_01": {
+      "title": "Elementos com o papel semântico menuitem com nome acessível",
+      "s": "Verifiquei que <mark>todos</mark> os elementos com papel semântico <code>menuitem</code> têm nome acessível.",
+      "p": "Verifiquei que <mark>todos</mark> os elementos com papel semântico <code>menuitem</code> têm nome acessível."
+      },
+      "menuItem_02": {
+      "title": "Elementos com o papel semântico menuitem sem nome acessível",
+      "s": "Encontrei <mark>{{value}}</mark> elemento com papel semântico <code>menuitem</code> sem nome acessível.",
+      "p": "Encontrei <mark>{{value}}</mark> elementos com papel semântico <code>menuitem</code> sem nome acessível."
+      },
+      "meta_01": {
+        "title": "Página reinicia automaticamente com elemento <code>meta http-equiv=\"refresh\"</code>",
+        "s": "Constatei que a página <mark>reinicia-se automaticamente</mark> através do elemento <code>&lt;meta http-equiv=\"refresh\"&gt;</code>.",
+        "p": "Constatei que a página <mark>reinicia-se automaticamente</mark> através do elemento <code>&lt;meta http-equiv=\"refresh\"&gt;</code>."
+      },
+      "meta_02": {
+        "title": "Página é redireccionada automaticamente com elemento <code>meta http-equiv=\"redirect\"</code>",
+        "s": "Constatei que a página é <mark>redireccionada automaticamente</mark> através do elemento <code>&lt;meta http-equiv=\"redirect\"&gt;</code>.",
+        "p": "Constatei que a página é <mark>redireccionada automaticamente</mark> através do elemento <code>&lt;meta http-equiv=\"redirect\"&gt;</code>."
+      },
+      "meta_03": {
+      "title": "Elemento <code>meta</code> não reinicia a página",
+      "s": "Constatei que <mark>nenhum</mark> elemento <code>meta</code> refresh causa um refrescamento não imediato da página",
+      "p": "Constatei que <mark>nenhum</mark> elemento <code>meta</code> refresh causa um refrescamento não imediato da página"
+      },
+      "meta_04": {
+      "title": "Elemento <code>meta</code> reinicia a página",
+      "s": "Localizei <mark>{{value}}</mark> elemento <code>meta</code> refresh que causa um refrescamento não imediato da página",
+      "p": "Localizei <mark>{{value}}</mark> elementos <code>meta</code> refresh que causam refrescamento não imediato da página"
+      },
+      "meta_05": {
+      "title": "Elemento <code>meta</code> com atributo viewport",
+      "s": "Constatei que o elemento <code>meta</code> <mark>não impede</mark> o utilizador de fazer zoom.",
+      "p": "Constatei que o elemento <code>meta</code> <mark>não impede</mark> o utilizador de fazer zoom."
+      },
+      "object_01": {
+      "title": "Encontrei páginas em que o elementos <object> tem um equivalente alternativo em texto",
+      "s": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;object&gt;</code> têm equivalente textual alternativo.",
+      "p": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;object&gt;</code> têm equivalente textual alternativo."
+      },
+      "object_02": {
+      "title": "Encontrei páginas em que o elementos <object> não tem um equivalente alternativo em texto",
+      "s": "Localizei <mark>{{value}}</mark> elemento <code>&lt;object&gt;</code> sem equivalente textual alternativo.",
+      "p": "Localizei <mark>{{value}}</mark> elementos <code>&lt;object&gt;</code> sem equivalente textual alternativo."
+      },
+      "orientation_01": {
+      "title": "Elemento com propriedade CSS transform que não restringe a orientação da página",
+      "s": "Constatei a orientação dos elementos desta página <mark>não</mark> é restringida através de propriedades CSS",
+      "p": "Constatei a orientação dos elementos desta página <mark>não</mark> é restringida através de propriedades CSS"
+      },
+      "orientation_02": {
+      "title": "Elemento com propriedade CSS transform que restringe a orientação da página",
+      "s": "Encontrei <mark>{{value}}</mark> elemento cuja orientação é restringida através de propriedades CSS",
+      "p": "Encontrei <mark>{{value}}</mark> elementos cuja orientações são restringidas através de propriedades CSS"
+      },
+      "role_01": {
+      "title": "Elementos com atributo role válido",
+      "s": "Verifiquei que <mark>todos</mark> os atributos <code>role</code> têm um valor válido",
+      "p": "Verifiquei que <mark>todos</mark> os atributos <code>role</code> têm um valor válido"
+      },
+      "role_02": {
+      "title": "Elementos com atributo role inválido",
+      "s": "Identifiquei <mark>{{value}}</mark> atributo <code>role</code> com valor inválido",
+      "p": "Identifiquei <mark>{{value}}</mark> atributos <code>role</code> com valores inválidos"
+      },
+      "scope_01": {
+      "title": "Encontrei páginas em que se usa o atributo scope da tabela de dados de forma incorreta",
+      "s": "Verifiquei que há <mark>{{value}}</mark> caso em que o atributo <code>scope</code> da tabela de dados é inválido.",
+      "p": "Verifiquei que há <mark>{{value}}</mark> casos em que o atributo <code>scope</code> da tabela de dados é inválido."
+      },
+      "scrollable_01": {
+      "title": "Elementos com varrimento podem ser usados com teclado",
+      "s": "Constatei que <mark>todos</mark> os elementos com varrimento podem ser usados com o teclado",
+      "p": "Constatei que <mark>todos</mark> os elementos com varrimento podem ser usados com o teclado"
+      },
+      "scrollable_02": {
+      "title": "Elementos com varrimento não podem ser usados com teclado",
+      "s": "Encontrei <mark>{{value}}</mark> elemento com varrimento que não pode ser usado com o teclado",
+      "p": "Encontrei <mark>{{value}}</mark> elementos com varrimento que não podem ser usados com o teclado"
+      },
+      "svg_01": {
+      "title": "Elemento <code>svg</code> com papel semântico explícito e nome acessível",
+      "s": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;svg&gt;</code> com papel semântico explícito têm um nome acessível",
+      "p": "Verifiquei que <mark>todos</mark> os elementos <code>&lt;svg&gt;</code> com papel semântico explícito têm um nome acessível"
+      },
+      "svg_02": {
+      "title": "Elemento <code>svg</code> com papel semântico explícito sem nome acessível",
+      "s": "Localizei <mark>{{value}}</mark> elemento <code>&lt;svg&gt;</code> com papel semântico explícito sem nome acessível",
+      "p": "Localizei <mark>{{value}}</mark> elementos <code>&lt;svg&gt;</code> com papel semântico explícito sem nome acessível"
+      },
+      "table_01": {
+      "title": "Encontrei páginas em que há tabelas sem cabeçalhos marcados (<th>) mas em que se usam o elemento <caption> e/ou o atributo summary",
+      "s": "Encontrei <mark>{{value}}</mark> tabela sem cabeçalhos identificados mas que usa o elemento <code>&lt;caption&gt;</code>.",
+      "p": "Encontrei <mark>{{value}}</mark> tabelas sem cabeçalhos identificados mas que usam o elemento <code>&lt;caption&gt;</code>."
+      },
+      "table_02": {
+      "title": "Encontrei páginas em que há tabelas de dados sem o elemento <caption> ou atributo summary",
+      "s": "Localizei <mark>{{value}}</mark> tabela de dados sem o elemento <code>&lt;caption&gt;</code>.",
+      "p": "Localizei <mark>{{value}}</mark> tabelas de dados sem o elemento <code>&lt;caption&gt;</code>."
+      },
+      "table_03": {
+      "title": "Encontrei páginas em que há tabelas com <caption> e summary iguais",
+      "s": "Localizei <mark>{{value}}</mark> tabela em que o texto afixado em <code>&lt;caption&gt;</code> e <code>summary</code> é o mesmo.",
+      "p": "Localizei <mark>{{value}}</mark> tabelas em que o texto afixado em <code>&lt;caption&gt;</code> e <code>summary</code> é o mesmo."
+      },
+      "table_04": {
+      "title": "Encontrei páginas em que há tabelas dentro de outras tabelas",
+      "s": "Verifiquei que há <mark>{{value}}</mark> tabela que está dentro de outra.",
+      "p": "Verifiquei que há <mark>{{value}}</mark> tabelas que estão umas dentro de outras."
+      },
+      "table_05a": {
+      "title": "Encontrei páginas em que há tabelas sem cabeçalhos marcados (<th>)",
+      "s": "Encontrei <mark>{{value}}</mark> tabela sem cabeçalhos marcados.",
+      "p": "Encontrei <mark>{{value}}</mark> tabelas sem cabeçalhos marcados."
+      },
+      "table_06": {
+      "title": "Encontrei páginas em que há tabelas de dados complexas com células de dados sem o atributo headers",
+      "s": "Encontrei <mark>{{value}}</mark> tabela de dados complexos - em que múltiplas linhas configuram as células cabeçalho -, nas quais se constatou existirem células de dados sem o atributo <code>&lt;headers&gt;</code>.",
+      "p": "Encontrei <mark>{{value}}</mark> tabelas de dados complexos - em que múltiplas linhas configuram as células cabeçalho -, nas quais se constatou existirem células de dados sem o atributo <code>&lt;headers&gt;</code>."
+      },
+      "table_07": {
+      "title": "Encontrei páginas em que há células cabeçalho em tabelas com células de dados",
+      "s": "Observei que <mark>todas</mark> os cabeçalhos das tabelas têm células de dados correspondentes",
+      "p": "Observei que <mark>todas</mark> os cabeçalhos das tabelas têm células de dados correspondentes"
+      },
+      "table_08": {
+      "title": "Encontrei páginas em que há células cabeçalho em tabelas sem células de dados",
+      "s": "Identifiquei <mark>{{value}}</mark> célula cabeçalho de tabela que não tem nenhuma célula de dados associada",
+      "p": "Identifiquei <mark>{{value}}</mark> células cabeçalho de tabela que não têm nenhuma célula de dados associada"
+      },
+      "textC_01": {
+      "title": "Combinações de cor com um rácio de contraste superior a 7:1 para texto normal ou 4.5:1 para texto grande",
+      "s": "Verifiquei que <mark>todas</mark> as combinações de cor têm uma relação de contraste superior ao rácio de contraste otimizado sugerido pelas WCAG, ou seja 4,5 para 1 para texto com letra grande e 7 para 1 para texto com letra normal.",
+      "p": "Verifiquei que <mark>todas</mark> as combinações de cor têm uma relação de contraste superior ao rácio de contraste otimizado sugerido pelas WCAG, ou seja 4,5 para 1 para texto com letra grande e 7 para 1 para texto com letra normal."
+      },
+      "textC_02": {
+      "title": "Combinações de cor com um rácio de contraste inferior a 7:1 para texto normal ou 4.5:1 para texto grande",
+      "s": "Localizei <mark>{{value}}</mark> combinação de cor cuja relação de contraste é inferior ao rácio de contraste otimizado sugerido pelas WCAG, ou seja 4,5 para 1 para texto com letra grande e 7 para 1 para texto com letra normal.",
+      "p": "Localizei <mark>{{value}}</mark> combinações de cor cujas relações de contraste são inferiores ao rácio de contraste otimizado sugerido pelas WCAG, ou seja 4,5 para 1 para texto com letra grande e 7 para 1 para texto com letra normal."
+      },
+      "title_01": {
+      "title": "Encontrei páginas em que há múltíplos elementos <title>",
+      "s": "Verifiquei que esta página não tem apenas um elemento <code>&lt;title&gt;</code>, como era suposto, mas <mark>{{value}}</mark>.",
+      "p": "Verifiquei que esta página não tem apenas um elemento <code>&lt;title&gt;</code>, como era suposto, mas <mark>{{value}}</mark>."
+      },
+      "title_02": {
+      "title": "Encontrei páginas em que não há o elemento <title>",
+      "s": "Verifiquei que esta página <mark>não tem</mark> título - falta-lhe o elemento <code>&lt;title&gt;</code>.",
+      "p": "Verifiquei que esta página <mark>não tem</mark> título - falta-lhe o elemento <code>&lt;title&gt;</code>."
+      },
+      "title_03": {
+      "title": "Encontrei páginas em que o elemento <title> está vazio",
+      "s": "Verifiquei que esta página não tem título - o elemento <code>&lt;title&gt;</code> <mark>está vazio</mark>.",
+      "p": "Verifiquei que esta página não tem título - o elemento <code>&lt;title&gt;</code> <mark>está vazio</mark>."
+      },
+      "title_04": {
+      "title": "Encontrei páginas em que o título da página é demasiado grande",
+      "s": "Parece-me que o título da página é demasiado grande - ele contém <mark>{{value}}</mark> carateres.",
+      "p": "Parece-me que o título da página é demasiado grande - ele contém <mark>{{value}}</mark> carateres."
+      },
+      "title_05": {
+      "title": "Encontrei páginas em que o título da página aparenta ser arte-ASCII",
+      "s": "Verifiquei que o título da página tem <mark>{{value}}</mark> carateres seguidos que me parecem ser Arte-ASCII.",
+      "p": "Verifiquei que o título da página tem <mark>{{value}}</mark> carateres seguidos que me parecem ser Arte-ASCII."
+      },
+      "title_06": {
+      "title": "Encontrei páginas com o <title> correto",
+      "s": "Encontrei <mark>um título</mark> na página e ele parece-me correto.",
+      "p": "Encontrei <mark>um título</mark> na página e ele parece-me correto."
+      },
+      "values_01a": {
+      "title": "Encontrei páginas com unidades de medida absoluta no HTML",
+      "s": "Verifiquei que há <mark>{{value}}</mark> caso em que as unidades de medida que definem a largura dos elementos de conteúdo existentes no HTML estão expressas em valores absolutos.",
+      "p": "Verifiquei que há <mark>{{value}}</mark> casos em que as unidades de medida que definem a largura dos elementos de conteúdo existentes no HTML estão expressas em valores absolutos."
+      },
+      "values_01b": {
+      "title": "Encontrei páginas com unidades de medida relativa no HTML",
+      "s": "Verifiquei que há <mark>{{value}}</mark> caso em que as unidades de medida que definem a largura dos elementos de conteúdo existentes no HTML estão expressas em valores relativos.",
+      "p": "Verifiquei que há <mark>{{value}}</mark> casos em que as unidades de medida que definem a largura dos elementos de conteúdo existentes no HTML estão expressas em valores relativos."
+      },
+      "values_02a": {
+      "title": "Encontrei páginas com unidades de medida absoluta na CSS",
+      "s": "Identifiquei <mark>{{value}}</mark> caso na CSS em que se utiliza unidade de medida absoluta para definir a largura das caixas de conteúdo.",
+      "p": "Identifiquei <mark>{{value}}</mark> casos na CSS em que se utilizam unidades de medida absolutas para definir a largura das caixas de conteúdo."
+      },
+      "values_02b": {
+      "title": "Encontrei páginas com unidades de medida relativa na CSS",
+      "s": "Identifiquei <mark>{{value}}</mark> caso na CSS em que se utiliza unidade de medida relativa para definir a largura das caixas de conteúdo.",
+      "p": "Identifiquei <mark>{{value}}</mark> casos na CSS em que se utilizam unidades de medida relativas para definir a largura das caixas de conteúdo."
+      },
+      "video_01": {
+      "title": "Encontrei páginas com video com conteúdo áudio",
+      "s": "Observei que existe {{value}} elemento <code>&lt;video&gt;</code> com conteúdo áudio que deve ter uma alternativa acessível",
+      "p": "Observei que existem {{value}} elementos <code>&lt;video&gt;</code> com conteúdo áudio que devem ter alternativas acessíveis"
+      },
+      "video_02": {
+      "title": "Encontrei páginas com video com conteúdo visual",
+      "s": "Observei que existe {{value}} elemento <code>&lt;video&gt;</code> com conteúdo visual que deve ter uma alternativa acessível",
+      "p": "Observei que existem {{value}} elementos <code>&lt;video&gt;</code> com conteúdo visual que devem ter alternativas acessíveis"
+      },
+      "w3c_validator_01a": {
+      "title": "Encontrei páginas que não têm erros de HTML (validator.w3.org)",
+      "s": "Perguntei ao validador de HTML do W3C e constatei que <mark>não existem erros</mark> de HTML.",
+      "p": "Perguntei ao validador de HTML do W3C e constatei que <mark>não existem erros</mark> de HTML."
+      },
+      "w3c_validator_01b": {
+      "title": "Encontrei páginas que têm erros de HTML (validator.w3.org)",
+      "s": "Perguntei ao validador de HTML do W3C e constatei que há <mark>{{value}} erro</mark> de HTML.",
+      "p": "Perguntei ao validador de HTML do W3C e constatei que há <mark>{{value}} erros</mark> de HTML."
+      },
+      "win_01": {
+      "title": "Encontrei páginas onde existem janelas pop-up",
+      "s": "Constatei que esta página tem janelas pop-up.",
+      "p": "Constatei que esta página tem janelas pop-up."
+      },
+      "word_01": {
+      "title": "Propriedade de CSS word-spacing não impede aumentar espaçamento",
+      "s": "Constatei que não se usam estilos para impedir aumentar o espaçamento entre palavras",
+      "p": "Constatei que não se usam estilos para impedir aumentar o espaçamento entre palavras"
+      },
+      "word_02": {
+      "title": "Propriedade de CSS word-spacing impede aumentar espaçamento",
+      "s": "Identifiquei <mark>{{value}}</mark> elemento cujos estilos impedem o aumento do espaçamento entre palavras para um valor que seja pelo menos 0,16 vezes o tamanho da fonte",
+      "p": "Identifiquei <mark>{{value}}</mark> elementos cujos estilos impedem o aumento do espaçamento entre palavras para um valor que seja pelo menos 0,16 vezes o tamanho da fonte"
       }
     },
     "TECHS": {

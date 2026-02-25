@@ -205,6 +205,7 @@ export interface Translations {
 }
 
 interface PluralizableText {
+    title:string;
     s:string;
     p:string;
 }

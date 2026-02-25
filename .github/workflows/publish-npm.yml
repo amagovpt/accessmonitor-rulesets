@@ -1,4 +1,4 @@
-name: Publish NPM @ama-pt/a11y-ds Package
+name: Publish NPM @arte-pt/accessmonitor-rulesets Package
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: '20'
           registry-url: 'https://registry.npmjs.org'
-          scope: '@ama-pt'
+          scope: '@arte-pt'
 
       - name: Install Dependencies
         run: npm install
