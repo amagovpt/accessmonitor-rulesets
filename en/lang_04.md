@@ -1,15 +1,15 @@
 ---
 Title: Incorrect Page Language Check
 id: lang_04
-type: "true",
-elem: "all",
-test: "langMatchNo",
-score: 1,
-level: "A",
-trust: "1",
-ref: "H57",
-scs: "3.1.1",
-dis: "53112",
+type: "true"
+elem: "all"
+test: "langMatchNo"
+score: 1
+level: "A"
+trust: "1"
+ref: "H57"
+scs: "3.1.1"
+dis: "53112"
 result: "failed"
 ---
 

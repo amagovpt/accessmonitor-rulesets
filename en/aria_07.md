@@ -1,15 +1,15 @@
 ---
 Title: ARIA Attributes Check
 id: aria_07
-type: "true",
-elem: "all",
-test: "ariaAtribDefined",
-score: 10,
-level: "A",
-trust: "1",
-ref: "5f99a7",
-scs: "1.3.1,4.1.2",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "ariaAtribDefined"
+score: 10
+level: "A"
+trust: "1"
+ref: "5f99a7"
+scs: "1.3.1,4.1.2"
+dis: "43353"
 result: "passed"
 ---
 

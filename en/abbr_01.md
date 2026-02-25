@@ -1,15 +1,15 @@
 ---
 Title: Missing Abbreviation Extension Check
 id: abbr_01
-type: "true",
-elem: "all",
-test: "abbrNo",
-score: 5,
-level: "AAA",
-trust: "1",
-ref: "G102",
-scs: "3.1.4",
-dis: "42153",
+type: "true"
+elem: "all"
+test: "abbrNo"
+score: 5
+level: "AAA"
+trust: "1"
+ref: "G102"
+scs: "3.1.4"
+dis: "42153"
 result: "failed"
 ---
 

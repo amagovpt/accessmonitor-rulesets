@@ -1,16 +1,16 @@
 ---
 Title: Inappropriate Contentinfo Landmark Check
 id: landmark_06
-type: "fals",
-elem: "all",
-test: "contentinfoNotTopLevel",
-score: 4,
-level: "AA",
-trust: "1",
-ref: "ARIA11",
-scs: "",
-dis: "43353",
-result: "fail"
+type: "fals"
+elem: "all"
+test: "contentinfoNotTopLevel"
+score: 4
+level: "AA"
+trust: "1"
+ref: "ARIA11"
+scs: ""
+dis: "43353"
+result: "failed"
 ---
 
 # Inappropriate Contentinfo Landmark Check

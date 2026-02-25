@@ -1,17 +1,17 @@
 ---
 Title: Inappropriate HTML Justified Text Check
 id: justif_txt_01
-type: "decr",
-elem: "all",
-test: "justifiedTxt",
-score: 5,
-level: "AAA",
-trust: "1",
-top: 1,
-steps: 1,
-ref: "F88",
-scs: "1.4.8",
-dis: "15152",
+type: "decr"
+elem: "all"
+test: "justifiedTxt"
+score: 5
+level: "AAA"
+trust: "1"
+top: 1
+steps: 1
+ref: "F88"
+scs: "1.4.8"
+dis: "15152"
 result: "failed"
 ---
 

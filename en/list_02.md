@@ -1,15 +1,15 @@
 ---
 Title: List Items Check
 id: list_02
-type: "true",
-elem: "li",
-test: "listCorrectly",
-score: 10,
-level: "AA",
-trust: "1",
-ref: "H48",
-scs: "1.3.1",
-dis: "43353",
+type: "true"
+elem: "li"
+test: "listCorrectly"
+score: 10
+level: "AA"
+trust: "1"
+ref: "H48"
+scs: "1.3.1"
+dis: "43353"
 result: "passed"
 ---
 

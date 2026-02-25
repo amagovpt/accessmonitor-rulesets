@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Event Handlers Check
 id: ehandler_04
-type: "prop",
-elem: "ehandler",
-test: "ehandTagNo",
-score: 1,
-level: "A",
-trust: "0.8",
-ref: "F59",
-scs: "4.1.2",
-dis: "43411",
+type: "prop"
+elem: "ehandler"
+test: "ehandTagNo"
+score: 1
+level: "A"
+trust: "0.8"
+ref: "F59"
+scs: "4.1.2"
+dis: "43411"
 result: "failed"
 ---
 

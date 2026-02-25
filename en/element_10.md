@@ -1,15 +1,15 @@
 ---
 Title: ARIA Role Completeness Check
 id: element_10
-type: "true",
-elem: "all",
-test: "elementRole",
-score: 10,
-level: "A",
-trust: "1",
-ref: "4e8ab6",
-scs: "4.1.2,1.3.1",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "elementRole"
+score: 10
+level: "A"
+trust: "1"
+ref: "4e8ab6"
+scs: "4.1.2,1.3.1"
+dis: "43353"
 result: "passed"
 ---
 

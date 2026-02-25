@@ -1,17 +1,17 @@
 ---
 Title: Inappropriate CSS Justified Text Check
 id: justif_txt_02
-type: "decr",
-elem: "all",
-test: "justifiedCss",
-score: 5,
-level: "AAA",
-trust: "0.9",
-top: 1,
-steps: 1,
-ref: "C19",
-scs: "1.4.8",
-dis: "14142",
+type: "decr"
+elem: "all"
+test: "justifiedCss"
+score: 5
+level: "AAA"
+trust: "0.9"
+top: 1
+steps: 1
+ref: "C19"
+scs: "1.4.8"
+dis: "14142"
 result: "warning"
 ---
 

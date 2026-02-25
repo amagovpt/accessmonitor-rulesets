@@ -1,15 +1,15 @@
 ---
 Title: Blinking Content Check
 id: blink_02
-type: "true",
-elem: "all",
-test: "cssBlink",
-score: 1,
-level: "A",
-trust: "0.9",
-ref: "F4",
-scs: "2.2.2",
-dis: "15152",
+type: "true"
+elem: "all"
+test: "cssBlink"
+score: 1
+level: "A"
+trust: "0.9"
+ref: "F4"
+scs: "2.2.2"
+dis: "15152"
 result: "failed"
 ---
 

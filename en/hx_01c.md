@@ -4,12 +4,12 @@ id: hx_01c
 type: "fals"
 elem: "hx"
 test: "h1"
-score: 4,
-level: "aaa",
-trust: "1",
-ref: "G141",
-scs: "1.3.1,2.4.10",
-dis: "54343",
+score: 4
+level: "AAA"
+trust: "1"
+ref: "G141"
+scs: "1.3.1,2.4.10"
+dis: "54343"
 result: "failed"
 ---
 

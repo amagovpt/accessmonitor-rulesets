@@ -1,15 +1,15 @@
 ---
 Title: Missing Button Accessible Name Check
 id: button_02
-type: "prop",
-elem: "button",
-test: "buttonNotAname",
-score: 1,
-level: "A",
-trust: "1",
-ref: "97a4e1",
-scs: "4.1.2",
-dis: "43353",
+type: "prop"
+elem: "button"
+test: "buttonNotAname"
+score: 1
+level: "A"
+trust: "1"
+ref: "97a4e1"
+scs: "4.1.2"
+dis: "43353"
 result: "failed"
 ---
 

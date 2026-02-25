@@ -3,13 +3,13 @@ Title: Missing Headings Check
 id: hx_01a
 type: "fals"
 elem: "all"
-test: "hx"
-score: 3,
-level: "A",
-trust: "1",
-ref: "H42",
-scs: "1.3.1",
-dis: "54322",
+test: "hxNone"
+score: 3
+level: "A"
+trust: "1"
+ref: "H42"
+scs: "1.3.1"
+dis: "54322"
 result: "failed"
 ---
 

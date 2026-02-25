@@ -1,15 +1,15 @@
 ---
 Title: Missing Graphic Button Alt Text Check
 id: inp_img_01b
-type: "prop",
-elem: "inpImg",
-test: "inpImgAltNo",
-score: 1,
-level: "A",
-trust: "1",
-ref: "F65",
-scs: "1.1.1,4.1.2",
-dis: "53322",
+type: "prop"
+elem: "inpImg"
+test: "inpImgAltNo"
+score: 1
+level: "A"
+trust: "1"
+ref: "F65"
+scs: "1.1.1,4.1.2"
+dis: "53322"
 result: "failed"
 ---
 

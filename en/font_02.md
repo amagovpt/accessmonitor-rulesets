@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Font Size Check
 id: font_02
-type: "prop",
-elem: "fontValues",
-test: "fontAbsVal",
-score: 3,
-level: "AA",
-trust: "1",
-ref: "C12",
-scs: "1.4.4",
-dis: "15123",
+type: "prop"
+elem: "fontValues"
+test: "fontAbsVal"
+score: 3
+level: "AA"
+trust: "1"
+ref: "C12"
+scs: "1.4.4"
+dis: "15123"
 result: "failed"
 ---
 

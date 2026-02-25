@@ -1,15 +1,15 @@
 ---
 Title: Redundant Event Handlers Check
 id: ehandler_03
-type: "true",
-elem: "ehandler",
-test: "ehandBoth",
-score: 10,
-level: "a",
-trust: "0.9",
-ref: "G90",
-scs: "2.1.1,2.1.3",
-dis: "52522",
+type: "true"
+elem: "ehandler"
+test: "ehandBoth"
+score: 10
+level: "A"
+trust: "0.9"
+ref: "G90"
+scs: "2.1.1,2.1.3"
+dis: "52522"
 result: "passed"
 ---
 

@@ -1,15 +1,15 @@
 ---
 Title: Main Landmark Check
 id: landmark_07
-type: "true",
-elem: "all",
-test: "mainTopLevel",
-score: 10,
-level: "AA",
-trust: "1",
-ref: "ARIA11",
-scs: "1.3.1",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "mainTopLevel"
+score: 10
+level: "AA"
+trust: "1"
+ref: "ARIA11"
+scs: "1.3.1"
+dis: "43353"
 result: "passed"
 ---
 

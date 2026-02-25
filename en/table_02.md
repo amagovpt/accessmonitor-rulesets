@@ -1,15 +1,15 @@
 ---
 Title: Missing Data Table Caption Check
 id: table_02
-type: "prop",
-elem: "tableData",
-test: "tableDataCaption",
-score: 3,
-level: "A",
-trust: "1",
-ref: "H39",
-scs: "1.3.1",
-dis: "52211",
+type: "prop"
+elem: "tableData"
+test: "tableDataCaption"
+score: 3
+level: "A"
+trust: "1"
+ref: "H39"
+scs: "1.3.1"
+dis: "52211"
 result: "failed"
 ---
 

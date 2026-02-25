@@ -1,17 +1,17 @@
 ---
 Title: Inappropriate Label Element Check
 id: label_02
-type: "decr",
-elem: "all",
-test: "labelPosNo",
-score: 3,
-level: "A",
-trust: "0.9",
-top: 1,
-steps: 1,
-ref: "G162",
-scs: "1.3.1,3.3.2",
-dis: "43353",
+type: "decr"
+elem: "all"
+test: "labelPosNo"
+score: 3
+level: "A"
+trust: "0.9"
+top: 1
+steps: 1
+ref: "G162"
+scs: "1.3.1,3.3.2"
+dis: "43353"
 result: "failed"
 ---
 

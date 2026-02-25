@@ -1,18 +1,18 @@
 ---
 Title: Inappropriate Role Value Check
 id: role_02
-type: "decr",
-elem: "all",
-test: "roleValidNot",
-score: 3,
-level: "AA",
-trust: "1",
-top: 1,
-steps: 1,
-ref: "674b10",
-scs: "1.3.4",
-dis: "43353",
-result: "fail"
+type: "decr"
+elem: "all"
+test: "roleValidNot"
+score: 3
+level: "AA"
+trust: "1"
+top: 1
+steps: 1
+ref: "674b10"
+scs: "1.3.4"
+dis: "43353"
+result: "failed"
 ---
 
 # Inappropriate Role Value Check

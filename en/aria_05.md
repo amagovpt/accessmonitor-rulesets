@@ -1,15 +1,15 @@
 ---
 Title: Permmitted ARIA State and Property Check
 id: aria_05
-type: "true",
-elem: "all",
-test: "ariaStPermitted",
-score: 10,
-level: "A",
-trust: "1",
-ref: "5c01ea",
-scs: "1.3.1,4.1.2",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "ariaStPermitted"
+score: 10
+level: "A"
+trust: "1"
+ref: "5c01ea"
+scs: "1.3.1,4.1.2"
+dis: "43353"
 result: "passed"
 ---
 

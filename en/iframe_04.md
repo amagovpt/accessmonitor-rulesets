@@ -1,15 +1,15 @@
 ---
 Title: Iframe Negative Tabindex Attribute Check
 id: iframe_04
-type: "true",
-elem: "all",
-test: "iframeNegTabIndex",
-score: 10,
-level: "A",
-trust: "1",
-ref: "G202",
-scs: "2.1.1",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "iframeNegTabIndex"
+score: 10
+level: "A"
+trust: "1"
+ref: "G202"
+scs: "2.1.1"
+dis: "43353"
 result: "passed"
 ---
 

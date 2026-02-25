@@ -1,15 +1,15 @@
 ---
 Title: Role Value Check
 id: role_01
-type: "true",
-elem: "all",
-test: "roleValid",
-score: 10,
-level: "AA",
-trust: "1",
-ref: "674b10",
-scs: "1.3.4",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "roleValid"
+score: 10
+level: "AA"
+trust: "1"
+ref: "674b10"
+scs: "1.3.4"
+dis: "43353"
 result: "passed"
 ---
 

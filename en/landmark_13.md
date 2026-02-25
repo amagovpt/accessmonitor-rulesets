@@ -1,15 +1,15 @@
 ---
 Title: Singular Main Landmark Check
 id: landmark_13
-type: "true",
-elem: "all",
-test: "noDuplicateMain",
-score: 10,
-level: "AA",
-trust: "1",
-ref: "ARIA11",
-scs: "1.3.1",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "noDuplicateMain"
+score: 10
+level: "AA"
+trust: "1"
+ref: "ARIA11"
+scs: "1.3.1"
+dis: "43353"
 result: "passed"
 ---
 

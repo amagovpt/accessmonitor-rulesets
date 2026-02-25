@@ -1,17 +1,17 @@
 ---
 Title: Inappropriate Alternative Text Check
 id: img_03
-type: "decr",
-elem: "img",
-test: "imgAltNot",
-score: 3,
-level: "A",
-trust: "1",
-top: 1,
-steps: 1,
-ref: "F30",
-scs: "1.1.1,1.2.1",
-dis: "53211",
+type: "decr"
+elem: "img"
+test: "imgAltNot"
+score: 3
+level: "A"
+trust: "1"
+top: 1
+steps: 1
+ref: "F30"
+scs: "1.1.1,1.2.1"
+dis: "53211"
 result: "failed"
 ---
 

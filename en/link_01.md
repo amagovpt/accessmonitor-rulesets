@@ -1,15 +1,15 @@
 ---
 Title: Link Elements Check
 id: link_01
-type: "true",
-elem: "all",
-test: "linkRel",
-score: 10,
-level: "aa",
-trust: "0.9",
-ref: "H59",
-scs: "2.4.5,2.4.8",
-dis: "55554",
+type: "true"
+elem: "all"
+test: "linkRel"
+score: 10
+level: "AA"
+trust: "0.9"
+ref: "H59"
+scs: "2.4.5,2.4.8"
+dis: "55554"
 result: "passed"
 ---
 

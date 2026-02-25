@@ -1,15 +1,15 @@
 ---
 Title: Complementary Landmarks Check
 id: landmark_03
-type: "true",
-elem: "all",
-test: "complementaryTopLevel",
-score: 10,
-level: "AA",
-trust: "1",
-ref: "ARIA11",
-scs: "1.3.1",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "complementaryTopLevel"
+score: 10
+level: "AA"
+trust: "1"
+ref: "ARIA11"
+scs: "1.3.1"
+dis: "43353"
 result: "passed"
 ---
 

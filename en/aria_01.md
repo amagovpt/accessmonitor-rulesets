@@ -1,15 +1,15 @@
 ---
 Title: ARIA Role Check
 id: aria_01
-type: "true",
-elem: "all",
-test: "ariaCntxRole",
-score: 10,
-level: "A",
-trust: "1",
-ref: "ff89c9",
-scs: "1.3.1",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "ariaCntxRole"
+score: 10
+level: "A"
+trust: "1"
+ref: "ff89c9"
+scs: "1.3.1"
+dis: "43353"
 result: "passed"
 ---
 

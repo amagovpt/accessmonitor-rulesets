@@ -1,0 +1,26 @@
+{
+  "name": "accessmonitor-rulesets",
+  "version": "1.0.0",
+  "description": "AccessMonitor is an evaluation tool of web content accessibility guidelines according to the recomendation of the <a href=\"https://www.w3.org/TR/WCAG21/\"><abbr title=\"World Wide Web Consortium\">W3C</abbr>: <abbr title=\"Web Content Accessibility Guidelines, version 2.1\">WCAG 2.1</abbr></a>. AccessMonitor implements the rules certified by the [ACT Rules Community Group](https://act-rules.github.io/rules/).",
+  "main": "index.js",
+  "scripts": {
+    "validate": "node validate-md-structure.js",
+    "generate": "node generate-rulesets.js",
+    "diff": "node check-md-diff.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Filipedavila/accessmonitor-rulesets.git"
+  },
+  "author": "Filipe Davila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Filipedavila/accessmonitor-rulesets/issues"
+  },
+  "homepage": "https://github.com/Filipedavila/accessmonitor-rulesets#readme",
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
+    "path": "^0.12.7"
+  }
+}

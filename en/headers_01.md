@@ -1,15 +1,15 @@
 ---
 Title: Headers Attribute Check
 id: headers_01
-type: "true",
-elem: "headers",
-test: "headerAtt",
-score: 10,
-level: "A",
-trust: "1",
-ref: "H43",
-scs: "1.3.1",
-dis: "43353",
+type: "true"
+elem: "headers"
+test: "headerAtt"
+score: 10
+level: "A"
+trust: "1"
+ref: "H43"
+scs: "1.3.1"
+dis: "43353"
 result: "passed"
 ---
 

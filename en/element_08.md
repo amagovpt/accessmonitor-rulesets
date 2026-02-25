@@ -1,15 +1,15 @@
 ---
 Title: Presentational Role Check
 id: element_08
-type: "true",
-elem: "all",
-test: "elementPresentChildrenNoFocus",
-score: 10,
-level: "A",
-trust: "1",
-ref: "307n5z",
-scs: "4.1.2",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "elementPresentChildrenNoFocus"
+score: 10
+level: "A"
+trust: "1"
+ref: "307n5z"
+scs: "4.1.2"
+dis: "43353"
 result: "passed"
 ---
 

@@ -1,17 +1,17 @@
 ---
 Title: Inappropriate Text-Background Contrast Check
 id: color_02
-type: "decr",
-elem: "all",
-test: "colorContrast",
-score: 1,
-level: "AA",
-trust: "1",
-top: 1,
-steps: 1,
-ref: "G145",
-scs: "1.4.3",
-dis: "15113",
+type: "decr"
+elem: "all"
+test: "colorContrast"
+score: 1
+level: "AA"
+trust: "1"
+top: 1
+steps: 1
+ref: "G145"
+scs: "1.4.3"
+dis: "15113"
 result: "failed"
 ---
 

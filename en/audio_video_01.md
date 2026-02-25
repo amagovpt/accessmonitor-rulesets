@@ -1,15 +1,15 @@
 ---
 Title: Non Automatic Audio Content Check
 id: audio_video_01
-type: "true",
-elem: "all",
-test: "audioAvoidsAutoPlay",
-score: 10,
-level: "A",
-trust: "1",
-ref: "80f0bf",
-scs: "1.4.2",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "audioAvoidsAutoPlay"
+score: 10
+level: "A"
+trust: "1"
+ref: "80f0bf"
+scs: "1.4.2"
+dis: "43353"
 result: "passed"
 ---
 

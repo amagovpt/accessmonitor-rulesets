@@ -1,16 +1,16 @@
 ---
 Title: Inappropriate Headers Attribute Check
 id: headers_02
-type: "prop",
-elem: "headers",
-test: "headerAttNot",
-score: 3,
-level: "A",
-trust: "1",
-ref: "H43",
-scs: "1.3.1",
-dis: "43353",
-result: "fail"
+type: "prop"
+elem: "headers"
+test: "headerAttNot"
+score: 3
+level: "A"
+trust: "1"
+ref: "H43"
+scs: "1.3.1"
+dis: "43353"
+result: "failed"
 ---
 
 # Inappropriate Headers Attribute Check

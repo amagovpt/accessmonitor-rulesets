@@ -1,16 +1,16 @@
 ---
 Title: Inappropriate Main Landmark Check
 id: landmark_08
-type: "fals",
-elem: "all",
-test: "mainNotTopLevel",
-score: 4,
-level: "AA",
-trust: "1",
-ref: "ARIA11",
-scs: "1.3.1",
-dis: "43353",
-result: "fail"
+type: "fals"
+elem: "all"
+test: "mainNotTopLevel"
+score: 4
+level: "AA"
+trust: "1"
+ref: "ARIA11"
+scs: "1.3.1"
+dis: "43353"
+result: "failed"
 ---
 
 # Inappropriate Main Landmark Check

@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Presentational Role Check
 id: element_09
-type: "fals",
-elem: "all",
-test: "elementPresentChildrenFocus",
-score: 1,
-level: "A",
-trust: "1",
-ref: "307n5z",
-scs: "4.1.2",
-dis: "43353",
+type: "fals"
+elem: "all"
+test: "elementPresentChildrenFocus"
+score: 1
+level: "A"
+trust: "1"
+ref: "307n5z"
+scs: "4.1.2"
+dis: "43353"
 result: "failed"
 ---
 

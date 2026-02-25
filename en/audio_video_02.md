@@ -1,15 +1,15 @@
 ---
 Title: Automatic Audio Content Check
 id: audio_video_02
-type: "fals",
-elem: "all",
-test: "audioAutoPlay",
-score: 1,
-level: "A",
-trust: "1",
-ref: "80f0bf",
-scs: "1.4.2",
-dis: "43353",
+type: "fals"
+elem: "all"
+test: "audioAutoPlay"
+score: 1
+level: "A"
+trust: "1"
+ref: "80f0bf"
+scs: "1.4.2"
+dis: "43353"
 result: "failed"
 ---
 

@@ -1,15 +1,15 @@
 ---
 Title: Autocomplete Attribute Check
 id: autocomplete_01
-type: "true",
-elem: "all",
-test: "autoCmpltValid",
-score: 10,
-level: "A",
-trust: "1",
-ref: "73f2c2",
-scs: "1.3.5",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "autoCmpltValid"
+score: 10
+level: "A"
+trust: "1"
+ref: "73f2c2"
+scs: "1.3.5"
+dis: "43353"
 result: "passed"
 ---
 

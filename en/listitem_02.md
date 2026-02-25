@@ -1,16 +1,16 @@
 ---
 Title: Inappropriate List Item Check
 id: listitem_02
-type: "prop",
-elem: "li",
-test: "liNotSemantically",
-score: 4,
-level: "AA",
-trust: "1",
-ref: "H48",
-scs: "1.3.1",
-dis: "43353",
-result: "fail"
+type: "prop"
+elem: "li"
+test: "liNotSemantically"
+score: 4
+level: "AA"
+trust: "1"
+ref: "H48"
+scs: "1.3.1"
+dis: "43353"
+result: "failed"
 ---
 
 # Inappropriate List Item Check

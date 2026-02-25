@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Nested Table Element Check
 id: table_04
-type: "prop",
-elem: "table",
-test: "tableNested",
-score: 3,
-level: "a",
-trust: "0.9",
-ref: "F49",
-scs: "1.3.2",
-dis: "53311",
+type: "prop"
+elem: "table"
+test: "tableNested"
+score: 3
+level: "A"
+trust: "0.9"
+ref: "F49"
+scs: "1.3.2"
+dis: "53311"
 result: "failed"
 ---
 

@@ -1,16 +1,16 @@
 ---
 Title: Inappropriate Description List Elements Order Check
 id: list_07
-type: "prop",
-elem: "dl",
-test: "notDescList",
-score: 4,
-level: "AAA",
-trust: "1",
-ref: "H40",
-scs: "3.1.3",
-dis: "43353",
-result: "fail"
+type: "prop"
+elem: "dl"
+test: "notDescList"
+score: 4
+level: "AAA"
+trust: "1"
+ref: "H40"
+scs: "3.1.3"
+dis: "43353"
+result: "failed"
 ---
 
 # Inappropriate Description List Elements Order Check

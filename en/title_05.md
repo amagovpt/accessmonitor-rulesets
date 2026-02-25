@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Page Title Characters Check
 id: title_05
-type: "true",
-elem: "all",
-test: "titleChars",
-score: 1,
-level: "a",
-trust: "0.5",
-ref: "G88",
-scs: "2.4.2",
-dis: "42253",
+type: "true"
+elem: "all"
+test: "titleChars"
+score: 1
+level: "A"
+trust: "0.5"
+ref: "G88"
+scs: "2.4.2"
+dis: "42253"
 result: "failed"
 ---
 

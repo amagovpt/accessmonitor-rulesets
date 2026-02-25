@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Duplicate Page Title Check
 id: title_01
-type: "true",
-elem: "all",
-test: "titleVrs",
-score: 7,
-level: "A",
-trust: "1",
-ref: "H25",
-scs: "2.4.2",
-dis: "52112",
+type: "true"
+elem: "all"
+test: "titleVrs"
+score: 7
+level: "A"
+trust: "1"
+ref: "H25"
+scs: "2.4.2"
+dis: "52112"
 result: "failed"
 ---
 

@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Focus Blur Check
 id: focus_01
-type: "true",
-elem: "all",
-test: "focusBlur",
-score: 3,
-level: "a",
-trust: "0.8",
-ref: "F55",
-scs: "2.1.1,2.4.7,3.2.1",
-dis: "54142",
+type: "true"
+elem: "all"
+test: "focusBlur"
+score: 3
+level: "A"
+trust: "0.8"
+ref: "F55"
+scs: "2.1.1,2.4.7,3.2.1"
+dis: "54142"
 result: "failed"
 ---
 

@@ -1,17 +1,17 @@
 ---
 Title: Inappropriate HTML Text Formatting Check
 id: font_01
-type: "decr",
-elem: "all",
-test: "fontHtml",
-score: 3,
-level: "AA",
-trust: "1",
-top: 1,
-steps: 1,
-ref: "C22",
-scs: "1.3.1,1.4.4,1.4.5,1.4.9",
-dis: "33111",
+type: "decr"
+elem: "all"
+test: "fontHtml"
+score: 3
+level: "AA"
+trust: "1"
+top: 1
+steps: 1
+ref: "C22"
+scs: "1.3.1,1.4.4,1.4.5,1.4.9"
+dis: "33111"
 result: "failed"
 ---
 

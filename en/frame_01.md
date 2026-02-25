@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate or Missing Frame Title
 id: frame_01
-type: "prop",
-elem: "frame",
-test: "frameTitleNo",
-score: 3,
-level: "A",
-trust: "1",
-ref: "H64",
-scs: "2.4.1,4.1.2",
-dis: "53222",
+type: "prop"
+elem: "frame"
+test: "frameTitleNo"
+score: 3
+level: "A"
+trust: "1"
+ref: "H64"
+scs: "2.4.1,4.1.2"
+dis: "53222"
 result: "failed"
 ---
 

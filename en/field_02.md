@@ -1,17 +1,17 @@
 ---
 Title: Inappropriate Fieldset Element Check
 id: field_02
-type: "decr",
-elem: "all",
-test: "fieldNoForm",
-score: 3,
-level: "A",
-trust: "0.9",
-top: 1,
-steps: 1,
-ref: "H71",
-scs: "1.3.1,3.3.2",
-dis: "54152",
+type: "decr"
+elem: "all"
+test: "fieldNoForm"
+score: 3
+level: "A"
+trust: "0.9"
+top: 1
+steps: 1
+ref: "H71"
+scs: "1.3.1,3.3.2"
+dis: "54152"
 result: "failed"
 ---
 

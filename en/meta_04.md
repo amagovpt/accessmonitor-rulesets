@@ -1,16 +1,16 @@
 ---
 Title: Inappropriate Delaying Refresh Meta Element Check
 id: meta_04
-type: "fals",
-elem: "all",
-test: "metaRefreshNot",
-score: 3,
-level: "AAA",
-trust: "1",
-ref: "G110",
-scs: "2.2.4",
-dis: "43353",
-result: "fail"
+type: "fals"
+elem: "all"
+test: "metaRefreshNot"
+score: 3
+level: "AAA"
+trust: "1"
+ref: "G110"
+scs: "2.2.4"
+dis: "43353"
+result: "failed"
 ---
 
 # Inappropriate Delaying Refresh Meta Element Check

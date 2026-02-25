@@ -1,15 +1,15 @@
 ---
 Title: Missing Fieldset Description Check
 id: field_01
-type: "true",
-elem: "all",
-test: "fieldLegNo",
-score: 4,
-level: "A",
-trust: "1",
-ref: "H71",
-scs: "1.3.1,3.3.2",
-dis: "54152",
+type: "true"
+elem: "all"
+test: "fieldLegNo"
+score: 4
+level: "A"
+trust: "1"
+ref: "H71"
+scs: "1.3.1,3.3.2"
+dis: "54152"
 result: "failed"
 ---
 

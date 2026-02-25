@@ -1,18 +1,18 @@
 ---
 Title: Inappropriate Letter Spacing Check
 id: letter_02
-type: "decr",
-elem: "all",
-test: "letterSpacingNot",
-score: 4,
-level: "AA",
-trust: "1",
-top: 1,
-steps: 1,
-ref: "24afc2",
-scs: "1.4.12",
-dis: "43353",
-result: "fail"
+type: "decr"
+elem: "all"
+test: "letterSpacingNot"
+score: 4
+level: "AA"
+trust: "1"
+top: 1
+steps: 1
+ref: "24afc2"
+scs: "1.4.12"
+dis: "43353"
+result: "failed"
 ---
 
 # Inappropriate Letter Spacing Check

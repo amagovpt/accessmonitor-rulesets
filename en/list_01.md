@@ -1,17 +1,17 @@
 ---
 Title: Inappropriate or Missing Li Element Check
 id: list_01
-type: "decr",
-elem: "all",
-test: "liNoList",
-score: 3,
-level: "A",
-trust: "1",
-top: 3,
-steps: 3,
-ref: "H48",
-scs: "1.3.1",
-dis: "53342",
+type: "decr"
+elem: "all"
+test: "liNoList"
+score: 3
+level: "A"
+trust: "1"
+top: 3
+steps: 3
+ref: "H48"
+scs: "1.3.1"
+dis: "53342"
 result: "failed"
 ---
 

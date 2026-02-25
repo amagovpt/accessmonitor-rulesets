@@ -1,15 +1,15 @@
 ---
 Title: Viewport Meta Element Check
 id: meta_05
-type: "true",
-elem: "all",
-test: "metaViewport",
-score: 10,
-level: "AA",
-trust: "1",
-ref: "b4f0c3",
-scs: "1.4.4",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "metaViewport"
+score: 10
+level: "AA"
+trust: "1"
+ref: "b4f0c3"
+scs: "1.4.4"
+dis: "43353"
 result: "passed"
 ---
 

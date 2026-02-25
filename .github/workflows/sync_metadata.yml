@@ -1,0 +1,59 @@
+name: Sync Metadata From Markdown
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'en/*.md'
+jobs:
+  check-if-md-changed:
+    outputs:
+      should_proceed: ${{ steps.check.outputs.should_proceed }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Dependencies
+        run: npm install
+      - name: Check Content Diff
+        id: check
+        run: npm run diff
+      - name: Validate Metadata Structure
+        run: npm run validate
+  generate-metadata-and-commit:
+    needs: check-if-md-changed
+    if: needs.check-if-md-changed.outputs.should_proceed == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps: 
+      - name: Checkout Repository
+        uses: actions/checkout@v4 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Root Dependencies
+        run: npm install
+      - name: Generate Metadata
+        run: npm run generate
+      - name: Install Metadata Package Dependencies
+        run: npm install
+        working-directory: ./metadata-package
+      - name: Try Build to Ensure No Errors
+        run: npm run build
+        working-directory: ./metadata-package
+      - name: Commit Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-update metadata upon markdown metadata changes"
+          file_pattern: 'metadata-package/src/tests-metadata.ts'
