@@ -1,15 +1,15 @@
 ---
 Title: Obselete Elements For Visual Presentation Check
 id: layout_01a
-type: "fals",
-elem: "all",
-test: "layoutElemNo",
-score: 10,
-level: "a",
-trust: "1",
-ref: "G115",
-scs: "1.3.1",
-dis: "34212",
+type: "fals"
+elem: "all"
+test: "layoutElemNo"
+score: 10
+level: "A"
+trust: "1"
+ref: "G115"
+scs: "1.3.1"
+dis: "34212"
 result: "passed"
 ---
 

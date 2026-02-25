@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate ARIA Attributes Check
 id: aria_08
-type: "fals",
-elem: "all",
-test: "ariaAtribNotDefined",
-score: 1,
-level: "A",
-trust: "1",
-ref: "5f99a7",
-scs: "1.3.1,4.1.2",
-dis: "43353",
+type: "fals"
+elem: "all"
+test: "ariaAtribNotDefined"
+score: 1
+level: "A"
+trust: "1"
+ref: "5f99a7"
+scs: "1.3.1,4.1.2"
+dis: "43353"
 result: "failed"
 ---
 

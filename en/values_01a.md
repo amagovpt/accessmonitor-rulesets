@@ -1,17 +1,17 @@
 ---
 Title: Inappropriate Layout Measurement Value Check
 id: values_01a
-type: "decr",
-elem: "all",
-test: "valueAbsHtml",
-score: 3,
-level: "AA",
-trust: "0.9",
-top: 1,
-steps: 1,
-ref: "G146",
-scs: "1.4.4",
-dis: "15222",
+type: "decr"
+elem: "all"
+test: "valueAbsHtml"
+score: 3
+level: "AA"
+trust: "0.9"
+top: 1
+steps: 1
+ref: "G146"
+scs: "1.4.4"
+dis: "15222"
 result: "warning"
 ---
 

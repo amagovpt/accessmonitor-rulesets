@@ -1,15 +1,15 @@
 ---
 Title: Text Color Contrast Check
 id: textC_01
-type: "true",
-elem: "all",
-test: "textContrastH",
-score: 10,
-level: "AAA",
-trust: "1",
-ref: "G17",
-scs: "1.4.6",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "textContrastH"
+score: 10
+level: "AAA"
+trust: "1"
+ref: "G17"
+scs: "1.4.6"
+dis: "43353"
 result: "passed"
 ---
 

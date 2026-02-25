@@ -1,15 +1,15 @@
 ---
 Title: Container Measurements Check
 id: values_02b
-type: "true",
-elem: "all",
-test: "valueRelCss",
-score: 10,
-level: "aaa",
-trust: "1",
-ref: "C24",
-scs: "1.4.8",
-dis: "15113",
+type: "true"
+elem: "all"
+test: "valueRelCss"
+score: 10
+level: "AAA"
+trust: "1"
+ref: "C24"
+scs: "1.4.8"
+dis: "15113"
 result: "passed"
 ---
 

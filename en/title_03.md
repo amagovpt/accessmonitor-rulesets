@@ -1,15 +1,15 @@
 ---
 Title: Empty Page Title Check
 id: title_03
-type: "true",
-elem: "all",
-test: "titleNull",
-score: 1,
-level: "A",
-trust: "1",
-ref: "F25",
-scs: "2.4.2",
-dis: "33151",
+type: "true"
+elem: "all"
+test: "titleNull"
+score: 1
+level: "A"
+trust: "1"
+ref: "F25"
+scs: "2.4.2"
+dis: "33151"
 result: "failed"
 ---
 

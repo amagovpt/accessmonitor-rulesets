@@ -1,15 +1,15 @@
 ---
 Title: Button Accessible Name Check
 id: button_01
-type: "true",
-elem: "button",
-test: "buttonAname",
-score: 10,
-level: "A",
-trust: "1",
-ref: "97a4e1",
-scs: "4.1.2",
-dis: "43353",
+type: "true"
+elem: "button"
+test: "buttonAname"
+score: 10
+level: "A"
+trust: "1"
+ref: "97a4e1"
+scs: "4.1.2"
+dis: "43353"
 result: "passed"
 ---
 

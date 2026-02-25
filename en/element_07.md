@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Language Attribute Check
 id: element_07
-type: "fals",
-elem: "all",
-test: "elementNotLang",
-score: 3,
-level: "AA",
-trust: "1",
-ref: "H58",
-scs: "3.1.2",
-dis: "43353",
+type: "fals"
+elem: "all"
+test: "elementNotLang"
+score: 3
+level: "AA"
+trust: "1"
+ref: "H58"
+scs: "3.1.2"
+dis: "43353"
 result: "failed"
 ---
 

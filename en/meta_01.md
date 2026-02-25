@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Refresh Meta Element Check
 id: meta_01
-type: "true",
-elem: "all",
-test: "metaRefresh",
-score: 1,
-level: "A",
-trust: "1",
-ref: "F41",
-scs: "2.2.1,2.2.4,3.2.5",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "metaRefresh"
+score: 1
+level: "A"
+trust: "1"
+ref: "F41"
+scs: "2.2.1,2.2.4,3.2.5"
+dis: "43353"
 result: "warning"
 ---
 

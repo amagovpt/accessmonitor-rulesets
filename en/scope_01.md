@@ -1,17 +1,17 @@
 ---
 Title: Inappropriate Scope Attribute Check
 id: scope_01
-type: "decr",
-elem: "table",
-test: "scopeNo",
-score: 3,
-level: "A",
-trust: "1",
-top: 1,
-steps: 1,
-ref: "H63",
-scs: "1.3.1",
-dis: "53353",
+type: "decr"
+elem: "table"
+test: "scopeNo"
+score: 3
+level: "A"
+trust: "1"
+top: 1
+steps: 1
+ref: "H63"
+scs: "1.3.1"
+dis: "53353"
 result: "failed"
 ---
 

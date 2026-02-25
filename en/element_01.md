@@ -1,15 +1,15 @@
 ---
 Title: Sequential Focus Order Check
 id: element_01
-type: "true",
-elem: "all",
-test: "seqFocus",
-score: 10,
-level: "AA",
-trust: "1",
-ref: "oj04fd",
-scs: "2.4.7",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "seqFocus"
+score: 10
+level: "AA"
+trust: "1"
+ref: "oj04fd"
+scs: "2.4.7"
+dis: "43353"
 result: "warning"
 ---
 

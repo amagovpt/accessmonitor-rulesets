@@ -1,15 +1,15 @@
 ---
 Title: Scrollable Element Check
 id: scrollable_01
-type: "true",
-elem: "scrollable",
-test: "scrollableAccess",
-score: 10,
-level: "A",
-trust: "1",
-ref: "G202",
-scs: "2.1.1",
-dis: "43353",
+type: "true"
+elem: "scrollable"
+test: "scrollableAccess"
+score: 10
+level: "A"
+trust: "1"
+ref: "G202"
+scs: "2.1.1"
+dis: "43353"
 result: "passed"
 ---
 

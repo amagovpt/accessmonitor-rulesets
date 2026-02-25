@@ -1,15 +1,15 @@
 ---
 Title: Page Language Check
 id: lang_01
-type: "true",
-elem: "all",
-test: "lang",
-score: 10,
-level: "a",
-trust: "0.8",
-ref: "H57",
-scs: "3.1.1",
-dis: "53112",
+type: "true"
+elem: "all"
+test: "lang"
+score: 10
+level: "A"
+trust: "0.8"
+ref: "H57"
+scs: "3.1.1"
+dis: "53112"
 result: "warning"
 ---
 

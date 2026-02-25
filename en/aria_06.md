@@ -1,15 +1,15 @@
 ---
 Title: Not Permmitted ARIA State and Property Check
 id: aria_06
-type: "fals",
-elem: "all",
-test: "ariaStNotPermitted",
-score: 1,
-level: "A",
-trust: "1",
-ref: "5c01ea",
-scs: "1.3.1,4.1.2",
-dis: "43353",
+type: "fals"
+elem: "all"
+test: "ariaStNotPermitted"
+score: 1
+level: "A"
+trust: "1"
+ref: "5c01ea"
+scs: "1.3.1,4.1.2"
+dis: "43353"
 result: "failed"
 ---
 

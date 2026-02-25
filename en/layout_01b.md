@@ -1,17 +1,17 @@
 ---
 Title: Inappropriate Obselete Elements For Visual Presentation Check
 id: layout_01b
-type: "decr",
-elem: "all",
-test: "layoutElem",
-score: 1,
-level: "A",
-trust: "1",
-top: 2,
-steps: 2,
-ref: "G115",
-scs: "1.3.1",
-dis: "34212",
+type: "decr"
+elem: "all"
+test: "layoutElem"
+score: 1
+level: "A"
+trust: "1"
+top: 2
+steps: 2
+ref: "G115"
+scs: "1.3.1"
+dis: "34212"
 result: "failed"
 ---
 

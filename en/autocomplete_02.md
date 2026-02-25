@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Autocomplete Attribute Check
 id: autocomplete_02
-type: "fals",
-elem: "all",
-test: "autoCmpltNotValid",
-score: 1,
-level: "A",
-trust: "1",
-ref: "73f2c2",
-scs: "1.3.5",
-dis: "43353",
+type: "fals"
+elem: "all"
+test: "autoCmpltNotValid"
+score: 1
+level: "A"
+trust: "1"
+ref: "73f2c2"
+scs: "1.3.5"
+dis: "43353"
 result: "failed"
 ---
 

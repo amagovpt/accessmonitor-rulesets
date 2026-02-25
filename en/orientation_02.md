@@ -1,16 +1,16 @@
 ---
 Title: Inappropriate Orientation Restriction Check
 id: orientation_02
-type: "fals",
-elem: "all",
-test: "orientationCSSNot",
-score: 4,
-level: "AA",
-trust: "1",
-ref: "b33eff",
-scs: "1.3.4",
-dis: "43353",
-result: "fail"
+type: "fals"
+elem: "all"
+test: "orientationCSSNot"
+score: 4
+level: "AA"
+trust: "1"
+ref: "b33eff"
+scs: "1.3.4"
+dis: "43353"
+result: "failed"
 ---
 
 # Inappropriate Orientation Restriction Check

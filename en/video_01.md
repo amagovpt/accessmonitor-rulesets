@@ -1,15 +1,15 @@
 ---
 Title: Audio Accessible Alternative Check
 id: video_01
-type: "true",
-elem: "all",
-test: "videoAudit",
-score: 10,
-level: "A",
-trust: "1",
-ref: "G87",
-scs: "1.2.2",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "videoAudit"
+score: 10
+level: "A"
+trust: "1"
+ref: "G87"
+scs: "1.2.2"
+dis: "43353"
 result: "warning"
 ---
 

@@ -1,15 +1,15 @@
 ---
 Title: Heading Accessible Name Check
 id: heading_01
-type: "true",
-elem: "hx",
-test: "hxHasAName",
-score: 10,
-level: "A",
-trust: "1",
-ref: "H42",
-scs: "1.3.1",
-dis: "43353",
+type: "true"
+elem: "hx"
+test: "hxHasAName"
+score: 10
+level: "A"
+trust: "1"
+ref: "H42"
+scs: "1.3.1"
+dis: "43353"
 result: "passed"
 ---
 

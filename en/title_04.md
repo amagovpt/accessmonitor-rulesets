@@ -1,17 +1,17 @@
 ---
 Title: Inappropriate Page Title Length Check
 id: title_04
-type: "decr",
-elem: "all",
-test: "titleLong",
-score: 10,
-level: "a",
-trust: "1",
-top: 64,
-steps: 10,
-ref: "G88",
-scs: "2.4.2",
-dis: "42253",
+type: "decr"
+elem: "all"
+test: "titleLong"
+score: 10
+level: "A"
+trust: "1"
+top: 64
+steps: 10
+ref: "G88"
+scs: "2.4.2"
+dis: "42253"
 result: "warning"
 ---
 

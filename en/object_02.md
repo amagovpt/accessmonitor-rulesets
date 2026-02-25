@@ -1,16 +1,16 @@
 ---
 Title: Missing Object Accessible Name
 id: object_02
-type: "prop",
-elem: "object",
-test: "objectANameNot",
-score: 3,
-level: "A",
-trust: "1",
-ref: "b4f0c3",
-scs: "1.1.1",
-dis: "43353",
-result: "fail"
+type: "prop"
+elem: "object"
+test: "objectANameNot"
+score: 3
+level: "A"
+trust: "1"
+ref: "b4f0c3"
+scs: "1.1.1"
+dis: "43353"
+result: "failed"
 ---
 
 # Missing Object Accessible Name

@@ -1,15 +1,15 @@
 ---
 Title: W3C HTML Check
 id: w3c_validator_01a
-type: "fals",
-elem: "w3cValidator",
-test: "w3cValidatorErrorsNo",
-score: 10,
-level: "a",
-trust: "1",
-ref: "G134",
-scs: "4.1.1",
-dis: "22232",
+type: "fals"
+elem: "w3cValidator"
+test: "w3cValidatorErrorsNo"
+score: 10
+level: "A"
+trust: "1"
+ref: "G134"
+scs: "4.1.1"
+dis: "22232"
 result: "passed"
 ---
 

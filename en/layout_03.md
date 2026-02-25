@@ -1,17 +1,17 @@
 ---
 Title: Inappropriate Measurement Unit Check
 id: layout_03
-type: "decr",
-elem: "all",
-test: "layoutFixed",
-score: 3,
-level: "aa",
-trust: "1",
-top: 1,
-steps: 1,
-ref: "G146",
-scs: "1.4.4,1.4.8",
-dis: "15222",
+type: "decr"
+elem: "all"
+test: "layoutFixed"
+score: 3
+level: "AA"
+trust: "1"
+top: 1
+steps: 1
+ref: "G146"
+scs: "1.4.4,1.4.8"
+dis: "15222"
 result: "failed"
 ---
 

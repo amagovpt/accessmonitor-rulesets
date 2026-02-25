@@ -1,16 +1,16 @@
 ---
 Title: Accessible Name Mismatches Visible Label Check
 id: label_03
-type: "fals",
-elem: "all",
-test: "labelANameNot",
-score: 4,
-level: "A",
-trust: "1",
-ref: "G208",
-scs: "2.5.3",
-dis: "43353",
-result: "fail"
+type: "fals"
+elem: "all"
+test: "labelANameNot"
+score: 4
+level: "A"
+trust: "1"
+ref: "G208"
+scs: "2.5.3"
+dis: "43353"
+result: "failed"
 ---
 
 # Accessible Name Mismatches Visible Label Check

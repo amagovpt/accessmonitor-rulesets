@@ -1,15 +1,15 @@
 ---
 Title: Language Attribute Check
 id: element_06
-type: "true",
-elem: "all",
-test: "elementLang",
-score: 10,
-level: "AA",
-trust: "1",
-ref: "H58",
-scs: "3.1.2",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "elementLang"
+score: 10
+level: "AA"
+trust: "1"
+ref: "H58"
+scs: "3.1.2"
+dis: "43353"
 result: "passed"
 ---
 

@@ -4,12 +4,12 @@ id: hx_01b
 type: "true"
 elem: "all"
 test: "hx"
-score: 10,
-level: "aaa",
-trust: "0.9",
-ref: "G141",
-scs: "1.3.1,2.4.10",
-dis: "54343",
+score: 10
+level: "AAA"
+trust: "0.9"
+ref: "G141"
+scs: "1.3.1,2.4.10"
+dis: "54343"
 result: "warning"
 ---
 

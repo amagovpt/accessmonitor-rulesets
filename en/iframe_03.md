@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Iframe Elements With Equal Accessible Name Check
 id: iframe_03
-type: "prop",
-elem: "iframeSame",
-test: "iframeSameANameDiferent",
-score: 3,
-level: "A",
-trust: "1",
-ref: "4b1c6c",
-scs: "4.1.2",
-dis: "43353",
+type: "prop"
+elem: "iframeSame"
+test: "iframeSameANameDiferent"
+score: 3
+level: "A"
+trust: "1"
+ref: "4b1c6c"
+scs: "4.1.2"
+dis: "43353"
 result: "warning"
 ---
 

@@ -1,16 +1,16 @@
 ---
 Title: Inappropriate Table Header Cells Check
 id: table_08
-type: "prop",
-elem: "tableData",
-test: "tableHdrNot",
-score: 3,
-level: "A",
-trust: "1",
-ref: "d0f69e",
-scs: "1.3.1",
-dis: "43353",
-result: "fail"
+type: "prop"
+elem: "tableData"
+test: "tableHdrNot"
+score: 3
+level: "A"
+trust: "1"
+ref: "d0f69e"
+scs: "1.3.1"
+dis: "43353"
+result: "failed"
 ---
 
 # Inappropriate Table Header Cells Check

@@ -1,15 +1,15 @@
 ---
 Title: SVG Accessible Name Check
 id: svg_01
-type: "true",
-elem: "svg",
-test: "svgAName",
-score: 10,
-level: "A",
-trust: "1",
-ref: "G202",
-scs: "1.1.1",
-dis: "43353",
+type: "true"
+elem: "svg"
+test: "svgAName"
+score: 10
+level: "A"
+trust: "1"
+ref: "G202"
+scs: "1.1.1"
+dis: "43353"
 result: "passed"
 ---
 

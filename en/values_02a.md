@@ -1,17 +1,17 @@
 ---
 Title: Inappropriate Container Measurements Check
 id: values_02a
-type: "decr",
-elem: "all",
-test: "valueAbsCss",
-score: 5,
-level: "AAA",
-trust: "0.9",
-top: 1,
-steps: 1,
-ref: "C24",
-scs: "1.4.8",
-dis: "15113",
+type: "decr"
+elem: "all"
+test: "valueAbsCss"
+score: 5
+level: "AAA"
+trust: "0.9"
+top: 1
+steps: 1
+ref: "C24"
+scs: "1.4.8"
+dis: "15113"
 result: "warning"
 ---
 

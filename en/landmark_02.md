@@ -1,16 +1,16 @@
 ---
 Title: Inappropriate Banner Landmark Check
 id: landmark_02
-type: "fals",
-elem: "all",
-test: "bannerNotTopLevel",
-score: 4,
-level: "AA",
-trust: "1",
-ref: "ARIA11",
-scs: "1.3.1,2.4.1",
-dis: "43353",
-result: "fail"
+type: "fals"
+elem: "all"
+test: "bannerNotTopLevel"
+score: 4
+level: "AA"
+trust: "1"
+ref: "ARIA11"
+scs: "1.3.1,2.4.1"
+dis: "43353"
+result: "failed"
 ---
 
 # Inappropriate Banner Landmark Check

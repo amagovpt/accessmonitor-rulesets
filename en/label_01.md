@@ -1,15 +1,15 @@
 ---
 Title: Accessible Name Matches Visible Label Check
 id: label_01
-type: "true",
-elem: "all",
-test: "labelAName",
-score: 10,
-level: "A",
-trust: "1",
-ref: "G208",
-scs: "2.5.3",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "labelAName"
+score: 10
+level: "A"
+trust: "1"
+ref: "G208"
+scs: "2.5.3"
+dis: "43353"
 result: "passed"
 ---
 

@@ -1,15 +1,15 @@
 ---
 Title: Word Spacing Check
 id: word_01
-type: "true",
-elem: "all",
-test: "wordSpacing",
-score: 10,
-level: "AA",
-trust: "1",
-ref: "9e45ec",
-scs: "1.4.12",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "wordSpacing"
+score: 10
+level: "AA"
+trust: "1"
+ref: "9e45ec"
+scs: "1.4.12"
+dis: "43353"
 result: "passed"
 ---
 

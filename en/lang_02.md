@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Page Language Check
 id: lang_02
-type: "true",
-elem: "all",
-test: "langCodeNo",
-score: 1,
-level: "A",
-trust: "1",
-ref: "H57",
-scs: "3.1.1",
-dis: "53112",
+type: "true"
+elem: "all"
+test: "langCodeNo"
+score: 1
+level: "A"
+trust: "1"
+ref: "H57"
+scs: "3.1.1"
+dis: "53112"
 result: "failed"
 ---
 

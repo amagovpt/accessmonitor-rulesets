@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Zoomed Text Visibility Check
 id: css_02
-type: "true",
-elem: "all",
-test: "overflow",
-score: 10,
-level: "AA",
-trust: "1",
-ref: "59br37",
-scs: "1.4.4",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "overflow"
+score: 10
+level: "AA"
+trust: "1"
+ref: "59br37"
+scs: "1.4.4"
+dis: "43353"
 result: "warning"
 ---
 

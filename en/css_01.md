@@ -1,17 +1,17 @@
 ---
 Title: Inappropriate Line Height Check
 id: css_01
-type: "decr",
-elem: "all",
-test: "lineHeightNo",
-score: 3,
-level: "AA",
-trust: "1",
-top: 1,
-steps: 1,
-ref: "C21",
-scs: "1.4.8,1.4.12",
-dis: "15153",
+type: "decr"
+elem: "all"
+test: "lineHeightNo"
+score: 3
+level: "AA"
+trust: "1"
+top: 1
+steps: 1
+ref: "C21"
+scs: "1.4.8,1.4.12"
+dis: "15153"
 result: "warning"
 ---
 

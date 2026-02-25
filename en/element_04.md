@@ -1,15 +1,15 @@
 ---
 Title: Hidden Decorative Elements Check
 id: element_04
-type: "true",
-elem: "all",
-test: "elementHiddenFocus",
-score: 10,
-level: "A",
-trust: "1",
-ref: "46ca7f",
-scs: "4.1.2",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "elementHiddenFocus"
+score: 10
+level: "A"
+trust: "1"
+ref: "46ca7f"
+scs: "4.1.2"
+dis: "43353"
 result: "passed"
 ---
 

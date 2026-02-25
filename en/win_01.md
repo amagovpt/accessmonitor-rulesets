@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Pop-Up Windows Check
 id: win_01
-type: "true",
-elem: "all",
-test: "newWinOnLoad",
-score: 3,
-level: "AAA",
-trust: "0.9",
-ref: "F52",
-scs: "3.2.5",
-dis: "53454",
+type: "true"
+elem: "all"
+test: "newWinOnLoad"
+score: 3
+level: "AAA"
+trust: "0.9"
+ref: "F52"
+scs: "3.2.5"
+dis: "53454"
 result: "warning"
 ---
 

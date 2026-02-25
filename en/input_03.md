@@ -1,15 +1,15 @@
 ---
 Title: Inappropriate Alt Text on Input Element Check
 id: input_03
-type: "true",
-elem: "all",
-test: "inputAltNo",
-score: 5,
-level: "a",
-trust: "1",
-ref: "H36",
-scs: "1.1.1",
-dis: "54211",
+type: "true"
+elem: "all"
+test: "inputAltNo"
+score: 5
+level: "A"
+trust: "1"
+ref: "H36"
+scs: "1.1.1"
+dis: "54211"
 result: "failed"
 ---
 

@@ -1,16 +1,16 @@
 ---
 Title: Missing SVG Accessible Name Check
 id: svg_02
-type: "prop",
-elem: "svg",
-test: "svgNotAName",
-score: 3,
-level: "A",
-trust: "1",
-ref: "G202",
-scs: "1.1.1",
-dis: "43353",
-result: "fail"
+type: "prop"
+elem: "svg"
+test: "svgNotAName"
+score: 3
+level: "A"
+trust: "1"
+ref: "G202"
+scs: "1.1.1"
+dis: "43353"
+result: "failed"
 ---
 
 # Missing SVG Accessible Name Check

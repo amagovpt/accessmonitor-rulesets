@@ -1,15 +1,15 @@
 ---
 Title: Missing Form Control Accessible Name Check
 id: input_02
-type: "prop",
-elem: "label",
-test: "inputLabelNo",
-score: 3,
-level: "a",
-trust: "0.8",
-ref: "H44",
-scs: "1.1.1,1.3.1,3.3.2,4.1.2",
-dis: "54532",
+type: "prop"
+elem: "label"
+test: "inputLabelNo"
+score: 3
+level: "A"
+trust: "0.8"
+ref: "H44"
+scs: "1.1.1,1.3.1,3.3.2,4.1.2"
+dis: "54532"
 result: "warning"
 ---
 

@@ -1,15 +1,15 @@
 ---
 Title: Missing Heading Accessible Name Check
 id: heading_02
-type: "prop",
-elem: "hx",
-test: "hxWithoutAName",
-score: 1,
-level: "A",
-trust: "1",
-ref: "H42",
-scs: "1.3.1",
-dis: "43353",
+type: "prop"
+elem: "hx"
+test: "hxWithoutAName"
+score: 1
+level: "A"
+trust: "1"
+ref: "H42"
+scs: "1.3.1"
+dis: "43353"
 result: "failed"
 ---
 

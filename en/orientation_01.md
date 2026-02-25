@@ -1,15 +1,15 @@
 ---
 Title: Orientation Restriction Check
 id: orientation_01
-type: "true",
-elem: "all",
-test: "orientationCSS",
-score: 10,
-level: "AA",
-trust: "1",
-ref: "b33eff",
-scs: "1.3.4",
-dis: "43353",
+type: "true"
+elem: "all"
+test: "orientationCSS"
+score: 10
+level: "AA"
+trust: "1"
+ref: "b33eff"
+scs: "1.3.4"
+dis: "43353"
 result: "passed"
 ---
 

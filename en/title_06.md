@@ -1,15 +1,15 @@
 ---
 Title: Page Title Check
 id: title_06
-type: "true",
-elem: "all",
-test: "titleOk",
-score: 10,
-level: "a",
-trust: "0.5",
-ref: "H25",
-scs: "2.4.2",
-dis: "52112",
+type: "true"
+elem: "all"
+test: "titleOk"
+score: 10
+level: "A"
+trust: "0.5"
+ref: "H25"
+scs: "2.4.2"
+dis: "52112"
 result: "passed"
 ---
 
