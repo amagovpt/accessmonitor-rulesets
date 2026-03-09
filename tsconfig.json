@@ -3,16 +3,16 @@
     "resolveJsonModule": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "target": "ES2022", 
+    "target": "ES2022",
     "skipLibCheck": false,
-    "strict": true, 
+    "strict": true,
     "noImplicitAny": true,
     "baseUrl": "./",
     "outDir": "./dist",
     "incremental": false,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "types": [ ]
+    "types": []
   },
   "exclude": ["node_modules", "dist"]
 }

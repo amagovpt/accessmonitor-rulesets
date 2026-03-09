@@ -22,7 +22,7 @@ function getChangedMarkdownFiles() {
     .toString()
     .trim()
     .split('\n')
-    .filter(file => file.endsWith('.md') && fs.existsSync(file));
+    .filter((file) => file.endsWith('.md') && fs.existsSync(file));
 }
 
 function getOldContent(file) {
@@ -38,12 +38,12 @@ function logFrontMatterDiff(file, oldFM, currentFM) {
   const oldLines = (oldFM ?? '').split('\n');
   const currentLines = (currentFM ?? '').split('\n');
 
-  const removed = oldLines.filter(line => !currentLines.includes(line));
-  const added = currentLines.filter(line => !oldLines.includes(line));
+  const removed = oldLines.filter((line) => !currentLines.includes(line));
+  const added = currentLines.filter((line) => !oldLines.includes(line));
 
   console.log(`[DIFF] ${file}`);
-  removed.forEach(line => console.log(`  - ${line}`));
-  added.forEach(line => console.log(`  + ${line}`));
+  removed.forEach((line) => console.log(`  - ${line}`));
+  added.forEach((line) => console.log(`  + ${line}`));
 }
 
 function hasFrontMatterChanged(file) {
@@ -64,16 +64,15 @@ function hasFrontMatterChanged(file) {
 function run() {
   try {
     const changedFiles = getChangedMarkdownFiles();
-    
+
     const hasRelevantChanges = changedFiles.length > 0 && changedFiles.some(hasFrontMatterChanged);
 
     const output = process.env.GITHUB_OUTPUT;
-    
+
     if (output) {
       fs.appendFileSync(output, `should_proceed=${hasRelevantChanges}\n`);
     }
     process.exit(0);
-
   } catch (error) {
     console.error('[ERROR]', error.message);
     const output = process.env.GITHUB_OUTPUT;
