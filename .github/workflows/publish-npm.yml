@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'src/tests-metadata.ts'
+      - '.changeset/**'
   workflow_dispatch: 
 
 jobs:
@@ -27,13 +28,16 @@ jobs:
         with:
           node-version: '20'
 
-
       - name: Install Dependencies
         run: npm install
+      
+      - name: Build Package
+        run: npm run build
+        
       - name: Create Release PR or Publish
         id: changesets
         uses: changesets/action@v1
         with:
           publish: npm publish --access public --provenance
         env:
-          GITHUB_TOKEN: tesste
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
