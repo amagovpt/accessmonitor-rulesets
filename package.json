@@ -1,6 +1,6 @@
 {
   "name": "@a12e/accessmonitor-rulesets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Set of tests metadata to serve AccessMonitor, AdminMonitorServer, MyMonitor and Portuguese Observatory of Web Accessibility",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
