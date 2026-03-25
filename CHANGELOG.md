@@ -1,5 +1,11 @@
 # @a12e/accessmonitor-rulesets
 
+## 1.0.3
+
+### Patch Changes
+
+- c035230: Remove deprecated test result and associated keyand type and fixed sc…
+
 ## 1.0.2
 
 ### Patch Changes
