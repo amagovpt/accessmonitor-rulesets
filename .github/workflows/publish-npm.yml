@@ -45,8 +45,24 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish to NPM (Manual OIDC)
+        id: npm_publish
         if: github.ref_name == 'main' && steps.changesets.outputs.hasChangesets == 'false'
         run: |
           npm publish --access public --provenance
+          echo "done=true" >> $GITHUB_OUTPUT
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create GitHub Release
+        if: steps.npm_publish.outputs.done == 'true'
+        run: |
+          PKG_NAME=$(node -p "require('./package.json').name")
+          VERSION=$(node -p "require('./package.json').version")
+          FULL_TAG="${PKG_NAME}@${VERSION}"
+          
+          echo "Generating release for: $FULL_TAG"
+          gh release create "$FULL_TAG" \
+            --title "$FULL_TAG" \
+            --generate-notes \
+            --latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
