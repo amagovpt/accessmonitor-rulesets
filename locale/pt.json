@@ -1004,16 +1004,6 @@
         "s": "Observei que existe {{value}} elemento <code>&lt;video&gt;</code> com conteúdo visual que deve ter uma alternativa acessível",
         "p": "Observei que existem {{value}} elementos <code>&lt;video&gt;</code> com conteúdo visual que devem ter alternativas acessíveis"
       },
-      "w3c_validator_01a": {
-        "title": "Encontrei páginas que não têm erros de HTML (validator.w3.org)",
-        "s": "Perguntei ao validador de HTML do W3C e constatei que <mark>não existem erros</mark> de HTML.",
-        "p": "Perguntei ao validador de HTML do W3C e constatei que <mark>não existem erros</mark> de HTML."
-      },
-      "w3c_validator_01b": {
-        "title": "Encontrei páginas que têm erros de HTML (validator.w3.org)",
-        "s": "Perguntei ao validador de HTML do W3C e constatei que há <mark>{{value}} erro</mark> de HTML.",
-        "p": "Perguntei ao validador de HTML do W3C e constatei que há <mark>{{value}} erros</mark> de HTML."
-      },
       "win_01": {
         "title": "Encontrei páginas onde existem janelas pop-up",
         "s": "Constatei que esta página tem janelas pop-up.",
@@ -1086,7 +1076,6 @@
       "G90": "Fornecer manipuladores de eventos accionados por teclado",
       "SCR20": "Utilizar o teclado e outras funções específicas do dispositivo",
       "F59": "Falha do Critério de Sucesso 4.1.2 devido à utilização de script para tornar um div ou um span num controlo da interface de utilizador em HTML",
-      "G134": "Validar páginas Web",
       "C22": "Utilizar CSS para controlar a apresentação visual do texto",
       "G115": "Utilizar elementos semanticos para marcar a estrutura",
       "H57": "Utilizar atributo language no elemento html",
@@ -1188,7 +1177,6 @@
       "G90": "<p>Deve assegurar que os eventos de javascript são ativados não só através do rato mas também do teclado. Verifique os pares de manipuladores: mousedown/keydown, mouseup/keyup, mouseover/focus, mouseout/blur. Nota: O AccessMonitor não verifica o par onclick / onkeypress porque considera que os browsers suportam o onclick também quando se usa apenas o teclado. Este teste só é classificado correto quando não existem erros nos outros testes de manipulares verificados.</p>",
       "SCR20": "<p>Deve assegurar que os eventos de javascript são ativados não só através do rato mas também do teclado. Verifique os pares de manipuladores: mousedown/keydown, mouseup/keyup, mouseover/focus, mouseout/blur. Nota: O AccessMonitor não verifica o par onclick / onkeypress porque considera que os browsers suportam o onclick também quando se usa apenas o teclado.</p>",
       "F59": "<p>Os elementos genéricos como <code>&lt;div&gt;</code> e <code>&lt;span&gt;</code> não têm um papel pré-definido. Quando se faz uso destes elementos genéricos para criar controlos de interface de utilizador em HTML, as tecnologias de apoio não dispõem de informação suficiente para descrever e interagir com os controlos, nomeadamente se não se definir um \"role\" (papel) com técnicas de ARIA.</p>",
-      "G134": "<p>Os erros de HTML são uma das causas para as páginas Web se apresentarem de forma inconsistente nos vários browsers. Seguir uma especificação e validar a sintaxe de acordo com essa especificação potencia a consistência e correta interpretação por parte das tecnologias, nomeadamente as Tecnologias de Apoio.</p>",
       "C22": "<p>Esta prática está obsoleta. Em vez dela, deve usar as CSS para controlar a apresentação visual do texto. Quando este erro surge é porque está a usar dentro do elemento <code>&lt;body&gt;</code> da página os elementos: b, basefont, font, i, s, strike, u, ou os atributos: text, vlink, alink, link.</p>",
       "G115": "<p>Com o aparecimento das CSS todos os elementos de HTML usados para controlo de estilos da página ficaram obsoletos. Elementos como: b, big, blink, center, font, i, s, strike, u ficaram obsoletos - use CSS para os substituir</p>",
       "H57": "<p>O HTML apenas dispõe do atributo lang. O XHTML 1.1 apenas permite o  xml:lang. O XHTML 1.0 (como medida de transição) permite ambos os atributos. O XHTML servido como text/html utiliza os atributos lang e xml:lang do elemento html.</p>",

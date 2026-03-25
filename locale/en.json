@@ -488,16 +488,6 @@
         "s": "I identified <mark>{{value}}</mark> instance where event handlers are associated with non-interactive elements.",
         "p": "I identified <mark>{{value}}</mark> instances where event handlers are associated with non-interactive elements."
       },
-      "w3c_validator_01a": {
-        "title": "W3C HTML validator with no errors",
-        "s": "I asked the W3C HTML validator and I observed that <mark>there are no HTML errors</mark>.",
-        "p": "I asked the W3C HTML validator and I observed that <mark>there are no HTML errors</mark>."
-      },
-      "w3c_validator_01b": {
-        "title": "W3C HTML validator errors",
-        "s": "I asked the W3C HTML validator and I observed that there is <mark>{{value}} HTML error</mark>.",
-        "p": "I asked the W3C HTML validator and I observed that there are <mark>{{value}} HTML errors</mark>."
-      },
       "font_01": {
         "title": "HTML elements or attributes used to control the visual text presentation",
         "s": "I located <mark>{{value}}</mark> HTML element or attribute that is being used to control the visual presentation of text.",
@@ -1079,7 +1069,6 @@
       "G90": "Provide keyboard-driven event handlers",
       "SCR20": "Using the keyboard and other device-specific functions",
       "F59": "Failure of Success Criterion 4.1.2 due to using script to make div or a span a user interface control in HTML",
-      "G134": "Validate web pages",
       "C22": "Use CSS to control the visual presentation of text",
       "G115": "Use semantic elements to mark structure",
       "H57": "Use language attributes in html element",
@@ -1186,7 +1175,6 @@
       "G90": "<p>You must ensure that javascript events are activated not only by mouse but also by keyboard. Check the pairs of event handlers: mousedown/keydown, mouseup/keyup, mouseover/focus, mouseout/blur. Note: AccessMonitor does not check the pair onclick / onkeypress because it considers that browsers also support the onclick event when using the keyboard. This test is correctly classified only when there aren't errors in the other tests of handlers.</p>",
       "SCR20": "<p>You must ensure that javascript events are activated not only by mouse but also by keyboard. Check the pairs of event handlers: mousedown/keydown, mouseup/keyup, mouseover/focus, mouseout/blur. Note: AccessMonitor does not check the pair onclick / onkeypress because it considers that browsers also support the onclick event when using the keyboard.</p>",
       "F59": "<p>Generic elements, such as <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code>, do not have a predefined role. When using these generic elements to create user interface controls in HTML, Assistive Technologies do not have enough information to describe and interact with the controls, namely if no \"role\" has been defined with ARIA techniques.</p>",
-      "G134": "<p>HTML errors are one of the causes of webpages being presented in an inconsistent way in different browsers. To follow the specification and to validate the syntax according to that specification enhances the consistency and the correct interpretation, namely by Assistive Technologies.</p>",
       "C22": "<p>This practice is obsolete. Instead, you should use CSS to control the visual presentation of text. When this error occurs you are using inside the <code>&lt;body&gt;</code> element of the webpage, one of the elements: b, basefont, font, i, s, strike, u, or the attributes: text, vlink, alink, link.</p>",
       "G115": "<p>With the appearance of CSS, all the HTML elements used to control styles of the webpage became obsolete. Elements such as: b, big, blink, center, font, i, s, strike, u became obsolete - use CSS to replace them.</p>",
       "H57": "<p>HTML only uses the lang attribute. XHTML 1.1 only uses the xml:lang attribute. XHTML 1.0 (as a transitional measure) allows both attributes. XHTML served as text/html uses the lang and xml:lang attributes on the html element.</p>",
