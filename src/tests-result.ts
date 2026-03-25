@@ -22,8 +22,6 @@ export const TEST_RESULTS: { [key in TestKey]: Result } = {
   a_12: RESULT.PASSED,
   a_13: RESULT.WARNING,
   abbr_01: RESULT.FAILED,
-  //akey_01: RESULT.FAILED,
-  //applet_01: RESULT.FAILED,
   aria_01: RESULT.PASSED,
   aria_02: RESULT.PASSED,
   aria_03: RESULT.PASSED,
@@ -175,8 +173,7 @@ export const TEST_RESULTS: { [key in TestKey]: Result } = {
   values_02b: RESULT.PASSED,
   video_01: RESULT.WARNING,
   video_02: RESULT.WARNING,
-  w3c_validator_01a: RESULT.PASSED,
-  w3c_validator_01b: RESULT.FAILED,
+
   win_01: RESULT.WARNING,
   word_01: RESULT.PASSED,
   word_02: RESULT.FAILED,
