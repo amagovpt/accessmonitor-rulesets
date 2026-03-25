@@ -34,7 +34,6 @@ export const techniques: TechsRegistry = {
   G123: 'Adicionar um link no início de um bloco de conteúdo repetido para aceder directamente ao fim do bloco',
   G125: 'Fornecer links para navegar para páginas Web relacionadas',
   G130: 'Fornecer cabeçalhos descritivos',
-  G134: 'Validar páginas Web',
   G140: 'Separar a informação e a estrutura da apresentação para permitir diferentes apresentações',
   G141: 'Organizar uma página utilizando cabeçalhos',
   G145: 'Garantir uma relação de contraste de, no mínimo, 3',

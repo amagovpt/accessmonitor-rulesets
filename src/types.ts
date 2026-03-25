@@ -72,7 +72,6 @@ export type TechniqueKey =
   | 'G123'
   | 'G125'
   | 'G130'
-  | 'G134'
   | 'G140'
   | 'G141'
   | 'G145'
@@ -364,8 +363,6 @@ export type TestKey =
   | 'values_02b'
   | 'video_01'
   | 'video_02'
-  | 'w3c_validator_01a'
-  | 'w3c_validator_01b'
   | 'win_01'
   | 'word_01'
   | 'word_02';
