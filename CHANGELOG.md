@@ -1,5 +1,11 @@
 # @a12e/accessmonitor-rulesets
 
+## 1.0.4
+
+### Patch Changes
+
+- 35ce8b2: Add accessibility check for ambiguous label positioning and related metadata
+
 ## 1.0.3
 
 ### Patch Changes
