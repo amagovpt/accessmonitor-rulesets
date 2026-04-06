@@ -30,6 +30,7 @@
       "fieldNoForm": "<code>fieldset</code> elements used outside a form",
       "fieldLegNo": "Elements <code>fieldset</code> without description",
       "labelPosNo": "<code>label</code> elements that are not visible or are incorrectly positioned.",
+      "labelPosWarn": "<code>label</code> elements with ambiguous positioning",
       "inputLabel": "Form controls with accessible name",
       "inputLabelNo": "Form controls without an accessible name",
       "inputIdTitleNo": "Form controls without associated label and without the <code>title</code> attribute",
@@ -317,6 +318,11 @@
         "title": "<label> elements that are not visible or are incorrectly positioned",
         "s": "I identified <mark>{{value}}</mark> <code>&lt;label&gt;</code> element that is not visible or is incorrectly positioned.",
         "p": "I identified <mark>{{value}}</mark> <code>&lt;label&gt;</code> elements that are not visible or are incorrectly positioned."
+      },
+      "label_02b": {
+        "title": "Found pages with <label> elements whose positioning is ambiguous",
+        "s": "I found <mark>{{value}}</mark> <code>&lt;label&gt;</code> element whose positioning raises doubts; I could not determine if it is placed before or after the <code>&lt;input&gt;</code>.",
+        "p": "I found <mark>{{value}}</mark> <code>&lt;label&gt;</code> elements whose positioning raise doubts; I could not determine if they are placed before or after the <code>&lt;input&gt;</code>."
       },
       "input_02b": {
         "title": "All form controls have an accessible name",
