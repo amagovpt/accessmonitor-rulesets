@@ -99,6 +99,7 @@ export const TEST_RESULTS: { [key in TestKey]: Result } = {
   justif_txt_02: RESULT.WARNING,
   label_01: RESULT.PASSED,
   label_02: RESULT.FAILED,
+  label_02b: RESULT.WARNING,
   label_03: RESULT.FAILED,
   landmark_01: RESULT.PASSED,
   landmark_02: RESULT.FAILED,

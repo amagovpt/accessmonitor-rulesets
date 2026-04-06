@@ -30,6 +30,7 @@
       "fieldNoForm": "Elementos <code>fieldset</code> usados fora de um formulário",
       "fieldLegNo": "Elementos <code>fieldset</code> sem descrição",
       "labelPosNo": "Elementos <code>label</code> que não estão visíveis ou estão posicionados incorretamente",
+      "labelPosWarn": "Elementos <code>label</code> com visibilidade ou posicionamento ambíguo",
       "inputLabel": "Controlos de formulário com nome acessível",
       "inputLabelNo": "Controlos de formulário sem um nome acessível",
       "inputIdTitleNo": "Controlos de formulário sem etiquetas (label) associadas e sem atributo <code>title</code>",
@@ -633,6 +634,11 @@
         "title": "Encontrei páginas com elementos <label> que não estão visíveis ou estão incorretamente posicionados",
         "s": "Localizei <mark>{{value}}</mark> elemento <code>&lt;label&gt;</code> que não está visível ou está incorretamente posicionado.",
         "p": "Localizei <mark>{{value}}</mark> elementos <code>&lt;label&gt;</code> que não estão visíveis ou estão incorretamente posicionados."
+      },
+      "label_02b": {
+        "title": "Encontrei páginas com elementos <label> cujo posicionamento é ambíguo",
+        "s": "Encontrei <mark>{{value}}</mark> elemento <code>&lt;label&gt;</code> cujo posicionamento me levanta dúvidas; não consegui perceber se está antes ou depois do <code>&lt;input&gt;</code>.",
+        "p": "Encontrei <mark>{{value}}</mark> elementos <code>&lt;label&gt;</code> cujo posicionamento me levanta dúvidas; não consegui perceber se estão antes ou depois do <code>&lt;input&gt;</code>."
       },
       "label_03": {
         "title": "Encontrei páginas com elementos interativos com conteúdo textual que não está presente no seu nome acessível",
