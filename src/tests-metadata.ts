@@ -1363,6 +1363,23 @@
     "dis": "43353",
     "result": "failed"
   },
+  "label_02b": {
+    "type": "decr",
+    "elem": "all",
+    "test": "labelPosWarn",
+    "score": 7,
+    "level": "A",
+    "trust": "0.7",
+    "top": 1,
+    "steps": 1,
+    "ref": "G162",
+    "scs": [
+      "1.3.1",
+      "3.3.2"
+    ],
+    "dis": "43353",
+    "result": "warning"
+  },
   "label_03": {
     "type": "fals",
     "elem": "all",
