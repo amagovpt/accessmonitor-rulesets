@@ -1,5 +1,11 @@
 # @a12e/accessmonitor-rulesets
 
+## 1.1.0
+
+### Minor Changes
+
+- bec96a9: feat(engine): core ruleset evaluation mapping engine and CI/CD automation
+
 ## 1.0.4
 
 ### Patch Changes
