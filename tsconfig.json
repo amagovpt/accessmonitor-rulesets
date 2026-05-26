@@ -1,18 +1,22 @@
 {
   "compilerOptions": {
-    "resolveJsonModule": true,
-    "module": "ESNext",
-    "moduleResolution": "bundler",
     "target": "ES2022",
-    "skipLibCheck": false,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
     "strict": true,
+    "isolatedModules": true,
     "noImplicitAny": true,
     "baseUrl": "./",
     "outDir": "./dist",
     "incremental": false,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "types": []
+    "allowSyntheticDefaultImports": true
   },
+  "include": [
+    "src/**/*.ts",
+    "tests/**/*.ts" 
+  ],
   "exclude": ["node_modules", "dist"]
 }
