@@ -23,7 +23,10 @@
     "generate": "node generate-rulesets.js",
     "diff": "node check-md-diff.js",
     "format": "prettier --write \"**/*.{js,ts,json}\"",
-    "format:check": "prettier --check \"**/*.{js,ts,json}\""
+    "format:check": "prettier --check \"**/*.{js,ts,json}\"",
+    "test": "jest --runInBand --detectOpenHandles",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -41,9 +44,24 @@
   "homepage": "https://github.com/amagovpt/accessmonitor-rulesets#readme",
   "devDependencies": {
     "@changesets/cli": "^2.29.8",
+    "@qualweb/act-rules": "^0.8.0",
+    "@qualweb/best-practices": "^0.7.12",
+    "@qualweb/core": "^0.8.11",
+    "@qualweb/counter": "^0.3.4",
+    "@qualweb/locale": "^0.2.2",
+    "@qualweb/qw-page": "^0.3.6",
+    "@qualweb/util": "^0.7.0",
+    "@qualweb/wcag-techniques": "^0.4.7",
+    "@types/jest": "^30.0.0",
     "gray-matter": "^4.0.3",
+    "jest": "^29.7.0",
     "prettier": "3.8.1",
+    "ts-jest": "^29.4.9",
+    "ts-node": "^10.9.2",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "trim": "^0.0.3"
   }
 }
