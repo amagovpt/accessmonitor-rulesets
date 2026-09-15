@@ -560,3 +560,10 @@ export interface Translation {
     TXT_TECHNIQUES: { [key in keyof TechsRegistry]: string };
   };
 }
+
+
+
+export interface ProcessedHtmlReport {
+  html: string;
+  pageSize: number;
+}

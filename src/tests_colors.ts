@@ -1,4 +1,4 @@
-import { TestColorsRegistry } from 'src/types';
+import { TestColorsRegistry } from './types';
 import { ruleset } from '.';
 
 const resultColorMap = {

@@ -1,4 +1,4 @@
-import { TechsRegistry } from 'src/types';
+import { TechsRegistry } from './types';
 
 export const techniques: TechsRegistry = {
   C12: 'Utilizar percentagem para tamanhos de letra',
