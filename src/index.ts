@@ -2,13 +2,13 @@ export { ruleset } from './tests-metadata';
 export { testColors } from './tests_colors';
 export { techniques } from './tech';
 export { successCriteria } from './scs';
-export { generateScore } from './scoring';
+export { generateScore } from './scoring/scoring';
 export type { TestDefinition } from './types';
-export  type {  RuleConfig, QualWebKeyTranslator, QualWebRuleID } from './ruleset.mapping';
-export {DOMAIN_MAPPING} from './ruleset.mapping';
-export type { MappingResult, RuleMetrics } from './mapper';
-export { getElementsMapping } from './mapper';
-
+export  type {  RuleConfig} from './mappings/ruleset.mapping';
+export {DOMAIN_MAPPING} from './mappings/ruleset.mapping';
+export type { EvaluationProcessingResult, RuleMetrics } from './pipeline/evaluation-processor'
+export { processEvaluation,  } from './pipeline/evaluation-processor';
+export { getRuleMetadata } from './metadata/ruleset-repository';
 import ptRaw from '../locale/pt.json';
 import enRaw from '../locale/en.json';
 import { Translations, Translation } from './types';

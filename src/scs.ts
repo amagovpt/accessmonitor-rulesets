@@ -1,4 +1,4 @@
-import { SCSName, SCSKey, SCSRegistry } from 'src/types';
+import { SCSName, SCSKey, SCSRegistry } from './types';
 
 export const successCriteria: SCSRegistry = {
   '1.1.1': {

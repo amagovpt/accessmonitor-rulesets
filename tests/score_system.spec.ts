@@ -1,6 +1,7 @@
-import { generateScore, ScoreCalculators } from '../src/scoring';
+import { generateScore, ScoreCalculators } from '../src/scoring/scoring';
 import { ruleset } from '../src/tests-metadata';
 import { describe, it, expect, jest } from '@jest/globals';
+import { TestKey, TestName } from '../src/types';
 
 jest.mock('../src/tests-metadata', () => ({
   ruleset: {
@@ -71,64 +72,58 @@ describe('Scoring Engine - Unit Tests', () => {
   describe('generateScore Function', () => {
 
     it('should return 10.0 if there are no applicable tests', () => {
-      const report = {
-        data: {
-          tot: { results: {} },
-          elems: {}
-        }
-      };
-      expect(generateScore(report)).toBe("10.0");
+      const results = {};
+      const elementCounters = {};
+
+      const summary = generateScore(results, elementCounters);
+
+      expect(summary.totalTests).toBe(0);
+      expect(summary.score).toBe("10.0");
     });
 
     it('should ignore rules marked as warning', () => {
-      const report = {
-        data: {
-          tot: { results: { 'TEST_WARNING': 'something' } },
-          elems: {}
-        }
-      };
-      expect(generateScore(report)).toBe("10.0");
+      const results = { 'TEST_WARNING': 'something' } as Partial<Record<TestKey, string>>;
+      const elementCounters = {};
+
+      const summary = generateScore(results, elementCounters);
+
+      expect(summary.totalTests).toBe(1);
+      expect(summary.score).toBe("10.0");
     });
 
     it('should calculate a weighted average for multiple rules', () => {
-      const report = {
-        data: {
-          tot: { results: { 'TEST_PROP': '...', 'TEST_BINARY': '...' } },
-          elems: {
-            'all_elements': 100,
-            'error_elements': 50 
-          }
-        }
-      };
+      const results = { 'TEST_PROP': '...', 'TEST_BINARY': '...' } as Partial<Record<TestKey, string>>;;
+      const elementCounters = {
+        'all_elements': 100,
+        'error_elements': 50 
+      } as Partial<Record<TestName, number>>;
 
-      const score = generateScore(report);
-      expect(score).toBe("6.4");
+      const summary = generateScore(results, elementCounters);
+
+      expect(summary.totalTests).toBe(2);
+      expect(summary.score).toBe("6.4");
     });
 
     it('should skip rules where the base element is missing and not a FALSE metric', () => {
-      const report = {
-        data: {
-          tot: { results: { 'TEST_PROP': '...' } },
-          elems: {
-            'error_elements': 10
-          }
-        }
-      };
-      expect(generateScore(report)).toBe("10.0");
+      const results = { 'TEST_PROP': '...' } as Partial<Record<TestKey, string>>;
+      const elementCounters = {
+        'error_elements': 10
+      } as Partial<Record<TestName, number>>;
+
+      const summary = generateScore(results, elementCounters);
+
+      expect(summary.totalTests).toBe(1);
+      expect(summary.score).toBe("10.0");
     });
 
-    it('should update the report results with the formatted score string', () => {
-      const report = {
-        data: {
-          tot: { results: { 'TEST_BINARY': 'initial' } },
-          elems: { 'all_elements': 1 }
-        }
-      };
-      
-      generateScore(report);
-      
+    it('should update the results dictionary with the formatted score string', () => {
+      const results = { 'TEST_BINARY': 'initial' } as Partial<Record<TestKey, string>>;
+      const elementCounters = { 'all_elements': 1 } as Partial<Record<TestName, number>>;
 
-      expect(report.data.tot.results['TEST_BINARY']).toBe("10@4.00");
+      const summary = generateScore(results, elementCounters);
+
+      expect(summary.totalTests).toBe(1);
+      expect((results as Record<string, string>)['TEST_BINARY']).toBe("10@4.00");
     });
   });
 });

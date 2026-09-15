@@ -36,7 +36,7 @@
     "accessibility",
     "ARTE"
   ],
-  "author": "Filipe Dávila",
+  "author": "Filipe Dávila <57022557+Filipedavila@users.noreply.github.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/amagovpt/accessmonitor-rulesets/issues"
@@ -63,5 +63,8 @@
   },
   "overrides": {
     "trim": "^0.0.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0"
   }
 }
